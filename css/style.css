@@ -1,0 +1,181 @@
+/* Entry thumbnails */
+img.nearActive0, p.nearActive0{ opacity : 1.0 ; }
+img.nearActive1, p.nearActive1{ opacity : 0.8 ; }
+img.nearActive2, p.nearActive2{ opacity : 0.5 ; }
+img.nearActive3, p.nearActive3{ opacity : 0.3 ; }
+/*td.thumbnail_inactive   { opacity : 0.4 ; }*/
+/*td.thumbnail_in_playlist{ opacity : 0.6 ; }*/
+td.thumbnail_inactive:hover, td.thumbnail_in_playlist:hover{ opacity : 1.0  ; }
+img.thumbnail{
+  margin : 0px ;
+  padding : 0px ;
+  display : block ;
+}
+img.thumbnail_inactive{
+  border : 1px solid black ;
+  border-top : 0px solid black ;
+}
+p.thumbnail_inactive{
+  border : 1px solid black ;
+  border-bottom : 0px solid black ;
+}
+img.thumbnail_in_playlist{
+  border : 1px solid #005500 ;
+  border-top : 0px solid black ;
+}
+p.thumbnail_in_playlist{
+  border : 1px solid #005500 ;
+  border-bottom : 0px solid black ;
+}
+img.thumbnail_active{
+  border : 1px solid #660000 ;
+  border-top : 0px solid #660000 ;
+}
+p.thumbnail_active{
+  border : 1px solid #660000 ;
+  border-bottom : 0px solid #660000 ;
+}
+p.entry_name{
+  font-size : 8pt ;
+  text-align : center ;
+  margin : 0px ;
+  padding : 0px ;
+  font-family : arial, sans-serif ;
+  color : #ffffff ;
+  background-color : #000000 ;
+}
+td.film_strip{
+  background-image : url('strip.png') ;
+  height : 10px ;
+}
+td.spacer{
+  height : 10px ;
+  background-color : #000000 ;
+}
+
+/* youtube player*/
+div.youtube_container{
+  text-align : center ;
+  padding : 0px ;
+}
+iframe.youtube{
+  margin : auto ;
+}
+
+/* Tables */
+table.table{
+  width : 640px ;
+  margin : auto ;
+  border-collapse : collapse ;
+  margin : auto ;
+}
+th.left{
+  width : 200px ;
+  background-color : #000000 ;
+  color : #ffffff ;
+  font-weight : normal ;
+  padding-right : 0.5em ;
+  border : 1px solid black ;
+}
+td.right{
+  width : 440px ;
+  border : 1px solid black ;
+  padding-left : 0.5em ;
+}
+
+th.left, td.right{
+  font-family : arial ;
+  font-size : 8pt ;
+}
+th.wide{
+  width : 640px ;
+  font-size : 14pt ;
+  text-align : center ;
+}
+td.spoiler{
+  color : #222222 ;
+}
+
+/* Google map */
+object#googleMap{
+  border : 1px solid black ;
+  margin : auto ;
+}
+
+/* misc */
+h4{
+  border : 0px ;
+  font-family : arial , sans-serif ;
+  font-style : normal ;
+  font-weight : normal ;
+  width : 400px ;
+  margin : auto ;
+}
+body{
+  background : url('woods.jpg') ; /* Taken from http://ghostsnghouls.com/ */
+  background : url('woods2.jpg') ; /* http://stentzel.blogspot.com/ */
+  background-repeat : none ;
+  background-attachment : fixed ;
+}
+
+/* Re-color all the default colors for extra creepy */
+div#container{
+  width : 800px ;
+  margin : auto ;
+  border : 1px solid black ;
+}
+div#outer_container{
+  width : 804px ;
+  margin : auto ;
+  border : 1px solid black ;
+  padding : 2px ;
+  background-color : black ;
+  color : white ;
+  font-family : arial , sans-serif ;
+}
+div#heading{
+  width : 100% ;
+  padding : 0px ;
+  border-bottom : 0px solid black ;
+}
+div#content{
+  padding : 20px ;
+}
+a        { color : #eeeeee ; }
+a:visited{ color : #aaaaaa ; }
+a:active { color : #eeeeee ; }
+a:hover  { color : #aaaaaa ; }
+h1{
+  font-family : arial black , sans-serif ;
+  font-style : normal ;
+}
+h3{
+  background-color : #444444 ;
+  border : 1px solid #dddddd ;
+  color : #ffffff ;
+}
+td{
+  background-color : #222222 ;
+}
+
+
+
+
+/* Taken from http://css.maxdesign.com.au/listamatic/horizontal03.htm */
+#navcontainer ul{
+  background-color: #333333 ;
+  color: White ;
+  font-family: arial, helvetica, sans-serif ;
+}
+#navcontainer ul li a{
+  background-color: #444444 ;
+  color: White ;
+}
+#navcontainer ul li a:hover{
+  background-color: #111111 ;
+  color: #ffffff ;
+}
+#currentNavButton{
+  background-color: #ffffff;
+  color: #333333;
+}

@@ -1,0 +1,524 @@
+<timeline>
+<video
+  title="Entry #83"
+  season="2"
+  channel="marblehornets"
+  youtube_id="">
+  <scene_list>
+    <scene
+      date="2014/03/06"
+      time="00:00"
+      cameraperson="Tim"
+      tape_tag="6"
+      place="Corridor"
+      description="Starts at the college. Tim goes up the stairs and encounters Hoody and TO. Hoody brings Tim the mask and teases him with pills. Hoody notices the operator and runs."
+      location="B8"
+      video_still_id="1"
+      video_title="Entry #83 (M3)">
+      <character_list>
+        <character name="Tim"></character>
+        <character name="Hoody"></character>
+        <character name="operator"></character>
+      </character_list>
+      <item_list>
+        <item name="Mask"></item>
+      </item_list>
+    </scene>
+    
+    <scene
+      date="2014/03/06"
+      time="01:00"
+      cameraperson="Tim"
+      tape_tag="6"
+      place="Corridor"
+      description="Tim chases after Hoody and teleports to the hospital."
+      location="H8"
+      video_still_id="1"
+      video_title="Entry #83 (M3)">
+      <character_list>
+        <character name="Tim"></character>
+        <character name="Hoody"></character>
+      </character_list>
+      <item_list>
+      </item_list>
+    </scene>
+    
+    <scene
+      date="2014/03/06"
+      time="02:00"
+      cameraperson="Tim"
+      tape_tag="6"
+      place="Dark location"
+      description="Dark location (street light.)"
+      location="E8"
+      video_still_id="1"
+      video_title="Entry #83 (M3)">
+      <character_list>
+        <character name="Tim"></character>
+      </character_list>
+      <item_list>
+      </item_list>
+    </scene>
+    
+    <scene
+      date="2014/03/06"
+      time="03:00"
+      cameraperson="Tim"
+      tape_tag="6"
+      place="City"
+      description="Unknown city area (cars/lights are seen.)"
+      location="E8"
+      video_still_id="1"
+      video_title="Entry #83 (M3)">
+      <character_list>
+        <character name="Tim"></character>
+      </character_list>
+      <item_list>
+      </item_list>
+    </scene>
+    
+    <scene
+      date="2014/03/06"
+      time="04:00"
+      cameraperson="Tim"
+      tape_tag="6"
+      place="Tunnel"
+      description="Tim chases Hoody at the tunnel."
+      location="R8"
+      video_still_id="1"
+      video_title="Entry #83 (M3)">
+      <character_list>
+        <character name="Tim"></character>
+        <character name="Hoody"></character>
+      </character_list>
+      <item_list>
+      </item_list>
+    </scene>
+    
+    <scene
+      date="2014/03/06"
+      time="05:00"
+      cameraperson="Tim"
+      tape_tag="6"
+      place="Corridors"
+      description="Tim chases Hoody through some corridors."
+      location="B8"
+      video_still_id="1"
+      video_title="Entry #83 (M3)">
+      <character_list>
+        <character name="Tim"></character>
+        <character name="Hoody"></character>
+      </character_list>
+      <item_list>
+      </item_list>
+    </scene>
+    
+    <scene
+      date="2014/03/06"
+      time="06:00"
+      cameraperson="Tim"
+      tape_tag="6"
+      place="Tunnel"
+      description="Tim chases Hoody at the tunnel."
+      location="R8"
+      video_still_id="1"
+      video_title="Entry #83 (M3)">
+      <character_list>
+        <character name="Tim"></character>
+        <character name="Hoody"></character>
+      </character_list>
+      <item_list>
+      </item_list>
+    </scene>
+    
+    <scene
+      date="2014/03/06"
+      time="07:00"
+      cameraperson="Tim"
+      tape_tag="6"
+      place="Rosswood"
+      description="Tim chases Hoody in Rosswood."
+      location="R8"
+      video_still_id="1"
+      video_title="Entry #83 (M3)">
+      <character_list>
+        <character name="Tim"></character>
+        <character name="Hoody"></character>
+      </character_list>
+      <item_list>
+      </item_list>
+    </scene>
+    
+    <scene
+      date="2014/03/06"
+      time="08:00"
+      cameraperson="Tim"
+      tape_tag="6"
+      place="Tunnel"
+      description="Tim pins down Hoody at the tunnel."
+      location="R8"
+      video_still_id="1"
+      video_title="Entry #83 (M3)">
+      <character_list>
+        <character name="Tim"></character>
+        <character name="Hoody"></character>
+      </character_list>
+      <item_list>
+      </item_list>
+    </scene>
+    
+    <scene
+      date="2014/03/06"
+      time="09:00"
+      cameraperson="Tim"
+      tape_tag="6"
+      place="Tim's hospital room"
+      description="Fire scene.  Tim encounters the operator while being teleported throughout the hospital."
+      location="H8"
+      video_still_id="1"
+      video_title="Entry #83 (M3)">
+      <character_list>
+        <character name="Tim"></character>
+        <character name="operator"></character>
+      </character_list>
+      <item_list>
+      </item_list>
+    </scene>
+    
+    <scene
+      date="2014/03/06"
+      time="10:00"
+      cameraperson="Tim"
+      tape_tag="6"
+      place="Tunnel"
+      description="Tim reveals Hoody. He obviously doesn't remember this."
+      location="R8"
+      video_still_id="1"
+      video_title="Entry #83 (M3)">
+      <character_list>
+        <character name="Tim"></character>
+        <character name="Hoody"></character>
+      </character_list>
+      <item_list>
+      </item_list>
+    </scene>
+    
+    <scene
+      date="2014/03/06"
+      time="11:00"
+      cameraperson="Tim"
+      tape_tag="6"
+      place="LIAR room"
+      description="Tim finds himself in the 'He is a LIAR' room."
+      location="H8"
+      video_still_id="1"
+      video_title="Entry #83 (M3)">
+      <character_list>
+        <character name="Tim"></character>
+      </character_list>
+      <item_list>
+      </item_list>
+    </scene>
+    
+    <scene
+      date="2014/03/06"
+      time="12:00"
+      cameraperson="Tim"
+      tape_tag="6"
+      place="Rosswood"
+      description="Tim falls on leaves in Rosswood."
+      location="R8"
+      video_still_id="1"
+      video_title="Entry #83 (M3)">
+      <character_list>
+        <character name="Tim"></character>
+      </character_list>
+      <item_list>
+      </item_list>
+    </scene>
+    
+    <scene
+      date="2014/03/06"
+      time="13:00"
+      cameraperson="Tim"
+      tape_tag="6"
+      place="Double doors room"
+      description="Tim reaches the room with the double doors. He enters the doors."
+      location="H8"
+      video_still_id="1"
+      video_title="Entry #83 (M3)">
+      <character_list>
+        <character name="Tim"></character>
+      </character_list>
+      <item_list>
+      </item_list>
+    </scene>
+    
+    <scene
+      date="2014/03/06"
+      time="14:00"
+      cameraperson="Tim"
+      tape_tag="6"
+      place="Tim's lounge"
+      description="Tim sees Jay's corpse and lots of paper on the floor, notices Hoody and chases after him again."
+      location="T8"
+      video_still_id="1"
+      video_title="Entry #83 (M3)">
+      <character_list>
+        <character name="Tim"></character>
+        <character name="Hoody"></character>
+        <character name="Jay"></character>
+      </character_list>
+      <item_list>
+      </item_list>
+    </scene>
+    
+    <scene
+      date="2014/03/06"
+      time="15:00"
+      cameraperson="Tim"
+      tape_tag="6"
+      place="Corridor"
+      description="Tim chases Hoody at the hospital before reaching a corner."
+      location="H8"
+      video_still_id="1"
+      video_title="Entry #83 (M3)">
+      <character_list>
+        <character name="Tim"></character>
+        <character name="Hoody"></character>
+      </character_list>
+      <item_list>
+      </item_list>
+    </scene>
+    
+    <scene
+      date="2014/03/06"
+      time="16:00"
+      cameraperson="Tim"
+      tape_tag="6"
+      place="Balcony/hall"
+      description="The pair are back at the college, where Hoody falls off the ledge, Tim grabs the pills and tape, and attempts to unmask Hoody again. The operator interferes. Tim runs and somewhere between here becomes Masky. Various college scenes follow."
+      location="B8"
+      video_still_id="1"
+      video_title="Entry #83 (M3)">
+      <character_list>
+        <character name="Tim"></character>
+        <character name="Hoody"></character>
+        <character name="operator"></character>
+      </character_list>
+      <item_list>
+        <item name="Tim's pills"></item>
+        <item name="Hoody tape"></item>
+      </item_list>
+    </scene>
+    
+    <scene
+      date="2014/03/06"
+      time="17:00"
+      cameraperson="Tim"
+      tape_tag="6"
+      place="Tunnel"
+      description="Split-second shot of Masky outside of the tunnel."
+      location="R8"
+      video_still_id="1"
+      video_title="Entry #83 (M3)">
+      <character_list>
+        <character name="Masky"></character>
+      </character_list>
+      <item_list>
+      </item_list>
+    </scene>
+    
+    <scene
+      date="2014/03/06"
+      time="18:00"
+      cameraperson="Tim"
+      tape_tag="6"
+      place="Hall"
+      description="Distortion from the college of Hoody's corpse."
+      location="B8"
+      video_still_id="1"
+      video_title="Entry #83 (M3)">
+      <character_list>
+        <character name="Hoody"></character>
+      </character_list>
+      <item_list>
+      </item_list>
+    </scene>
+    
+    <scene
+      date="2014/03/06"
+      time="19:00"
+      cameraperson="Unknown"
+      tape_tag="0"
+      place="Abandoned location"
+      description="Unknown abandoned location - door opens."
+      location="E8"
+      video_still_id="1"
+      video_title="Entry #83 (M3)">
+      <character_list>
+      </character_list>
+      <item_list>
+      </item_list>
+    </scene>
+    
+    <scene
+      date="2014/03/06"
+      time="20:00"
+      cameraperson="Masky"
+      tape_tag="0"
+      place="Corridor"
+      description="Footage of running through corridors."
+      location="B8"
+      video_still_id="1"
+      video_title="Entry #83 (M3)">
+      <character_list>
+        <character name="Masky"></character>
+      </character_list>
+      <item_list>
+      </item_list>
+    </scene>
+    
+    <scene
+      date="2014/03/06"
+      time="21:00"
+      cameraperson="Masky"
+      tape_tag="0"
+      place="Hoody shack?"
+      description="The location with two windows."
+      location="E8"
+      video_still_id="1"
+      video_title="Entry #83 (M3)">
+      <character_list>
+        <character name="Masky"></character>
+      </character_list>
+      <item_list>
+      </item_list>
+    </scene>
+    
+    <scene
+      date="2014/03/06"
+      time="22:00"
+      cameraperson="Tim"
+      tape_tag="6"
+      place="Tim's lounge"
+      description="Jay's corpse, with glowing eyes."
+      location="T8"
+      video_still_id="1"
+      video_title="Entry #83 (M3)">
+      <character_list>
+        <character name="Jay"></character>
+      </character_list>
+      <item_list>
+      </item_list>
+    </scene>
+    
+    <scene
+      date="2014/03/06"
+      time="23:00"
+      cameraperson="Masky"
+      tape_tag="0"
+      place="Hoody shack"
+      description="Possible location from the hospital."
+      location="H8"
+      video_still_id="1"
+      video_title="Entry #83 (M3)">
+      <character_list>
+        <character name="Masky"></character>
+      </character_list>
+      <item_list>
+      </item_list>
+    </scene>
+    
+    <scene
+      date="2014/03/06"
+      time="24:00"
+      cameraperson="Unknown"
+      tape_tag="0"
+      place="Tim's hallway"
+      description="Tim sits slumped against a wall as someone descends from the attic."
+      location="T8"
+      video_still_id="1"
+      video_title="Entry #83 (M3)">
+      <character_list>
+        <character name="Tim"></character>
+        <character name="Unknown"></character>
+      </character_list>
+      <item_list>
+      </item_list>
+    </scene>
+    
+    <scene
+      date="2014/03/06"
+      time="25:00"
+      cameraperson="Unknown"
+      tape_tag="0"
+      place="Rosswood"
+      description="Distortion in Rosswood."
+      location="R8"
+      video_still_id="1"
+      video_title="Entry #83 (M3)">
+      <character_list>
+      </character_list>
+      <item_list>
+      </item_list>
+    </scene>
+    
+    <scene
+      date="2014/03/06"
+      time="26:00"
+      cameraperson="Unknown"
+      tape_tag="0"
+      place="Benedcit Campus"
+      description="Distortion in Benedict Campus."
+      location="B8"
+      video_still_id="1"
+      video_title="Entry #83 (M3)">
+      <character_list>
+      </character_list>
+      <item_list>
+      </item_list>
+    </scene>
+    
+    <scene
+      date="2014/03/06"
+      time="27:00"
+      cameraperson="Tim"
+      tape_tag="6"
+      place="Slendyverse"
+      description="Tim sees Hoody's corpse in the slendyverse and tries to unmask him/her."
+      location="E8"
+      video_still_id="1"
+      video_title="Entry #83 (M3)">
+      <character_list>
+        <character name="Tim"></character>
+        <character name="Hoody"></character>
+      </character_list>
+      <item_list>
+      </item_list>
+    </scene>
+    
+    <scene
+      date="2014/03/06"
+      time="28:00"
+      cameraperson="Tim"
+      tape_tag="6"
+      place="Field"
+      description="The final scene of the video. Tim wakes up in a field and crawls over to the chestcam to turn it off."
+      location="E8"
+      video_still_id="1"
+      video_title="Entry #83 (M3)">
+      <character_list>
+        <character name="Tim"></character>
+      </character_list>
+      <item_list>
+      </item_list>
+    </scene>
+    
+    
+   
+  </scene_list>
+</video>
+
+
+</timeline>

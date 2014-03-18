@@ -1,0 +1,901 @@
+<timeline>
+<video
+  title="Entry #52"
+  season="2"
+  channel="marblehornets"
+  youtube_id="1jlbdYFY79M">
+  <scene_list>
+    <scene
+      date="2010/11/22"
+      time="10:00"
+      cameraperson="Jay"
+      tape_tag="2"
+      place="Jay's car"
+      description="Jay and Jessica meet, so that Alex can lead them somehwere."
+      location="R"
+      video_still_id="1"
+      video_title="Entry #52 (M2)">
+      <character_list>
+        <character name="Jay"></character>
+        <character name="Jessica"></character>
+      </character_list>
+      <item_list>
+        <item name="Knife"></item>
+      </item_list>
+    </scene>
+
+    <scene
+      date="2010/11/22"
+      time="11:00"
+      cameraperson="Jay"
+      tape_tag="2"
+      place="The Barn"
+      description="Alex leads Jay and Jessica to the Barn where he pulls a gun.  Masky tackles Alex and Jay and Jessica escape."
+      location="R"
+      video_still_id="1"
+      video_title="Entry #52 (M2)">
+      <character_list>
+        <character name="Alex"></character>
+        <character name="Jay"></character>
+        <character name="Jessica"></character>
+        <character name="Masky"></character>
+        <character name="Tim"></character>
+      </character_list>
+      <item_list>
+        <item name="Gun"></item>
+      </item_list>
+    </scene>
+
+    <scene
+      date="2010/11/22"
+      time="12:00"
+      cameraperson="Jay"
+      tape_tag="2"
+      place="The Hotel"
+      description="Jay and Jessica flee to the Hotel.  Jay steals Alex's chestcam and harddrive.  He hides the tapes in the safe, and takes the chestcam for himself."
+      location="R"
+      video_still_id="2"
+      video_title="Entry #52 (M2)">
+      <character_list>
+        <character name="Jay"></character>
+        <character name="Jessica"></character>
+      </character_list>
+      <item_list>
+        <item name="Harddrive"></item>
+        <item name="Chestcam"></item>
+      </item_list>
+    </scene>
+
+    <scene
+      date="2010/11/22"
+      time="13:00"
+      cameraperson="Jay"
+      tape_tag="2"
+      place="The Hotel"
+      description="Jay hears Jessica screaming and wakes up to find the operator there.  He lunges at the operator which wipes his memory of the past 7 months."
+      location="R"
+      video_still_id="3"
+      video_title="Entry #52 (M2)">
+      <character_list>
+        <character name="Jay"></character>
+        <character name="Jessica"></character>
+        <character name="operator"></character>
+      </character_list>
+
+      <item_list></item_list>
+    </scene>
+
+    <scene
+      date="2011/11/11"
+      time="12:00"
+      cameraperson="Jay"
+      tape_tag="2"
+      place="Rosswood"
+      description="Jay sees Tim acting normal downtown."
+      location="R"
+      video_still_id="3"
+      video_title="Entry #52 (M2)">
+      <character_list>
+        <character name="Jay"></character>
+        <character name="Tim"></character>
+      </character_list>
+      <item_list></item_list>
+    </scene>
+  </scene_list>
+</video>
+
+<event
+  name="Jay takes hard drive"
+  title="Jay takes hard drive"
+  date="2010/11/22"
+  time="12:00"
+  description="Jay steals the external hard drive, camera bag, and chestcam from Alex."
+  location="R"
+  color="rgb(0,99,0)">
+  <character_list>
+    <character name="Jay"></character>
+  </character_list>
+  <item_list></item_list>
+</event>
+
+<event
+  name="Jay locks tapes in safe"
+  title="Jay locks tapes in safe"
+  date="2010/11/22"
+  time="12:00"
+  description="Jay locks the tapes and external hard drive from the previous seven months in the safe.  He keeps the chestcam outside the safe and wears it."
+  location="R"
+  color="rgb(0,0,99)">
+  <character_list>
+    <character name="Jay"></character>
+  </character_list>
+  <item_list></item_list>
+</event>
+
+<video
+  title="Entry #52"
+  season="2"
+  channel="marblehornets"
+  youtube_id="1jlbdYFY79M">
+  <scene_list>
+    <scene
+      date="2010/11/22"
+      time="10:00"
+      cameraperson="Jay"
+      tape_tag="2"
+      place="Jay's car"
+      description="Jay and Jessica meet, so that Alex can lead them somehwere."
+      location="R"
+      video_still_id="1"
+      video_title="Entry #52 (M2)">
+      <character_list>
+        <character name="Alex"></character>
+        <character name="Jay"></character>
+        <character name="Jessica"></character>
+        <character name="Masky"></character>
+        <character name="Tim"></character>
+      </character_list>
+
+      <item_list>
+        <item name="Knife"></item>
+      </item_list>
+    </scene>
+
+    <scene
+      date="2010/11/22"
+      time="11:00"
+      cameraperson="Jay"
+      tape_tag="2"
+      place="The Barn"
+      description="Alex leads Jay and Jessica to the Barn where he pulls a gun.  Masky tackles Alex and Jay and Jessica escape."
+      location="R"
+      video_still_id="1"
+      video_title="Entry #52 (M2)">
+      <character_list>
+        <character name="Alex"></character>
+        <character name="Jay"></character>
+        <character name="Jessica"></character>
+
+        <character name="Masky"></character>
+
+        <character name="Tim"></character>
+      </character_list>
+
+      <item_list>
+        <item name="Gun"></item>
+      </item_list>
+    </scene>
+
+    <scene
+      date="2010/11/22"
+      time="12:00"
+      cameraperson="Jay"
+      tape_tag="2"
+      place="The Hotel"
+      description="Jay and Jessica flee to the Hotel.  Jay steals Alex's chestcam and harddrive.  He hides the tapes in the safe, and takes the chestcam for himself."
+      location="R"
+      video_still_id="2"
+      video_title="Entry #52 (M2)">
+      <character_list>
+        <character name="Jay"></character>
+        <character name="Jessica"></character>
+      </character_list>
+      <item_list>
+        <item name="Harddrive"></item>
+        <item name="Chestcam"></item>
+      </item_list>
+    </scene>
+
+    <scene
+      date="2010/11/22"
+      time="13:00"
+      cameraperson="Jay"
+      tape_tag="2"
+      place="The Hotel"
+      description="Jay hears Jessica screaming and wakes up to find the operator there.  He lunges at the operator which wipes his memory of the past 7 months."
+      location="R"
+      video_still_id="3"
+      video_title="Entry #52 (M2)">
+      <character_list>
+        <character name="Jay"></character>
+        <character name="Jessica"></character>
+        <character name="operator"></character>
+      </character_list>
+
+      <item_list></item_list>
+    </scene>
+
+    <scene
+      date="2011/11/11"
+      time="12:00"
+      cameraperson="Jay"
+      tape_tag="2"
+      place="Rosswood"
+      description="Jay sees Tim acting normal downtown."
+      location="R"
+      video_still_id="3"
+      video_title="Entry #52 (M2)">
+      <character_list>
+        <character name="Jay"></character>
+        <character name="Tim"></character>
+      </character_list>
+      <item_list></item_list>
+    </scene>
+  </scene_list>
+</video>
+
+<video
+  title="Entry #27"
+  season="2"
+  channel="marblehornets"
+  youtube_id="Hn7Qow98Gr4">
+  <scene_list>
+    <scene
+      date="2010/11/23"
+      time="12:00"
+      cameraperson="Jay"
+      tape_tag="6"
+      place="Hotel room"
+      description="Jay wakes up to find himself in a strange hotel room."
+      location="R"
+      video_still_id="2"
+      video_title="Entry #27 (M2)">
+      <character_list>
+        <character name="Jay"></character>
+      </character_list>
+      <item_list>
+        <item name="Chestcam"></item>
+      </item_list>
+    </scene>
+  </scene_list>
+</video>
+
+<video
+  title="Entry #28"
+  season="2"
+  channel="marblehornets"
+  youtube_id="MM_2_9fUcfs">
+  <scene_list>
+    <scene
+      date="2010/12/02"
+      time="12:00"
+      cameraperson="Jay"
+      tape_tag="6"
+      place="Hotel room"
+      description="Jay takes stock of his situation in the Hotel.  He finds his bag and a locked safe."
+      location="R"
+      video_still_id="2"
+      video_title="Entry #28 (M2)">
+      <character_list>
+        <character name="Jay"></character>
+      </character_list>
+      <item_list></item_list>
+    </scene>
+    <scene
+      date="2010/12/02"
+      time="12:00"
+      cameraperson="Jay"
+      tape_tag="6"
+      place="The Hotel"
+      description="Jay meets Jessica."
+      location="R"
+      video_still_id="3"
+      video_title="Entry #28 (M2)">
+      <character_list>
+        <character name="Jay"></character>
+        <character name="Jessica"></character>
+      </character_list>
+      <item_list></item_list>
+    </scene>
+  </scene_list>
+</video>
+
+<video
+  title="Entry #28"
+  season="2"
+  channel="marblehornets"
+  youtube_id="MM_2_9fUcfs">
+  <scene_list>
+    <scene
+      date="2010/12/02"
+      time="12:00"
+      cameraperson="Jay"
+      tape_tag="6"
+      place="Hotel room"
+      description="Jay takes stock of his situation in the Hotel.  He finds his bag and a locked safe."
+      location="R"
+      video_still_id="2"
+      video_title="Entry #28 (M2)">
+      <character_list>
+        <character name="Jay"></character>
+      </character_list>
+      <item_list></item_list>
+    </scene>
+    <scene
+      date="2010/12/02"
+      time="12:00"
+      cameraperson="Jay"
+      tape_tag="6"
+      place="The Hotel"
+      description="Jay meets Jessica."
+      location="R"
+      video_still_id="3"
+      video_title="Entry #28 (M2)">
+      <character_list>
+        <character name="Jay"></character>
+        <character name="Jessica"></character>
+      </character_list>
+      <item_list></item_list>
+    </scene>
+  </scene_list>
+</video>
+
+<event
+  name="Entry #29 released"
+  title="Entry #29 released"
+  date="2010/12/16"
+  time="12:00"
+  description=""
+  location="R"
+  color="rgb(0,0,99)">
+  <character_list>
+    <character name="Jay"></character>
+  </character_list>
+  <item_list></item_list>
+</event>
+
+<video
+  title="Entry #30"
+  season="2"
+  channel="marblehornets"
+  youtube_id="rPCEaa7-Hrw">
+  <scene_list>
+    <scene
+      date="2010/12/21"
+      time="12:00"
+      cameraperson="Jay"
+      tape_tag="6"
+      place="Hotel room"
+      description="Jay talks to Jessica and they ask each other why they are at the hotel.  Jessica seems to have memory loss."
+      location="R"
+      video_still_id="1"
+      video_title="Entry #30 (M2)">
+      <character_list>
+        <character name="Jay"></character>
+      </character_list>
+      <item_list></item_list>
+    </scene>
+    <scene
+      date="2010/12/21"
+      time="12:00"
+      cameraperson="Jay"
+      tape_tag="6"
+      place="Hotel room"
+      description="Jay hears noises coming from Jessica's room at night."
+      location="R"
+      video_still_id="2"
+      video_title="Entry #30 (M2)">
+      <character_list>
+        <character name="Jay"></character>
+        <character name="Jessica"></character>
+      </character_list>
+      <item_list></item_list>
+    </scene>
+    <scene
+      date="2010/12/22"
+      time="12:00"
+      cameraperson="Jay"
+      tape_tag="6"
+      place="Hotel room"
+      description="  Jay asks Jessica about the noises and she is reluctant to talk about it."
+      location="R"
+      video_still_id="3"
+      video_title="Entry #30 (M2)">
+      <character_list>
+        <character name="Jay"></character>
+        <character name="Jessica"></character>
+      </character_list>
+      <item_list></item_list>
+    </scene>
+  </scene_list>
+</video>
+
+<video
+  title="Entry #30"
+  season="2"
+  channel="marblehornets"
+  youtube_id="rPCEaa7-Hrw">
+  <scene_list>
+    <scene
+      date="2010/12/21"
+      time="12:00"
+      cameraperson="Jay"
+      tape_tag="6"
+      place="Hotel room"
+      description="Jay talks to Jessica and they ask each other why they are at the hotel.  Jessica seems to have memory loss."
+      location="R"
+      video_still_id="1"
+      video_title="Entry #30 (M2)">
+      <character_list>
+        <character name="Jay"></character>
+      </character_list>
+      <item_list></item_list>
+    </scene>
+    <scene
+      date="2010/12/21"
+      time="12:00"
+      cameraperson="Jay"
+      tape_tag="6"
+      place="Hotel room"
+      description="Jay hears noises coming from Jessica's room at night."
+      location="R"
+      video_still_id="2"
+      video_title="Entry #30 (M2)">
+      <character_list>
+        <character name="Jay"></character>
+        <character name="Jessica"></character>
+      </character_list>
+      <item_list></item_list>
+    </scene>
+    <scene
+      date="2010/12/22"
+      time="12:00"
+      cameraperson="Jay"
+      tape_tag="6"
+      place="Hotel room"
+      description="  Jay asks Jessica about the noises and she is reluctant to talk about it."
+      location="R"
+      video_still_id="3"
+      video_title="Entry #30 (M2)">
+      <character_list>
+        <character name="Jay"></character>
+        <character name="Jessica"></character>
+      </character_list>
+      <item_list></item_list>
+    </scene>
+  </scene_list>
+</video>
+
+<video
+  title="Entry #30"
+  season="2"
+  channel="marblehornets"
+  youtube_id="rPCEaa7-Hrw">
+  <scene_list>
+    <scene
+      date="2010/12/21"
+      time="12:00"
+      cameraperson="Jay"
+      tape_tag="6"
+      place="Hotel room"
+      description="Jay talks to Jessica and they ask each other why they are at the hotel.  Jessica seems to have memory loss."
+      location="R"
+      video_still_id="1"
+      video_title="Entry #30 (M2)">
+      <character_list>
+        <character name="Jay"></character>
+      </character_list>
+      <item_list></item_list>
+    </scene>
+    <scene
+      date="2010/12/21"
+      time="12:00"
+      cameraperson="Jay"
+      tape_tag="6"
+      place="Hotel room"
+      description="Jay hears noises coming from Jessica's room at night."
+      location="R"
+      video_still_id="2"
+      video_title="Entry #30 (M2)">
+      <character_list>
+        <character name="Jay"></character>
+        <character name="Jessica"></character>
+      </character_list>
+      <item_list></item_list>
+    </scene>
+    <scene
+      date="2010/12/22"
+      time="12:00"
+      cameraperson="Jay"
+      tape_tag="6"
+      place="Hotel room"
+      description="  Jay asks Jessica about the noises and she is reluctant to talk about it."
+      location="R"
+      video_still_id="3"
+      video_title="Entry #30 (M2)">
+      <character_list>
+        <character name="Jay"></character>
+        <character name="Jessica"></character>
+      </character_list>
+      <item_list></item_list>
+    </scene>
+  </scene_list>
+</video>
+
+<video
+  title="Entry #31"
+  season="2"
+  channel="marblehornets"
+  youtube_id="LL0URnfDBos">
+  <scene_list>
+    <scene
+      date="2010/12/26"
+      time="12:00"
+      cameraperson="Jay"
+      tape_tag="6"
+      place="Rosswood Park"
+      description="Jay explores Rosswood, looking for the setting of Entry #29, and he comes across Rosswood Park."
+      location="R"
+      video_still_id="2"
+      video_title="Entry #31 (M2)">
+      <character_list>
+        <character name="Jay"></character>
+        <character name="tothepark"></character>
+      </character_list>
+      <item_list></item_list>
+    </scene>
+    <scene
+      date="2011/01/03"
+      time="12:00"
+      cameraperson="Jay"
+      tape_tag="6"
+      place="Hotel room"
+      description="Jay asks Jessica about Rosswood Park and gets caught lying.  Both Jessica and Jay are suffering from memory loss."
+      location="R"
+      video_still_id="2"
+      video_title="Entry #31 (M2)">
+      <character_list>
+        <character name="Jay"></character>
+        <character name="Jessica"></character>
+      </character_list>
+      <item_list></item_list>
+    </scene>
+  </scene_list>
+</video>
+
+<video
+  title="Entry #31"
+  season="2"
+  channel="marblehornets"
+  youtube_id="LL0URnfDBos">
+  <scene_list>
+    <scene
+      date="2010/12/26"
+      time="12:00"
+      cameraperson="Jay"
+      tape_tag="6"
+      place="Rosswood Park"
+      description="Jay explores Rosswood, looking for the setting of Entry #29, and he comes across Rosswood Park."
+      location="R"
+      video_still_id="2"
+      video_title="Entry #31 (M2)">
+      <character_list>
+        <character name="Jay"></character>
+        <character name="tothepark"></character>
+      </character_list>
+      <item_list></item_list>
+    </scene>
+    <scene
+      date="2011/01/03"
+      time="12:00"
+      cameraperson="Jay"
+      tape_tag="6"
+      place="Hotel room"
+      description="Jay asks Jessica about Rosswood Park and gets caught lying.  Both Jessica and Jay are suffering from memory loss."
+      location="R"
+      video_still_id="2"
+      video_title="Entry #31 (M2)">
+      <character_list>
+        <character name="Jay"></character>
+        <character name="Jessica"></character>
+      </character_list>
+      <item_list></item_list>
+    </scene>
+  </scene_list>
+</video>
+
+<video
+  title="Entry #32"
+  season="2"
+  channel="marblehornets"
+  youtube_id="wjFnujnjC8M">
+  <scene_list>
+    <scene
+      date="2011/01/12"
+      time="11:00"
+      cameraperson="Jay"
+      tape_tag="6"
+      place="Hotel room"
+      description="Jessica confronts Jay about his behaviour.  They agree to talk in more detail and Jay stops the conversation to upload a video."
+      location="R"
+      video_still_id="2"
+      video_title="Entry #32 (M2)">
+      <character_list>
+        <character name="Jay"></character>
+        <character name="Jessica"></character>
+      </character_list>
+      <item_list></item_list>
+    </scene>
+  </scene_list>
+</video>
+
+<event
+  name="Jay opens the safe"
+  title="Jay opens the safe"
+  date="2011/01/12"
+  time="12:00"
+  description="Jay finds the safe combination and recovers the tapes and external hard drive from the seven month gap."
+  location="R"
+  color="rgb(0,99,0)">
+  <character_list>
+    <character name="Jay"></character>
+  </character_list>
+  <item_list></item_list>
+</event>
+
+<video
+  title="Entry #76"
+  season="3"
+  channel="marblehornets"
+  youtube_id="sZD7S5Xp5bs">
+  <scene_list>
+    <scene
+      date="2011/01/12"
+      time="21:00"
+      cameraperson="Tim"
+      tape_tag="11"
+      place="The hotel"
+      description="Masky takes Jessica from the hotel and gives her to Hoody."
+      location="R"
+      video_still_id="1"
+      video_title="Entry #76 (M3)">
+      <character_list>
+        <character name="Hoody"></character>
+        <character name="Jessica"></character>
+        <character name="Masky"></character>
+      </character_list>
+      <item_list></item_list>
+    </scene>
+    <scene
+      date="2011/01/12"
+      time="22:00"
+      cameraperson="Tim"
+      tape_tag="11"
+      place="Rosswood woods"
+      description="Hoody takes Jessica to the woods and she wakes up.  Alex is searching with a flashlight, and finds them.  Alex threatens Hoody with the gun, Hoody flees.  Alex convinces Jessica to go with him to the tunnel, where tries to shoot her.  She dazzles him with the gun and attacks him, then Hoody turns up and tackles Alex.  Jessica flees and encounters the operator."
+      location="R"
+      video_still_id="2"
+      video_title="Entry #76 (M3)">
+      <character_list>
+        <character name="Alex"></character>
+        <character name="Hoody"></character>
+        <character name="Jessica"></character>
+
+        <character name="operator"></character>
+      </character_list>
+
+      <item_list>
+        <item name="Gun"></item>
+        <item name="Alex's flashlight"></item>
+      </item_list>
+    </scene>
+
+    <scene
+      date="2011/01/13"
+      time="07:00"
+      cameraperson="Jay"
+      tape_tag="11"
+      place="Rosswood Park"
+      description="Alex takes the gun from Jessica's body.  The operator teleports Jessica away.  Tim wakes up wearing the mask."
+      location="R"
+      video_still_id="3"
+      video_title="Entry #76 (M3)">
+      <character_list>
+        <character name="Alex"></character>
+        <character name="Jessica"></character>
+        <character name="Tim"></character>
+
+        <character name="operator"></character>
+      </character_list>
+
+      <item_list>
+        <item name="Entry #76 tape"></item>
+        <item name="Gun"></item>
+      </item_list>
+    </scene>
+  </scene_list>
+</video>
+
+<video
+  title="Entry #33"
+  season="2"
+  channel="marblehornets"
+  youtube_id="h_lgYbjAKG4">
+  <scene_list>
+    <scene
+      date="2011/01/12"
+      time="22:00"
+      cameraperson="Jay"
+      tape_tag="6"
+      place="Hotel room"
+      description="Jay goes to get Jessica, but finds that she has disappeared.  He finds the combination to the safe and recovers the tapes.  Masky chases him out of the Hotel."
+      location="R"
+      video_still_id="2"
+      video_title="Entry #33 (M2)">
+      <character_list>
+        <character name="Jay"></character>
+        <character name="Masky"></character>
+        <character name="Tim"></character>
+      </character_list>
+      <item_list></item_list>
+    </scene>
+  </scene_list>
+</video>
+
+<video
+  title="Entry #76"
+  season="3"
+  channel="marblehornets"
+  youtube_id="sZD7S5Xp5bs">
+  <scene_list>
+    <scene
+      date="2011/01/12"
+      time="21:00"
+      cameraperson="Tim"
+      tape_tag="11"
+      place="The hotel"
+      description="Masky takes Jessica from the hotel and gives her to Hoody."
+      location="R"
+      video_still_id="1"
+      video_title="Entry #76 (M3)">
+      <character_list>
+        <character name="Hoody"></character>
+        <character name="Jessica"></character>
+        <character name="Masky"></character>
+      </character_list>
+      <item_list></item_list>
+    </scene>
+    <scene
+      date="2011/01/12"
+      time="22:00"
+      cameraperson="Tim"
+      tape_tag="11"
+      place="Rosswood woods"
+      description="Hoody takes Jessica to the woods and she wakes up.  Alex is searching with a flashlight, and finds them.  Alex threatens Hoody with the gun, Hoody flees.  Alex convinces Jessica to go with him to the tunnel, where tries to shoot her.  She dazzles him with the gun and attacks him, then Hoody turns up and tackles Alex.  Jessica flees and encounters the operator."
+      location="R"
+      video_still_id="2"
+      video_title="Entry #76 (M3)">
+      <character_list>
+        <character name="Alex"></character>
+        <character name="Hoody"></character>
+        <character name="Jessica"></character>
+
+        <character name="operator"></character>
+      </character_list>
+
+      <item_list>
+        <item name="Gun"></item>
+        <item name="Alex's flashlight"></item>
+      </item_list>
+    </scene>
+
+    <scene
+      date="2011/01/13"
+      time="07:00"
+      cameraperson="Jay"
+      tape_tag="11"
+      place="Rosswood Park"
+      description="Alex takes the gun from Jessica's body.  The operator teleports Jessica away.  Tim wakes up wearing the mask."
+      location="R"
+      video_still_id="3"
+      video_title="Entry #76 (M3)">
+      <character_list>
+        <character name="Alex"></character>
+        <character name="Jessica"></character>
+        <character name="Tim"></character>
+
+        <character name="operator"></character>
+      </character_list>
+
+      <item_list>
+        <item name="Entry #76 tape"></item>
+        <item name="Gun"></item>
+      </item_list>
+    </scene>
+  </scene_list>
+</video>
+
+<video
+  title="Entry #76"
+  season="3"
+  channel="marblehornets"
+  youtube_id="sZD7S5Xp5bs">
+  <scene_list>
+    <scene
+      date="2011/01/12"
+      time="21:00"
+      cameraperson="Tim"
+      tape_tag="11"
+      place="The hotel"
+      description="Masky takes Jessica from the hotel and gives her to Hoody."
+      location="R"
+      video_still_id="1"
+      video_title="Entry #76 (M3)">
+      <character_list>
+        <character name="Hoody"></character>
+        <character name="Jessica"></character>
+        <character name="Masky"></character>
+      </character_list>
+      <item_list></item_list>
+    </scene>
+    <scene
+      date="2011/01/12"
+      time="22:00"
+      cameraperson="Tim"
+      tape_tag="11"
+      place="Rosswood woods"
+      description="Hoody takes Jessica to the woods and she wakes up.  Alex is searching with a flashlight, and finds them.  Alex threatens Hoody with the gun, Hoody flees.  Alex convinces Jessica to go with him to the tunnel, where tries to shoot her.  She dazzles him with the gun and attacks him, then Hoody turns up and tackles Alex.  Jessica flees and encounters the operator."
+      location="R"
+      video_still_id="2"
+      video_title="Entry #76 (M3)">
+      <character_list>
+        <character name="Alex"></character>
+        <character name="Hoody"></character>
+        <character name="Jessica"></character>
+
+        <character name="operator"></character>
+      </character_list>
+
+      <item_list>
+        <item name="Gun"></item>
+        <item name="Alex's flashlight"></item>
+      </item_list>
+    </scene>
+
+    <scene
+      date="2011/01/13"
+      time="07:00"
+      cameraperson="Jay"
+      tape_tag="11"
+      place="Rosswood Park"
+      description="Alex takes the gun from Jessica's body.  The operator teleports Jessica away.  Tim wakes up wearing the mask."
+      location="R"
+      video_still_id="3"
+      video_title="Entry #76 (M3)">
+      <character_list>
+        <character name="Alex"></character>
+        <character name="Jessica"></character>
+        <character name="Tim"></character>
+
+        <character name="operator"></character>
+      </character_list>
+
+      <item_list>
+        <item name="Entry #76 tape"></item>
+        <item name="Gun"></item>
+      </item_list>
+    </scene>
+  </scene_list>
+</video>
+
+</timeline>
