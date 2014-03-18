@@ -7,39 +7,57 @@
   </div>
   
   <div class="right">
-    <h3><a class="title" href="images/timeline_16.png">Master timeline</a></h3>
+    <h3><a class="title" href="images/infographics/timeline_22.png">Master timeline</a></h3>
     <div class="blurb_with_icon">
       <div class="image">
-        <a href="images/timeline_16.png"><img class="icon" src="/images/mh_timeline.png" alt="Master timeline" /></a>
+        <a href="images/infographics/timeline_22.png"><img class="icon" src="/images/mh_timeline.png" alt="Master timeline" /></a>
       </div>
       <p>This is main timeline that includes all the videos, many of the tweets, and a lot of off-camera events.  This timeline is not as exhaustive as the wikidot <a href="http://marblehornets.wikidot.com/comprehensive-timeline">comprehensive timeline</a>, although it follows that very closely.</p> 
-      <p><a href="images/timeline_16.png">View the master timeline</a>.</p>
+      <p><a href="images/infographics/timeline_22.png">View the master timeline</a>.</p>
       <p>You can filter and browse the timeline by character.  The following timelines are sorted by size:</p>
       <ul>
-        <li><a href="images/timeline_character_Jay.png">Jay</a></li>
-        <li><a href="images/timeline_character_Tim.png">Tim</a></li>
-        <li><a href="images/timeline_character_Alex.png">Alex</a></li>
-        <li><a href="images/timeline_character_operator.png">operator</a></li>
-        <li><a href="images/timeline_character_Hoody.png">Hoody</a></li>
-        <li><a href="images/timeline_character_Masky.png">Masky</a></li>
-        <li><a href="images/timeline_character_Jessica.png">Jessica</a></li>
-        <li><a href="images/timeline_character_Brian.png">Brian</a></li>
-        <li><a href="images/timeline_character_Seth.png">Seth</a></li>
-        <li><a href="images/timeline_character_Bruce.png">Bruce</a></li>
-        <li><a href="images/timeline_character_Sarah.png">Sarah</a></li>
-        <li><a href="images/timeline_character_Amy.png">Amy</a></li>
+        <li><a href="images/infographics/timeline_character_Jay_2.png">Jay</a></li>
+        <li><a href="images/infographics/timeline_character_Tim_2.png">Tim</a></li>
+        <li><a href="images/infographics/timeline_character_Alex_2.png">Alex</a></li>
+        <li><a href="images/infographics/timeline_character_operator_2.png">operator</a></li>
+        <li><a href="images/infographics/timeline_character_Hoody_2.png">Hoody</a></li>
+        <li><a href="images/infographics/timeline_character_Masky_2.png">Masky</a></li>
+        <li><a href="images/infographics/timeline_character_Jessica_2.png">Jessica</a></li>
+        <li><a href="images/infographics/timeline_character_Brian_2.png">Brian</a></li>
+        <li><a href="images/infographics/timeline_character_Seth_2.png">Seth</a></li>
+        <li><a href="images/infographics/timeline_character_Bruce_2.png">Bruce</a></li>
+        <li><a href="images/infographics/timeline_character_Sarah_2.png">Sarah</a></li>
+        <li><a href="images/infographics/timeline_character_Amy_2.png">Amy</a></li>
       </ul>
       
       <p>You can also filter and browse the timeline by which character was behind the camera.  The following timelines are sorted by size:</p>
       <ul>
-        <li><a href="images/timeline_camera_Jay.png">Jay</a></li>
-        <li><a href="images/timeline_camera_Alex.png">Alex</a></li>
-        <li><a href="images/timeline_camera_Tim.png">Tim</a></li>
-        <li><a href="images/timeline_camera_Hoody.png">Hoody</a></li>
-        <li><a href="images/timeline_camera_Seth.png">Seth</a></li>
-        <li><a href="images/timeline_camera_Brian.png">Brian</a></li>
-        <li><a href="images/timeline_camera_Sarah.png">Sarah</a></li>
-        <li><a href="images/timeline_camera_Amy.png">Amy</a></li>
+        <li><a href="images/infographics/timeline_camera_Jay_2.png">Jay</a></li>
+        <li><a href="images/infographics/timeline_camera_Alex_2.png">Alex</a></li>
+        <li><a href="images/infographics/timeline_camera_Tim_2.png">Tim</a></li>
+        <li><a href="images/infographics/timeline_camera_Hoody_2.png">Hoody</a></li>
+        <li><a href="images/infographics/timeline_camera_Seth_2.png">Seth</a></li>
+        <li><a href="images/infographics/timeline_camera_Brian_2.png">Brian</a></li>
+        <li><a href="images/infographics/timeline_camera_Sarah_2.png">Sarah</a></li>
+        <li><a href="images/infographics/timeline_camera_Amy_2.png">Amy</a></li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="right">
+    <h3><a class="title" href="images/infographics/items_9.png">Items timeline</a></h3>
+    <div class="blurb_with_icon">
+      <div class="image">
+        <a href="images/infographics/items_9.png"><img class="icon" src="/images/mh_timeline.png" alt="Master timeline" /></a>
+      </div>
+      <p><a href="images/infographics/infographics/items_9.png">View the items infographic</a>.</p>
+      <p>You can filter and browse the items by category:</p>
+      <ul>
+        <li><a href="images/infographics/items_cameras.png">Cameras</a></li>
+        <li><a href="images/infographics/items_tapes.png">Tapes</a></li>
+        <li><a href="images/infographics/items_weapons.png">Weapons</a></li>
+        <li><a href="images/infographics/items_Tims_pills_2.png">Tim's pills</a></li>
+        <li><a href="images/infographics/items_other.png">Other items</a></li>
       </ul>
     </div>
   </div>
