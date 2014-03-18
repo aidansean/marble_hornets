@@ -10,7 +10,7 @@
     <h3><a class="title" href="images/infographics/timeline_22.png">Master timeline</a></h3>
     <div class="blurb_with_icon">
       <div class="image">
-        <a href="images/infographics/timeline_22.png"><img class="icon" src="/images/mh_timeline.png" alt="Master timeline" /></a>
+        <a href="images/infographics/timeline_22.png"><img class="icon" src="/images/mh_timeline_22.png" alt="Master timeline" /></a>
       </div>
       <p>This is main timeline that includes all the videos, many of the tweets, and a lot of off-camera events.  This timeline is not as exhaustive as the wikidot <a href="http://marblehornets.wikidot.com/comprehensive-timeline">comprehensive timeline</a>, although it follows that very closely.</p> 
       <p><a href="images/infographics/timeline_22.png">View the master timeline</a>.</p>
@@ -48,7 +48,7 @@
     <h3><a class="title" href="images/infographics/items_9.png">Items timeline</a></h3>
     <div class="blurb_with_icon">
       <div class="image">
-        <a href="images/infographics/items_9.png"><img class="icon" src="/images/mh_timeline.png" alt="Master timeline" /></a>
+        <a href="images/infographics/items_9.png"><img class="icon" src="/images/mh_items_9.png" alt="Master timeline" /></a>
       </div>
       <p><a href="images/infographics/infographics/items_9.png">View the items infographic</a>.</p>
       <p>You can filter and browse the items by category:</p>

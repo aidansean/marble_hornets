@@ -20,26 +20,22 @@ include($_SERVER['FILE_PREFIX'] . '/_core/preamble.php') ;
 var prefix = 'master' ;
 var main_column = columns_by_name['location'] ;
 var draw_option = 1 ;
-var type        = 'timeline' ;
 var mode        = 'timeline' ;
-<?php
-if(isset($_GET['type'])){
-  echo 'type = "' , $_GET['type'] , '" ;' , PHP_EOL ;
-  if($_GET['type']=='entry83'){
-    echo "prefix = 'entry83' ;"                         , PHP_EOL ;
-    echo "main_column = columns_by_name['entry83'] ;"   , PHP_EOL ;
-    echo "draw_option = 3 ;"                            , PHP_EOL ;
-  }
-  else if($_GET['type']=='items'){
-    echo "main_column = columns_by_name['character'] ;" , PHP_EOL ;
-    echo "draw_option = 2 ;"                            , PHP_EOL ;
-  }
-  else if($_GET['type']=='hotel'){
-    echo "prefix = 'hotel' ;"                           , PHP_EOL ;
-  }
-  else if($_GET['type']=='2006'){ 
-    echo "prefix = '2006' ;"                            , PHP_EOL ;
-  }
+var type = (getParameterByName('type')) ? getParameterByName('type') : 'timeline' ;
+if(type=='entry83'){
+  prefix = 'entry83' ;
+  main_column = columns_by_name['entry83'] ;
+  draw_option = 3 ;
+}
+else if(type=='items'){
+  main_column = columns_by_name['character'] ;
+  draw_option = 2 ;
+}
+else if(type=='hotel'){
+  prefix = 'hotel' ;
+}
+elise if(type=='2006'){
+  prefix = '2006' ;
 }
 ?>
 </script>
