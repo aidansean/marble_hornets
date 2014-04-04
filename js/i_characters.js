@@ -100,12 +100,13 @@ function resolve_connection_conflicts(c1, c2){
   }
 }
 
-function character_object(name,color,font_color,fate){
-  this.name  = name  ;
-  this.color = color ;
+function character_object(name,color,font_color,fate,category){
+  this.name       = name  ;
+  this.color      = color ;
   this.font_color = font_color ;
-  this.fate  = fate  ;
-  this.position = 0 ;
+  this.fate       = fate  ;
+  this.position   = 0 ;
+  this.category   = category ;
   this.scenes = new Array() ;
   
   this.parse_scenes = function(){
@@ -196,7 +197,7 @@ function character_object(name,color,font_color,fate){
     context.textBaseline = 'top' ;
     context.fillStyle = this.font_color ;
     context.font = character_font_size + 'pt ' + font_family ;
-    wrapText(this.name,x,y_text,w,line_height,true) ;
+    wrapText(this.name,x,y_text,w_box,line_height,true) ;
     context.textBaseline = 'top' ;
   }
   this.fade_out = function(type){
@@ -381,66 +382,75 @@ function check_line_collisions(x1,y1,x2,y2){
 
 var characters = new Array() ;
 // Holy Trinity
-characters.push( new character_object('Alex'     , '#0000ff', '#ffffff' , 'Extant' )) ;
-characters.push( new character_object('Jay'      , '#ff0000', '#ffffff' , 'Missing')) ;
-characters.push( new character_object('Tim'      , '#eeee00', '#000000' ,' Extant' )) ;
+characters.push( new character_object('Alex'     , '#0000ff', '#ffffff' , 'Extant' , 'primary')) ;
+characters.push( new character_object('Jay'      , '#ff0000', '#ffffff' , 'Missing', 'primary')) ;
+characters.push( new character_object('Tim'      , '#eeee00', '#000000' ,' Extant' , 'primary')) ;
 
 // Marble Hornets crew
-characters.push( new character_object('Brian'    , '#005500', '#ffffff' , 'Missing')) ;
-characters.push( new character_object('Seth'     , '#00aa00', '#ffffff' , 'Missing')) ;
-characters.push( new character_object('Sarah'    , '#00dd00', '#ffffff' , 'Missing')) ;
+characters.push( new character_object('Brian'    , '#005500', '#ffffff' , 'Missing', 'cast')) ;
+characters.push( new character_object('Seth'     , '#00aa00', '#ffffff' , 'Missing', 'cast')) ;
+characters.push( new character_object('Sarah'    , '#00dd00', '#ffffff' , 'Missing', 'cast')) ;
 
 // Other normal humans
-characters.push( new character_object('Amy'      , '#ff00ff', '#ffffff' , 'Missing')) ;
-characters.push( new character_object('Bruce'    , '#aa00aa', '#ffffff' , 'Dead'   )) ;
-characters.push( new character_object('Jessica'  , '#550055', '#ffffff' , 'Missing')) ;
+characters.push( new character_object('Amy'      , '#ff00ff', '#ffffff' , 'Missing', 'minor'    )) ;
+characters.push( new character_object('Bruce'    , '#aa00aa', '#ffffff' , 'Dead'   , 'minor'    )) ;
+characters.push( new character_object('Jessica'  , '#550055', '#ffffff' , 'Missing', 'secondary')) ;
 
 // Unknown quantities
-characters.push( new character_object('Masky'    , '#eeeeee', '#000000' , 'Extant' )) ;
-characters.push( new character_object('Hoody'    , '#888888', '#ffffff' , 'Missing')) ;
-characters.push( new character_object('totheark' , '#555555', '#ffffff' , 'Extant' )) ;
-characters.push( new character_object('operator' , '#000000', '#ffffff' , 'Extant' )) ;
-characters.push( new character_object('Unknown'  , '#00bbbb', '#ffffff' , 'Extant' )) ;
+characters.push( new character_object('Masky'    , '#eeeeee', '#000000' , 'Extant' , 'antagonist')) ;
+characters.push( new character_object('Hoody'    , '#888888', '#ffffff' , 'Missing', 'antagonist')) ;
+characters.push( new character_object('totheark' , '#555555', '#ffffff' , 'Extant' , 'antagonist')) ;
+characters.push( new character_object('operator' , '#000000', '#ffffff' , 'Extant' , 'antagonist')) ;
+characters.push( new character_object('Unknown'  , '#00bbbb', '#ffffff' , 'Extant' , 'minor'     )) ;
 
 // Items
 var items = new Array() ;
 
 // Cameras
-items.push(new character_object('AlexCam1', '#ffff00', '#000000' , 'Missing'  )) ;
-items.push(new character_object('AlexCam2', '#eeee00', '#000000' , 'Missing'  )) ;
-items.push(new character_object('JayCam1' , '#dddd00', '#000000' , 'Destroyed')) ;
-items.push(new character_object('JayCam2' , '#bbbb00', '#ffffff' , 'Jay'      )) ;
-items.push(new character_object('Chestcam', '#999900', '#ffffff' , 'Tim'      )) ;
-items.push(new character_object('HoodyCam', '#777700', '#ffffff' , 'Hoody'    )) ;
+items.push(new character_object('AlexCam1', '#ffff00', '#000000' , 'Missing'  , 'camera')) ;
+items.push(new character_object('AlexCam2', '#eeee00', '#000000' , 'Missing'  , 'camera')) ;
+items.push(new character_object('JayCam1' , '#dddd00', '#000000' , 'Destroyed', 'camera')) ;
+items.push(new character_object('JayCam2' , '#bbbb00', '#ffffff' , 'Tim'      , 'camera')) ;
+items.push(new character_object('Chestcam', '#999900', '#ffffff' , 'Destroyed', 'camera')) ;
+items.push(new character_object('HoodyCam', '#777700', '#ffffff' , 'Hoody'    , 'camera')) ;
 
 // Tapes
-items.push(new character_object('Alex\'s tapes'    , '#0000ff', '#ffffff' , 'Destroyed')) ;
-items.push(new character_object('Entry #51 tape'   , '#0000dd', '#ffffff' , 'Jay'      )) ;
-items.push(new character_object('Tim\'s tapes'     , '#0000bb', '#ffffff' , 'Jay'      )) ;
-items.push(new character_object('Static hole tapes', '#000099', '#ffffff' , 'Jay'      )) ;
-items.push(new character_object('Entry #26 tape'   , '#000077', '#ffffff' , 'Jay'      )) ;
-items.push(new character_object('Entry #22 tape'   , '#000055', '#ffffff' , 'Destroyed')) ;
-items.push(new character_object('Entry #76 tape'   , '#000055', '#ffffff' , 'Jay'      )) ;
-items.push(new character_object('Hoody tape'       , '#000033', '#ffffff' , 'Tim'      )) ;
+items.push(new character_object('Alex\'s tapes'    , '#0000ff', '#ffffff' , 'Destroyed', 'tape')) ;
+items.push(new character_object('Entry #51 tape'   , '#0000dd', '#ffffff' , 'Jay'      , 'tape')) ;
+items.push(new character_object('Tim\'s tapes'     , '#0000bb', '#ffffff' , 'Jay'      , 'tape')) ;
+items.push(new character_object('Static hole tapes', '#000099', '#ffffff' , 'Jay'      , 'tape')) ;
+items.push(new character_object('Entry #26 tape'   , '#000077', '#ffffff' , 'Jay'      , 'tape')) ;
+items.push(new character_object('Entry #22 tape'   , '#000055', '#ffffff' , 'Destroyed', 'tape')) ;
+items.push(new character_object('Entry #76 tape'   , '#000055', '#ffffff' , 'Jay'      , 'tape')) ;
+items.push(new character_object('Hoody tape'       , '#000033', '#ffffff' , 'Tim'      , 'tape')) ;
 
 // Accounts
-items.push(new character_object('marblehornets youtube', '#ffffff', '#000000' , 'Jay')) ;
-items.push(new character_object('marblehornets twitter', '#000000', '#ffffff' , 'Jay')) ;
+items.push(new character_object('marblehornets youtube', '#ffffff', '#000000' , 'Jay', 'account')) ;
+items.push(new character_object('marblehornets twitter', '#000000', '#ffffff' , 'Jay', 'account')) ;
 
 // Weapons
-items.push(new character_object('Bullet casing', '#ff0000', '#ffffff' , 'missing')) ;
-items.push(new character_object('Knife'        , '#cc0000', '#ffffff' , 'Jay'    )) ;
-items.push(new character_object('Gun'          , '#aa0000', '#ffffff' , 'Hoody'  )) ;
+items.push(new character_object('Bullet casing', '#ff0000', '#ffffff' , 'missing', 'weapon')) ;
+items.push(new character_object('Knife'        , '#cc0000', '#ffffff' , 'Jay'    , 'weapon')) ;
+items.push(new character_object('Gun'          , '#aa0000', '#ffffff' , 'Hoody'  , 'weapon')) ;
 
 // Other
-items.push(new character_object('Alex\'s sketches'    , '#00ff00', '#000000' , 'Destroyed')) ;
-items.push(new character_object('Tim\'s medical notes', '#00cc00', '#000000' , 'Tim'      )) ;
-items.push(new character_object('Tim\'s pills'        , '#00aa00', '#ffffff' , 'Tim'      )) ;
-items.push(new character_object('Alex\'s key'         , '#009900', '#ffffff' , 'Jay'      )) ;
-items.push(new character_object('Rocky (Alex\'s dog)' , '#00aa00', '#ffffff' , 'Missing'  )) ;
-items.push(new character_object('Doll'                , '#007700', '#ffffff' , 'Jay'      )) ;
-items.push(new character_object('Amy photo'           , '#005500', '#ffffff' , 'Tim'      )) ;
+items.push(new character_object('Alex\'s sketches'    , '#00ff00', '#000000' , 'Destroyed', 'other')) ;
+items.push(new character_object('Tim\'s medical notes', '#00cc00', '#000000' , 'Tim'      , 'other')) ;
+items.push(new character_object('Tim\'s pills'        , '#00aa00', '#ffffff' , 'Tim'      , 'other')) ;
+items.push(new character_object('Alex\'s key'         , '#009900', '#ffffff' , 'Jay'      , 'other')) ;
+items.push(new character_object('Rocky (Alex\'s dog)' , '#00aa00', '#ffffff' , 'Missing'  , 'other')) ;
+items.push(new character_object('Doll'                , '#007700', '#ffffff' , 'Jay'      , 'other')) ;
+items.push(new character_object('Amy photo'           , '#005500', '#ffffff' , 'Tim'      , 'other')) ;
 
+if(filter_categories.length>0){
+  for(var i=0 ; i<filter_categories.length ; i++){
+    for(var j=0 ; j<items.length ; j++){
+      if(filter_categories[i]==items[j].category){
+        filter_items.push(items[j].name) ;
+      }
+    }
+  }
+}
 if(filter_items.length>0){
   var items_out = [] ;
   for(var i=0 ; i<filter_items.length ; i++){

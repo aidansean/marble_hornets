@@ -3478,7 +3478,7 @@
     <scene_list>
       <scene
         date="2012/08/09"
-        time="12:00"
+        time="11:00"
         cameraperson="Jay"
         tape_tag="6"
         place="Jay's car, Woods in Rosswood"
@@ -3512,7 +3512,7 @@
       </scene>
       <scene
         date="2012/08/10"
-        time="12:00"
+        time="13:00"
         cameraperson="Jay"
         tape_tag="6"
         place="Rosswood Park"
@@ -4449,7 +4449,7 @@
       <scene
         date="2011/01/12"
         time="21:00"
-        cameraperson="Tim"
+        cameraperson="Hoody"
         tape_tag="11"
         place="The hotel"
         description="Masky takes Jessica from the hotel and gives her to Hoody."
@@ -4466,7 +4466,7 @@
       <scene
         date="2011/01/12"
         time="22:00"
-        cameraperson="Tim"
+        cameraperson="Jessica"
         tape_tag="11"
         place="Rosswood woods"
         description="Hoody takes Jessica to the woods and she wakes up.  Alex is searching with a flashlight, and finds them.  Alex threatens Hoody with the gun, Hoody flees.  Alex convinces Jessica to go with him to the tunnel, where tries to shoot her.  She dazzles him with the gun and attacks him, then Hoody turns up and tackles Alex.  Jessica flees and encounters the operator."
@@ -4487,7 +4487,7 @@
       <scene
         date="2011/01/13"
         time="07:00"
-        cameraperson="Jay"
+        cameraperson=""
         tape_tag="11"
         place="Rosswood Park"
         description="Alex takes the gun from Jessica's body.  The operator teleports Jessica away.  Tim wakes up wearing the mask."
@@ -4592,7 +4592,7 @@
     channel="marblehornets"
     wikidot="entry-78"
     unfiction="?t=39009"
-    player_summary="Hoody comes to Tim\\\'s house and frees Jay from his bonds.  Jay leaves to go to the address."
+    player_summary="Hoody comes to Tim's house and frees Jay from his bonds.  Jay leaves to go to the address."
     duration="2:46"
     youtube_id="m-_IJR_x4Vw">
     <scene_list>
@@ -4747,7 +4747,6 @@
         </character_list>
         <item_list>
           <item name="Gun"></item>
-          <item name="JayCam2"></item>
         </item_list>
       </scene>
       <scene
@@ -4764,7 +4763,9 @@
           <character name="Hoody"></character>
           <character name="Tim"></character>
         </character_list>
-        <item_list></item_list>
+        <item_list>
+          <item name="JayCam2"></item>
+        </item_list>
       </scene>
     </scene_list>
   </video>
@@ -4987,6 +4988,7 @@
         video_title="Entry #83 (M3)">
         <character_list>
           <character name="Tim"></character>
+          <character name="Brian"></character>
           <character name="Hoody"></character>
           <character name="operator"></character>
         </character_list>
@@ -4994,6 +4996,90 @@
           <item name="Tim's pills"></item>
           <item name="Hoody tape"></item>
         </item_list>
+      </scene>
+    </scene_list>
+  </video>
+  
+  <video
+    title="Entry #84"
+    season="3"
+    channel="marblehornets"
+    wikidot="entry-84"
+    unfiction="?t=39884"
+    player_summary="The chestcam stops working so Tim starts using Jay's camera.  He returns to his house to find it as Jay left it.  Alex films a residential area at night, where the operator shows up."
+    duration="9:41"
+    youtube_id="-Ru39FMzIvs">
+    <scene_list>
+      <scene
+        date="2014/04/02"
+        time="12:00"
+        cameraperson="Tim"
+        tape_tag="0"
+        place="Tim's car"
+        description="Tim is driving in his car.  The chestcam malfunctions and stops working."
+        location="R"
+        video_still_id="0"
+        video_title="Entry #84 (M3)">
+        <character_list>
+          <character name="Tim"></character>
+        </character_list>
+        <item_list>
+          <item name="Chestcam"></item>
+        </item_list>
+      </scene>
+      <scene
+        date="2014/04/02"
+        time="14:00"
+        cameraperson="Tim"
+        tape_tag="0"
+        place="Tim's house"
+        description="Tim returns to his house to find it as Jay left it (knife and zip ties on the floor).  He takes Hoody's tape and plays it with Jay's camera."
+        location="R"
+        video_still_id="0"
+        video_title="Entry #84 (M3)">
+        <character_list>
+          <character name="Tim"></character>
+        </character_list>
+        <item_list>
+          <item name="JayCam2"></item>
+          <item name="Hoody tape"></item>
+        </item_list>
+      </scene>
+      <scene
+        date="2006/05/01"
+        time="16:00"
+        cameraperson="Alex"
+        tape_tag="0"
+        place="Jay's College"
+        description="Alex is holding auditions.  Brian and Tim arrive and try out.  Brian is wearing the hooded top."
+        location="C"
+        video_still_id="1"
+        video_title="Entry #84 (M3)">
+        <character_list>
+          <character name="Alex"></character>
+          <character name="Brian"></character>
+          <character name="Tim"></character>
+        </character_list>
+        <item_list>
+          <item name="AlexCam1"></item>
+          <item name="Hoody tape"></item>
+        </item_list>
+      </scene>
+      <scene
+        date="2006/05/01"
+        time="22:00"
+        cameraperson="Alex"
+        tape_tag="0"
+        place="Residential area"
+        description="Alex films a residential area.  The operator shows up and Alex notices distortion."
+        location="C"
+        video_still_id="2"
+        video_title="Entry #84 (M3)">
+        <character_list>
+          <character name="Alex"></character>
+          <character name="operator"></character>
+        </character_list>
+        <item_list></item_list>
       </scene>
     </scene_list>
   </video>

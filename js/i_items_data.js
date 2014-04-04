@@ -107,14 +107,15 @@ function update_item_info(){
   update_item_details('Entry #75 scene 2', 'T', 'Tim takes the Amy photo and the entry #73 tape') ;
   update_item_details('Entry #75 scene 3', 'J', 'Jay takes the entry #73 tape from Tim') ;
   update_item_details('Entry #76 scene 2', 'U','Jessica takes the camera from Hoody and the gun from Alex') ;
+  update_item_details('Entry #54 scene 2', 'J', 'Tim gives his tapes to Jay') ;
 
   // Cameras and hard drive
   update_item_details('Entry #54 scene 1', 'T', 'Tim records some behind the scenes footage on Alex\'s second camera') ;
-  update_item_details('Entry #54 scene 2', 'J', 'Tim gives his tapes to Jay') ;
   update_item_details('Entry #57 scene 2', 'U', 'Tim records some footage at the hospital on Alex\'s second camera.  It is unclear what happens to the camera after this.') ;
 
   update_item_details('Entry #41 scene 1', 'H', 'Hoody returns Jay\'s camera to his car') ;
 
+  update_item_details('Entry #84 scene 3', 'A', 'Alex is seen using his main camera for the first time') ;
   update_item_details('Entry #42 scene 1', 'A', 'Alex is seen using the chestcam for the first time') ;
   update_item_details('Entry #42 scene 2', 'J', 'Jay\'s camera is returned to him') ;
   update_item_details('Entry #52 scene 3', 'J', 'Jay takes the hard drive and chestcam') ;
@@ -136,6 +137,9 @@ function update_item_info(){
   update_item_details('Entry #77 scene 2', 'T','Tim takes Jay\'s camera and knife') ;
   update_item_details('Entry #78 scene 1', 'J', 'Hoody returns Jay\'s camera') ;
   update_item_details('Entry #80 scene 3', 'T', 'Tim takes Jay\'s camera') ;
+  
+  update_item_details('Entry #84 scene 1', 'T', 'The chestcam stops working') ;
+  update_item_details('Entry #84 scene 2', 'T', 'Tim starts using Jay\'s camera') ;
 
   // Hijacking of accounts
   update_item_details('Entry ###### scene 1', 'U', 'Jay loses control of the Marble Hornets youtube account'  ) ;

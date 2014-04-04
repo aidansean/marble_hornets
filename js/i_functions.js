@@ -86,7 +86,11 @@ function wrapText(text,x,y_in,maxWidth,lineHeight,draw){
 
 var filter_items = [] ;
 var filter_items_from_URL = getParameterByName('items') ;
-if(filter_items_from_URL) filter_items = filter_items_from_URL.split(';') ;
+if(filter_items_from_URL) filter_items = filter_items_from_URL.split(',') ;
+
+var filter_categories = [] ;
+var filter_categories_from_URL = getParameterByName('categories') ;
+if(filter_categories_from_URL) filter_categories = filter_categories_from_URL.split(',') ;
 
 function start(){
   if(type=='items'){
