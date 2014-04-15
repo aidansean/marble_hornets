@@ -3,7 +3,7 @@ $title   = 'Marble Hornets' ;
 $tagline = '"The following clips are raw footage excerpts from Alex Kralie."' ;
 $favicon = 'icon.png' ;
 $stylesheets = array('css/style.css') ;
-$js_scripts  = array('js/p_functions.js' , 'js/scenes_data.js' , 'js/xml.js', 'js/scenes.js') ;
+$js_scripts  = array('js/scenes_data.js' , 'js/xml.js', 'js/scenes.js' , 'js/p_functions.js') ;
 include($_SERVER['FILE_PREFIX'] . '/_core/preamble.php') ; ?>
 <script>
 var prefix = 'master' ;

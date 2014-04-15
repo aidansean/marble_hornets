@@ -53,7 +53,9 @@
         description="Jay introduces his youtube channel."
         location="C"
         video_still_id="2"
-        video_title="Introduction (M1)">
+        video_title="Introduction (M1)"
+        start_time="0:09"
+        end_time="1:28">
         <character_list></character_list>
         <item_list></item_list>
       </scene>
@@ -79,7 +81,9 @@
         description="Alex sees the operator outside his house."
         location="C"
         video_still_id="3"
-        video_title="Entry #1 (M1)">
+        video_title="Entry #1 (M1)"
+        start_time="0:21"
+        end_time="0:36">
         <character_list>
           <character name="Alex"></character>
           <character name="operator"></character>
@@ -110,7 +114,9 @@
         description="Alex talks about the operator as he drives."
         location="C"
         video_still_id="1"
-        video_title="Entry #2 (M1)">
+        video_title="Entry #2 (M1)"
+        start_time="0:13"
+        end_time="1:23">
         <character_list>
           <character name="Alex"></character>
         </character_list>
@@ -140,7 +146,9 @@
         description="Alex obsessively films himself."
         location="C"
         video_still_id="2"
-        video_title="Entry #3 (M1)">
+        video_title="Entry #3 (M1)"
+        start_time="0:21"
+        end_time="2:08">
         <character_list>
           <character name="Alex"></character>
         </character_list>
@@ -168,7 +176,9 @@
         description="Alex chases the operator around the playground."
         location="C"
         video_still_id="1"
-        video_title="Entry #4 (M1)">
+        video_title="Entry #4 (M1)"
+        start_time="0:08"
+        end_time="0:36">
         <character_list>
           <character name="Alex"></character>
           <character name="operator"></character>
@@ -197,7 +207,9 @@
         description="Alex and Jay go location scouting at the gazebo."
         location="C"
         video_still_id="1"
-        video_title="Entry #5 (M1)">
+        video_title="Entry #5 (M1)"
+        start_time="0:20"
+        end_time="1:38">
         <character_list>
           <character name="Alex"></character>
           <character name="Jay"></character>
@@ -213,7 +225,9 @@
         description="Alex and Jay go location scouting at the red tower."
         location="C"
         video_still_id="3"
-        video_title="Entry #5 (M1)">
+        video_title="Entry #5 (M1)"
+        start_time="1:38"
+        end_time="3:00">
         <character_list>
           <character name="Alex"></character>
           <character name="Jay"></character>
@@ -242,7 +256,9 @@
         description="Alex films the operator outside his house."
         location="C"
         video_still_id="2"
-        video_title="Entry #6 (M1)">
+        video_title="Entry #6 (M1)"
+        start_time="0:19"
+        end_time="0:43">
         <character_list>
           <character name="Alex"></character>
           <character name="operator"></character>
@@ -271,7 +287,9 @@
         description="Alex and Brian practice lines, and the operator turns up."
         location="C"
         video_still_id="2"
-        video_title="Entry #7 (M1)">
+        video_title="Entry #7 (M1)"
+        start_time="0:20"
+        end_time="1:50">
         <character_list>
           <character name="Alex"></character>
           <character name="Brian"></character>
@@ -301,7 +319,9 @@
         description="Alex draws on paper."
         location="C"
         video_still_id="2"
-        video_title="Entry #8 (M1)">
+        video_title="Entry #8 (M1)"
+        start_time="0:09"
+        end_time="0:26">
         <character_list>
           <character name="Alex"></character>
         </character_list>
@@ -331,7 +351,9 @@
         description="The crew film a scene for Marble Hornets."
         location="C"
         video_still_id="2"
-        video_title="Entry #9 (M1)">
+        video_title="Entry #9 (M1)"
+        start_time="0:13"
+        end_time="3:19">
         <character_list>
           <character name="Alex"></character>
           <character name="Sarah"></character>
@@ -362,7 +384,9 @@
         description="totheark leaves a cryptic message."
         location="E"
         video_still_id="2"
-        video_title="regards (T1)">
+        video_title="regards (T1)"
+        start_time="0:00"
+        end_time="0:10">
         <character_list>
           <character name="totheark"></character>
         </character_list>
@@ -390,7 +414,9 @@
         description="Alex runs from the operator."
         location="C"
         video_still_id="1"
-        video_title="Entry #10 (M1)">
+        video_title="Entry #10 (M1)"
+        start_time="0:13"
+        end_time="1:31">
         <character_list>
           <character name="Alex"></character>
           <character name="operator"></character>
@@ -419,7 +445,9 @@
         description="totheark leaves another cryptic message."
         location="E"
         video_still_id="1"
-        video_title="operator (T1)">
+        video_title="operator (T1)"
+        start_time="0:00"
+        end_time="0:22">
         <character_list>
           <character name="totheark"></character>
         </character_list>
@@ -447,7 +475,9 @@
         description="Alex gets a visit from the operator."
         location="C"
         video_still_id="1"
-        video_title="Entry #11 (M1)">
+        video_title="Entry #11 (M1)"
+        start_time="0:11"
+        end_time="1:50">
         <character_list>
           <character name="Alex"></character>
           <character name="operator"></character>
@@ -478,7 +508,9 @@
         description="totheark leaves another cryptic message."
         location="E"
         video_still_id="1"
-        video_title="Deluge (T1)">
+        video_title="Deluge (T1)"
+        start_time="0:00"
+        end_time="0:15">
         <character_list>
           <character name="totheark"></character>
         </character_list>
@@ -506,7 +538,9 @@
         description="The crew film a scene and the operator watches."
         location="C"
         video_still_id="3"
-        video_title="Entry #12 (M1)">
+        video_title="Entry #12 (M1)"
+        start_time="0:08"
+        end_time="0:58">
         <character_list>
           <character name="Alex"></character>
           <character name="Brian"></character>
@@ -538,7 +572,9 @@
         description="totheark films a storm."
         location="C"
         video_still_id="2"
-        video_title="Impurity (T1)">
+        video_title="Impurity (T1)"
+        start_time="0:00"
+        end_time="0:34">
         <character_list>
           <character name="totheark"></character>
         </character_list>
@@ -566,7 +602,9 @@
         description="Alex and Jay are filming for Marble Hornets.  Jay goes to the car to get another battery, while Alex sees the operator."
         location="C"
         video_still_id="3"
-        video_title="Entry #13 (M1)">
+        video_title="Entry #13 (M1)"
+        start_time="0:05"
+        end_time="1:27">
         <character_list>
           <character name="Alex"></character>
           <character name="Jay"></character>
@@ -596,7 +634,9 @@
         description="totheark films Jay as he goes to the car."
         location="C"
         video_still_id="2"
-        video_title="Exit (T1)">
+        video_title="Exit (T1)"
+        start_time="0:08"
+        end_time="1:06">
         <character_list>
           <character name="Jay"></character>
           <character name="totheark"></character>
@@ -625,7 +665,9 @@
         description="The operator pays Alex a visit in his room."
         location="C"
         video_still_id="2"
-        video_title="Entry #14 (M1)">
+        video_title="Entry #14 (M1)"
+        start_time="0:05"
+        end_time="1:49">
         <character_list>
           <character name="Alex"></character>
           <character name="operator"></character>
@@ -654,7 +696,9 @@
         description="totheark leaves another cryptic message."
         location="C"
         video_still_id="1"
-        video_title="Program (T1)">
+        video_title="Program (T1)"
+        start_time="0:00"
+        end_time="0:18">
         <character_list>
           <character name="totheark"></character>
         </character_list>
@@ -679,10 +723,12 @@
         cameraperson="Jay"
         tape_tag="6"
         place="Jay's college"
-        description="Jay interviews TIm about Marble Hornets."
+        description="Jay interviews Tim about Marble Hornets."
         location="C"
         video_still_id="2"
-        video_title="Entry #15 (M1)">
+        video_title="Entry #15 (M1)"
+        start_time="0:18"
+        end_time="5:00">
         <character_list>
           <character name="Jay"></character>
           <character name="Tim"></character>
@@ -713,7 +759,9 @@
         description="totheark recycles some old footage."
         location="E"
         video_still_id="2"
-        video_title="Advocate (T1)">
+        video_title="Advocate (T1)"
+        start_time="0:00"
+        end_time="0:22">
         <character_list>
           <character name="totheark"></character>
         </character_list>
@@ -741,7 +789,9 @@
         description="Jay explores Brian's old house at night."
         location="C"
         video_still_id="1"
-        video_title="Entry #16 (M1)">
+        video_title="Entry #16 (M1)"
+        start_time="0:08"
+        end_time="7:40">
         <character_list>
           <character name="Jay"></character>
           <character name="operator"></character>
@@ -774,7 +824,9 @@
         description="totheark films Jay."
         location="C"
         video_still_id="2"
-        video_title="Addition (T1)">
+        video_title="Addition (T1)"
+        start_time="0:00"
+        end_time="0:16">
         <character_list>
           <character name="Jay"></character>
           <character name="totheark"></character>
@@ -803,7 +855,9 @@
         description="The crew rehearse for a scene and the operator watches."
         location="C"
         video_still_id="1"
-        video_title="Entry #17 (M1)">
+        video_title="Entry #17 (M1)"
+        start_time="0:09"
+        end_time="1:24">
         <character_list>
           <character name="Alex"></character>
           <character name="Jay"></character>
@@ -822,7 +876,7 @@
     wikidot="signal"
     unfiction="?t=28667"
     player_summary="A message from totheark using old movie footage."
-    duration="0:31"
+    duration="0:30"
     youtube_id="qw78k0dldHI">
     <scene_list>
       <scene
@@ -834,7 +888,9 @@
         description="totheark replays an old movie."
         location="E"
         video_still_id="2"
-        video_title="Signal (T1)">
+        video_title="Signal (T1)"
+        start_time="0:00"
+        end_time="0:30">
         <character_list>
           <character name="totheark"></character>
         </character_list>
@@ -862,7 +918,9 @@
         description="Jay returns to Brian's old house and is attacked by Masky.  The operator may have been present."
         location="C"
         video_still_id="2"
-        video_title="Entry #18 (M1)">
+        video_title="Entry #18 (M1)"
+        start_time="0:09"
+        end_time="2:40">
         <character_list>
           <character name="Jay"></character>
           <character name="Masky"></character>
@@ -882,9 +940,41 @@
         description="Jay wakes up in his car after visiting Brian's house."
         location="C"
         video_still_id="3"
-        video_title="Entry #18 (M1)">
+        video_title="Entry #18 (M1)"
+        start_time="2:46"
+        end_time="3:07">
         <character_list>
           <character name="Jay"></character>
+        </character_list>
+        <item_list></item_list>
+      </scene>
+    </scene_list>
+  </video>
+  
+  <video
+    title="Messages"
+    season="1"
+    channel="totheark"
+    wikidot="messages"
+    unfiction="?t="
+    player_summary="'Tell us.  You have been keeping secrets.  Smile for the camera.'"
+    duration="0:26"
+    youtube_id="-VK-JaLhFIM">
+    <scene_list>
+      <scene
+        date="2009/11/21"
+        time="12:00"
+        cameraperson="totheark"
+        tape_tag="10"
+        place="Nowhere"
+        description="totheark replays an old movie."
+        location="E"
+        video_still_id="2"
+        video_title="Messages (T1)"
+        start_time="0:00"
+        end_time="0:26">
+        <character_list>
+          <character name="totheark"></character>
         </character_list>
         <item_list></item_list>
       </scene>
@@ -910,7 +1000,9 @@
         description="Jay goes to sleep and Masky shows up by his bedside.  Jay and Maskt leave the room."
         location="C"
         video_still_id="2"
-        video_title="Entry #19 (M1)">
+        video_title="Entry #19 (M1)"
+        start_time="0:46"
+        end_time="1:47">
         <character_list>
           <character name="Jay"></character>
           <character name="Masky"></character>
@@ -920,34 +1012,6 @@
           <item name="Bullet casing"></item>
           <item name="Tim's pills"></item>
         </item_list>
-      </scene>
-    </scene_list>
-  </video>
-
-  <video
-    title="Messages"
-    season="1"
-    channel="totheark"
-    wikidot="messages"
-    unfiction="?t="
-    player_summary="'Tell us.  You have been keeping secrets.  Smile for the camera.'"
-    duration="0:26"
-    youtube_id="-VK-JaLhFIM">
-    <scene_list>
-      <scene
-        date="2009/11/21"
-        time="12:00"
-        cameraperson="totheark"
-        tape_tag="10"
-        place="Nowhere"
-        description="totheark replays an old movie."
-        location="E"
-        video_still_id="2"
-        video_title="Messages (T1)">
-        <character_list>
-          <character name="totheark"></character>
-        </character_list>
-        <item_list></item_list>
       </scene>
     </scene_list>
   </video>
@@ -971,7 +1035,9 @@
         description="Jay is prostrate on the floor as the operator walks past."
         location="C"
         video_still_id="2"
-        video_title="Return (T1)">
+        video_title="Return (T1)"
+        start_time="0:00"
+        end_time="0:11">
         <character_list>
           <character name="Jay"></character>
           <character name="operator"></character>
@@ -1001,7 +1067,9 @@
         description="Jay goes through the objects he took from the house in Entry #16."
         location="C"
         video_still_id="2"
-        video_title="Entry #19.5 (M1)">
+        video_title="Entry #19.5 (M1)"
+        start_time="0:20"
+        end_time="2:40">
         <character_list>
           <character name="Jay"></character>
         </character_list>
@@ -1029,7 +1097,9 @@
         description="The crew are preparing for a scene.  Tim arrives, feeling ill."
         location="C"
         video_still_id="2"
-        video_title="Entry #20 (M1)">
+        video_title="Entry #20 (M1)"
+        start_time="0:22"
+        end_time="2:35">
         <character_list>
           <character name="Alex"></character>
           <character name="Jay"></character>
@@ -1062,7 +1132,9 @@
         description="totheark shows recycled footage of the tower."
         location="E"
         video_still_id="2"
-        video_title="Version (T1)">
+        video_title="Version (T1)"
+        start_time="0:00"
+        end_time="0:10">
         <character_list>
           <character name="totheark"></character>
         </character_list>
@@ -1090,7 +1162,9 @@
         description="Jay returns to the Red Tower to find the tape containing Entry #22."
         location="C"
         video_still_id="2"
-        video_title="Entry #21 (M1)">
+        video_title="Entry #21 (M1)"
+        start_time="0:09"
+        end_time="5:15">
         <character_list>
           <character name="Jay"></character>
         </character_list>
@@ -1120,7 +1194,9 @@
         description="Alex and Seth explore the Basement.  Seth gets attacked."
         location="E"
         video_still_id="2"
-        video_title="Entry #22 (M1)">
+        video_title="Entry #22 (M1)"
+        start_time="0:08"
+        end_time="5:18">
         <character_list>
           <character name="Alex"></character>
           <character name="Seth"></character>
@@ -1138,7 +1214,9 @@
         description="Alex confesses to the camera and plans to move away from the area.  He says he is going to burn the tapes."
         location="C"
         video_still_id="3"
-        video_title="Entry #22 (M1)">
+        video_title="Entry #22 (M1)"
+        start_time="5:20"
+        end_time="6:43">
         <character_list>
           <character name="Alex"></character>
         </character_list>
@@ -1166,7 +1244,9 @@
         description="totheark asks Jay to return, using old movie footage"
         location="E"
         video_still_id="2"
-        video_title="Attention (T1)">
+        video_title="Attention (T1)"
+        start_time="0:00"
+        end_time="0:14">
         <character_list>
           <character name="totheark"></character>
         </character_list>
@@ -1194,7 +1274,9 @@
         description="totheark shows the operator in Brian's house."
         location="C"
         video_still_id="2"
-        video_title="Admission (T1)">
+        video_title="Admission (T1)"
+        start_time="0:00"
+        end_time="0:43">
         <character_list>
           <character name="operator"></character>
           <character name="totheark"></character>
@@ -1223,7 +1305,9 @@
         description="Jay returns to Brian's house and is transported to the Basement."
         location="C"
         video_still_id="1"
-        video_title="Entry #23 (M1)">
+        video_title="Entry #23 (M1)"
+        start_time="0:12"
+        end_time="4:08">
         <character_list>
           <character name="Jay"></character>
           <character name="Masky"></character>
@@ -1242,7 +1326,9 @@
         description="Jay is in the basement and encounters the operator."
         location="E"
         video_still_id="2"
-        video_title="Entry #23 (M1)">
+        video_title="Entry #23 (M1)"
+        start_time="4:08"
+        end_time="7:03">
         <character_list>
           <character name="Jay"></character>
           <character name="operator"></character>
@@ -1258,7 +1344,9 @@
         description="Jay wakes up in his house with a faulty camera."
         location="C"
         video_still_id="3"
-        video_title="Entry #23 (M1)">
+        video_title="Entry #23 (M1)"
+        start_time="7:03"
+        end_time="7:03">
         <character_list>
           <character name="Jay"></character>
           <character name="operator"></character>
@@ -1289,7 +1377,9 @@
         description="totheark gives yet another cryptic message."
         location="E"
         video_still_id="2"
-        video_title="Warning (T1)">
+        video_title="Warning (T1)"
+        start_time="0:00"
+        end_time="0:43">
         <character_list>
           <character name="Masky"></character>
           <character name="totheark"></character>
@@ -1318,7 +1408,9 @@
         description="Jay is transported from his own house."
         location="C"
         video_still_id="2"
-        video_title="Entry #24 (M1)">
+        video_title="Entry #24 (M1)"
+        start_time="0:10"
+        end_time="2:35">
         <character_list>
           <character name="Jay"></character>
         </character_list>
@@ -1348,7 +1440,9 @@
         description="'We will wait for you no more.  Control is being taken away from you.'"
         location="E"
         video_still_id="2"
-        video_title="Entry ###### (M1)">
+        video_title="Entry ###### (M1)"
+        start_time="0:00"
+        end_time="0:27">
         <character_list>
           <character name="Masky"></character>
           <character name="totheark"></character>
@@ -1379,7 +1473,9 @@
         description="Jay watches a news report of his apartment burning."
         location="E"
         video_still_id="2"
-        video_title="Entry #25 (M1)">
+        video_title="Entry #25 (M1)"
+        start_time="0:21"
+        end_time="1:42">
         <character_list>
           <character name="Jay"></character>
         </character_list>
@@ -1403,13 +1499,31 @@
       <scene
         date="2010/04/04"
         time="11:00"
+        cameraperson="Unknown"
+        tape_tag="0"
+        place="Various places"
+        description="Misc footage from Alex's old camera."
+        location="E"
+        video_still_id="1"
+        video_title="Entry #26 (M1)"
+        start_time="2:27"
+        end_time="2:43">
+        <character_list>
+          <character name="Alex"></character>
+        </character_list>
+      </scene>
+      <scene
+        date="2010/04/04"
+        time="11:00"
         cameraperson="Amy"
         tape_tag="0"
         place="Amy's apartment"
         description="Amy discovers Alex's old camera and the operator appears."
         location="R"
         video_still_id="3"
-        video_title="Entry #26 (M1)">
+        video_title="Entry #26 (M1)"
+        start_time="2:44"
+        end_time="4:34">
         <character_list>
           <character name="Alex"></character>
           <character name="Amy"></character>
@@ -1429,7 +1543,9 @@
         description="Jay announces he's ending the investigation (for real this time)."
         location="E"
         video_still_id="1"
-        video_title="Entry #26 (M1)">
+        video_title="Entry #26 (M1)"
+        start_time="0:01"
+        end_time="0:52">
         <character_list>
           <character name="Jay"></character>
         </character_list>
@@ -1444,7 +1560,9 @@
         description="Jay receives the tape for Entry #26 in a package."
         location="E"
         video_still_id="2"
-        video_title="Entry #26 (M1)">
+        video_title="Entry #26 (M1)"
+        start_time="1:34"
+        end_time="2:10">
         <character_list>
           <character name="Jay"></character>
         </character_list>
@@ -1474,7 +1592,9 @@
         description="Jay wakes up to find himself in a strange hotel room."
         location="R"
         video_still_id="2"
-        video_title="Entry #27 (M2)">
+        video_title="Entry #27 (M2)"
+        start_time="0:05"
+        end_time="6:12">
         <character_list>
           <character name="Jay"></character>
         </character_list>
@@ -1504,7 +1624,9 @@
         description="Jay takes stock of his situation in the Hotel.  He finds his bag and a locked safe."
         location="R"
         video_still_id="2"
-        video_title="Entry #28 (M2)">
+        video_title="Entry #28 (M2)"
+        start_time="0:15"
+        end_time="2:26">
         <character_list>
           <character name="Jay"></character>
         </character_list>
@@ -1519,7 +1641,27 @@
         description="Jay meets Jessica."
         location="R"
         video_still_id="3"
-        video_title="Entry #28 (M2)">
+        video_title="Entry #28 (M2)"
+        start_time="2:35"
+        end_time="3:54">
+        <character_list>
+          <character name="Jay"></character>
+          <character name="Jessica"></character>
+        </character_list>
+        <item_list></item_list>
+      </scene>
+      <scene
+        date="2010/12/02"
+        time="22:00"
+        cameraperson="Jay"
+        tape_tag="6"
+        place="The Hotel"
+        description="Jay hears noises coming from Jessica's room at night."
+        location="R"
+        video_still_id="3"
+        video_title="Entry #28 (M2)"
+        start_time="4:13"
+        end_time="4:42">
         <character_list>
           <character name="Jay"></character>
           <character name="Jessica"></character>
@@ -1545,10 +1687,12 @@
         cameraperson="Alex(?)"
         tape_tag="3"
         place="The Tunnel"
-        description="Controversial interpretation: Alex goes back to the Tunnel to find evidence of the murder of Bruce."
+        description="Alex goes back to the Tunnel to find evidence of the murder of Bruce."
         location="R"
         video_still_id="2"
-        video_title="Entry #29 (M2)">
+        video_title="Entry #29 (M2)"
+        start_time="0:25"
+        end_time="0:59">
         <character_list>
           <character name="Alex"></character>
           <character name="operator"></character>
@@ -1577,9 +1721,12 @@
         description="Jay talks to Jessica and they ask each other why they are at the hotel.  Jessica seems to have memory loss."
         location="R"
         video_still_id="1"
-        video_title="Entry #30 (M2)">
+        video_title="Entry #30 (M2)"
+        start_time="0:14"
+        end_time="1:25">
         <character_list>
           <character name="Jay"></character>
+          <character name="Jessica"></character>
         </character_list>
         <item_list></item_list>
       </scene>
@@ -1589,26 +1736,12 @@
         cameraperson="Jay"
         tape_tag="6"
         place="Hotel room"
-        description="Jay hears noises coming from Jessica's room at night."
-        location="R"
-        video_still_id="2"
-        video_title="Entry #30 (M2)">
-        <character_list>
-          <character name="Jay"></character>
-          <character name="Jessica"></character>
-        </character_list>
-        <item_list></item_list>
-      </scene>
-      <scene
-        date="2010/12/22"
-        time="12:00"
-        cameraperson="Jay"
-        tape_tag="6"
-        place="Hotel room"
-        description="  Jay asks Jessica about the noises and she is reluctant to talk about it."
+        description="Jay hears noises coming from Jessica's room at night.  Jay asks Jessica about the noises and she is reluctant to talk about it."
         location="R"
         video_still_id="3"
-        video_title="Entry #30 (M2)">
+        video_title="Entry #30 (M2)"
+        start_time="1:36"
+        end_time="3:10">
         <character_list>
           <character name="Jay"></character>
           <character name="Jessica"></character>
@@ -1637,7 +1770,9 @@
         description="Jay explores Rosswood, looking for the setting of Entry #29, and he comes across Rosswood Park."
         location="R"
         video_still_id="2"
-        video_title="Entry #31 (M2)">
+        video_title="Entry #31 (M2)"
+        start_time="0:26"
+        end_time="5:07">
         <character_list>
           <character name="Jay"></character>
           <character name="tothepark"></character>
@@ -1653,7 +1788,9 @@
         description="Jay asks Jessica about Rosswood Park and gets caught lying.  Both Jessica and Jay are suffering from memory loss."
         location="R"
         video_still_id="2"
-        video_title="Entry #31 (M2)">
+        video_title="Entry #31 (M2)"
+        start_time="5:23"
+        end_time="7:30">
         <character_list>
           <character name="Jay"></character>
           <character name="Jessica"></character>
@@ -1682,7 +1819,9 @@
         description="Jessica confronts Jay about his behaviour.  They agree to talk in more detail and Jay stops the conversation to upload a video."
         location="R"
         video_still_id="2"
-        video_title="Entry #32 (M2)">
+        video_title="Entry #32 (M2)"
+        start_time="0:06"
+        end_time="2:43">
         <character_list>
           <character name="Jay"></character>
           <character name="Jessica"></character>
@@ -1711,7 +1850,9 @@
         description="Jay goes to get Jessica, but finds that she has disappeared.  He finds the combination to the safe and recovers the tapes.  Masky chases him out of the Hotel."
         location="R"
         video_still_id="2"
-        video_title="Entry #33 (M2)">
+        video_title="Entry #33 (M2)"
+        start_time="0:08"
+        end_time="2:13">
         <character_list>
           <character name="Jay"></character>
           <character name="Masky"></character>
@@ -1741,7 +1882,9 @@
         description="Jay drives to the return address on the package."
         location="E"
         video_still_id="1"
-        video_title="Entry #34 (M2)">
+        video_title="Entry #34 (M2)"
+        start_time="0:34"
+        end_time="1:44">
         <character_list>
           <character name="Jay"></character>
         </character_list>
@@ -1756,7 +1899,9 @@
         description="Jay looks around the burned house."
         location="R"
         video_still_id="2"
-        video_title="Entry #34 (M2)">
+        video_title="Entry #34 (M2)"
+        start_time="1:45"
+        end_time="4:06">
         <character_list>
           <character name="Jay"></character>
         </character_list>
@@ -1784,7 +1929,9 @@
         description="Jay goes back to the old house, and finds Alex there.  Masky is also there and attacks Alex, who retaliates."
         location="R"
         video_still_id="2"
-        video_title="Entry #35 (M2)">
+        video_title="Entry #35 (M2)"
+        start_time="0:08"
+        end_time="1:49">
         <character_list>
           <character name="Alex"></character>
           <character name="Jay"></character>
@@ -1817,7 +1964,9 @@
         description="Jay and Alex talk about the encounter with Tim."
         location="R"
         video_still_id="2"
-        video_title="Entry #36 (M2)">
+        video_title="Entry #36 (M2)"
+        start_time="0:38"
+        end_time="1:57">
         <character_list>
           <character name="Alex"></character>
           <character name="Jay"></character>
@@ -1846,7 +1995,9 @@
         description="Alex celebrates an early birthday, and the operator visits."
         location="E"
         video_still_id="2"
-        video_title="enttry 37 (M2)">
+        video_title="enttry 37 (M2)"
+        start_time="0:05"
+        end_time="1:00">
         <character_list>
           <character name="Alex"></character>
           <character name="operator"></character>
@@ -1875,7 +2026,9 @@
         description="Jay and Alex are walking down a path and Alex tells Jay about the area."
         location="R"
         video_still_id="2"
-        video_title="Entry #38 (M2)">
+        video_title="Entry #38 (M2)"
+        start_time="0:09"
+        end_time="2:35">
         <character_list>
           <character name="Alex"></character>
           <character name="Jay"></character>
@@ -1904,7 +2057,9 @@
         description="Alex calls Jay and tells him to meet him at Rosswood Park the next day."
         location="R"
         video_still_id="2"
-        video_title="Entry #39 (M2)">
+        video_title="Entry #39 (M2)"
+        start_time="0:12"
+        end_time="1:13">
         <character_list>
           <character name="Alex"></character>
           <character name="Jay"></character>
@@ -1920,7 +2075,9 @@
         description="Somone walks past Jay's car as he sleeps."
         location="R"
         video_still_id="3"
-        video_title="Entry #39 (M2)">
+        video_title="Entry #39 (M2)"
+        start_time="1:16"
+        end_time="2:44">
         <character_list>
           <character name="Jay"></character>
         </character_list>
@@ -1948,7 +2105,9 @@
         description="totheark watches Jay sleep."
         location="R"
         video_still_id="2"
-        video_title="Forecast (T2)">
+        video_title="Forecast (T2)"
+        start_time="0:00"
+        end_time="0:41">
         <character_list>
           <character name="Jay"></character>
           <character name="totheark"></character>
@@ -1977,7 +2136,9 @@
         description="Jay is waiting on Alex, goes for a walk in Rosswood Park, and encounters the operator.  He abandons his camera."
         location="R"
         video_still_id="2"
-        video_title="Entry #40 (M2)">
+        video_title="Entry #40 (M2)"
+        start_time="0:16"
+        end_time="5:17">
         <character_list>
           <character name="Hoody"></character>
           <character name="Jay"></character>
@@ -2007,7 +2168,9 @@
         description="Hoody return Jay's camera to his car."
         location="R"
         video_still_id="2"
-        video_title="Entry #41 (M2)">
+        video_title="Entry #41 (M2)"
+        start_time="0:13"
+        end_time="3:18">
         <character_list>
           <character name="Hoody"></character>
         </character_list>
@@ -2024,7 +2187,7 @@
     channel="marblehornets"
     wikidot="entry-42"
     unfiction="?t=32536"
-    player_summary="Alex and Jay meet after Jay\\\'s encounter with the Operator."
+    player_summary="Alex and Jay meet after Jay's encounter with the Operator."
     duration="5:30"
     youtube_id="KHhxDGbUgco">
     <scene_list>
@@ -2037,7 +2200,9 @@
         description="Alex comes to meet Jay at Rosswood park."
         location="R"
         video_still_id="1"
-        video_title="Entry #42 (M2)">
+        video_title="Entry #42 (M2)"
+        start_time="0:26"
+        end_time="2:14">
         <character_list>
           <character name="Alex"></character>
           <character name="Hoody"></character>
@@ -2056,7 +2221,9 @@
         description="Alex meets Jay and finds he has encountered the operator, and abandoned his camera.  Jay finds his camera in his car."
         location="R"
         video_still_id="2"
-        video_title="Entry #42 (M2)">
+        video_title="Entry #42 (M2)"
+        start_time="2:16"
+        end_time="5:27">
         <character_list>
           <character name="Alex"></character>
           <character name="Hoody"></character>
@@ -2088,7 +2255,9 @@
         description="Jay gets a call from Alex about finding Amy."
         location="R"
         video_still_id="1"
-        video_title="Entry #43 (M2)">
+        video_title="Entry #43 (M2)"
+        start_time="0:08"
+        end_time="0:56">
         <character_list>
           <character name="Alex"></character>
           <character name="Jay"></character>
@@ -2104,7 +2273,9 @@
         description="Alex drives Jay to Amy's apartment to look for her, then drives Jay home."
         location="R"
         video_still_id="2"
-        video_title="Entry #43 (M2)">
+        video_title="Entry #43 (M2)"
+        start_time="0:57"
+        end_time="4:31">
         <character_list>
           <character name="Alex"></character>
           <character name="Jay"></character>
@@ -2120,7 +2291,9 @@
         description="Alex goes to Rosswood Park where he approaches the operator."
         location="R"
         video_still_id="3"
-        video_title="Entry #43 (M2)">
+        video_title="Entry #43 (M2)"
+        start_time="4:36"
+        end_time="6:59">
         <character_list>
           <character name="Alex"></character>
           <character name="operator"></character>
@@ -2149,7 +2322,9 @@
         description="Alex calls Jessica to tell her he found Amy.  He then waits in his apartment."
         location="R"
         video_still_id="1"
-        video_title="Entry #44 (M2)">
+        video_title="Entry #44 (M2)"
+        start_time="0:06"
+        end_time="2:43">
         <character_list>
           <character name="Alex"></character>
           <character name="Jessica"></character>
@@ -2165,7 +2340,9 @@
         description="The operator visits Alex."
         location="R"
         video_still_id="3"
-        video_title="Entry #44 (M2)">
+        video_title="Entry #44 (M2)"
+        start_time="2:44"
+        end_time="3:48">
         <character_list>
           <character name="Alex"></character>
           <character name="operator"></character>
@@ -2194,7 +2371,9 @@
         description="Alex is in his apartment, when he is interrupted by Hoody."
         location="R"
         video_still_id="1"
-        video_title="Entry #45 (M2)">
+        video_title="Entry #45 (M2)"
+        start_time="0:09"
+        end_time="1:04">
         <character_list>
           <character name="Alex"></character>
           <character name="Hoody"></character>
@@ -2210,7 +2389,9 @@
         description="Alex chases Hoody who leads him to Masky.  They attempt to kill Alex, but the operator intervenes."
         location="R"
         video_still_id="3"
-        video_title="Entry #45 (M2)">
+        video_title="Entry #45 (M2)"
+        start_time="1:06"
+        end_time="3:09">
         <character_list>
           <character name="Alex"></character>
           <character name="Hoody"></character>
@@ -2241,7 +2422,9 @@
         description="Jay breaks into Alex's apartment and tries to take a tape, but gets caught.  The operator arrives and Jay flees, taking Alex's spare key as he does."
         location="R"
         video_still_id="2"
-        video_title="Entry #46 (M2)">
+        video_title="Entry #46 (M2)"
+        start_time="0:08"
+        end_time="3:14">
         <character_list>
           <character name="Alex"></character>
           <character name="Jay"></character>
@@ -2273,7 +2456,9 @@
         description="Alex and Jay argue about the break in.  Alex says he no longer wants to help Jay.  Jay gets Jesssica's phone number from Alex."
         location="R"
         video_still_id="1"
-        video_title="Entry #47 (M2)">
+        video_title="Entry #47 (M2)"
+        start_time="0:14"
+        end_time="4:30">
         <character_list>
           <character name="Alex"></character>
           <character name="Jay"></character>
@@ -2289,7 +2474,9 @@
         description="Jay calls Jessica and finds out that Alex told her that Amy has been found."
         location="R"
         video_still_id="3"
-        video_title="Entry #47 (M2)">
+        video_title="Entry #47 (M2)"
+        start_time="4:50"
+        end_time="7:13">
         <character_list>
           <character name="Jay"></character>
           <character name="Jessica"></character>
@@ -2318,7 +2505,9 @@
         description="Jay follows Alex around."
         location="R"
         video_still_id="1"
-        video_title="Entry #48 (M2)">
+        video_title="Entry #48 (M2)"
+        start_time="0:08"
+        end_time="1:08">
         <character_list>
           <character name="Alex"></character>
           <character name="Jay"></character>
@@ -2334,7 +2523,9 @@
         description="Jay follows Alex to the Tunnel, then flees."
         location="R"
         video_still_id="3"
-        video_title="Entry #48 (M2)">
+        video_title="Entry #48 (M2)"
+        start_time="1:10"
+        end_time="6:15">
         <character_list>
           <character name="Alex"></character>
           <character name="Bruce"></character>
@@ -2364,12 +2555,32 @@
         description="Alex kills an innocent passerby, Bruce."
         location="R"
         video_still_id="2"
-        video_title="Entry #49 (M2)">
+        video_title="Entry #49 (M2)"
+        start_time="0:24"
+        end_time="5:20">
         <character_list>
           <character name="Alex"></character>
           <character name="Bruce"></character>
           <character name="Jay"></character>
           <character name="operator"></character>
+        </character_list>
+        <item_list></item_list>
+      </scene>
+      <scene
+        date="2010/10/01"
+        time="12:00"
+        cameraperson="Alex"
+        tape_tag="3"
+        place="Alex's car"
+        description="Alex calls Jay and tells him to meet up at Rosswood."
+        location="R"
+        video_still_id="3"
+        video_title="Entry #49 (M2)"
+        start_time="5:41"
+        end_time="6:33">
+        <character_list>
+          <character name="Alex"></character>
+          <character name="Jay"></character>
         </character_list>
         <item_list></item_list>
       </scene>
@@ -2395,7 +2606,9 @@
         description="Alex and Jay are in the woods, in a continuation of Entry #38.  Jay leaves and Alex stays in the woods."
         location="R"
         video_still_id="1"
-        video_title="Entry #50 (M2)">
+        video_title="Entry #50 (M2)"
+        start_time="0:08"
+        end_time="5:58">
         <character_list>
           <character name="Alex"></character>
           <character name="Jay"></character>
@@ -2411,7 +2624,9 @@
         description="Masky leads Jay to the Tunnel.  Jay tries to walk to the other side of the Tunnel, but the camera malfunctions."
         location="R"
         video_still_id="2"
-        video_title="Entry #50 (M2)">
+        video_title="Entry #50 (M2)"
+        start_time="6:00"
+        end_time="9:07">
         <character_list>
           <character name="Jay"></character>
           <character name="Masky"></character>
@@ -2428,7 +2643,9 @@
         description="Jay watches Alex leave his apartment, then breaks in with the spare key, and steals tape 56-42."
         location="R"
         video_still_id="3"
-        video_title="Entry #50 (M2)">
+        video_title="Entry #50 (M2)"
+        start_time="9:50"
+        end_time="13:42">
         <character_list>
           <character name="Alex"></character>
           <character name="Jay"></character>
@@ -2460,7 +2677,9 @@
         description="Alex leads Brian to the Hospital to film some scenes.  The operator appears on set."
         location="R"
         video_still_id="1"
-        video_title="Entry #51 (M2)">
+        video_title="Entry #51 (M2)"
+        start_time="0:27"
+        end_time="5:26">
         <character_list>
           <character name="Alex"></character>
           <character name="Brian"></character>
@@ -2479,7 +2698,9 @@
         description="Brian wakes up following an operator attack and searches for Alex.  He finds Tim in his room, and the operator attacks again."
         location="R"
         video_still_id="2"
-        video_title="Entry #51 (M2)">
+        video_title="Entry #51 (M2)"
+        start_time="5:28"
+        end_time="6:50">
         <character_list>
           <character name="Brian"></character>
           <character name="Tim"></character>
@@ -2498,7 +2719,9 @@
         description="Alex drags Brian's body away and leaves the hospital."
         location="R"
         video_still_id="3"
-        video_title="Entry #51 (M2)">
+        video_title="Entry #51 (M2)"
+        start_time="6:53"
+        end_time="8:00">
         <character_list>
           <character name="Alex"></character>
           <character name="Brian"></character>
@@ -2529,7 +2752,9 @@
         description="Jay and Jessica meet, so that Alex can lead them somehwere."
         location="R"
         video_still_id="1"
-        video_title="Entry #52 (M2)">
+        video_title="Entry #52 (M2)"
+        start_time="0:11"
+        end_time="2:33">
         <character_list>
           <character name="Alex"></character>
           <character name="Jay"></character>
@@ -2550,7 +2775,9 @@
         description="Alex leads Jay and Jessica to the Barn where he pulls a gun.  Masky tackles Alex and Jay and Jessica escape."
         location="R"
         video_still_id="1"
-        video_title="Entry #52 (M2)">
+        video_title="Entry #52 (M2)"
+        start_time="2:37"
+        end_time="4:46">
         <character_list>
           <character name="Alex"></character>
           <character name="Jay"></character>
@@ -2571,7 +2798,9 @@
         description="Jay and Jessica flee to the Hotel.  Jay steals Alex's chestcam and harddrive.  He hides the tapes in the safe, and takes the chestcam for himself."
         location="R"
         video_still_id="2"
-        video_title="Entry #52 (M2)">
+        video_title="Entry #52 (M2)"
+        start_time="4:48"
+        end_time="9:55">
         <character_list>
           <character name="Jay"></character>
           <character name="Jessica"></character>
@@ -2590,7 +2819,9 @@
         description="Jay hears Jessica screaming and wakes up to find the operator there.  He lunges at the operator which wipes his memory of the past 7 months."
         location="R"
         video_still_id="3"
-        video_title="Entry #52 (M2)">
+        video_title="Entry #52 (M2)"
+        start_time="10:05"
+        end_time="11:01">
         <character_list>
           <character name="Jay"></character>
           <character name="Jessica"></character>
@@ -2607,7 +2838,9 @@
         description="Jay sees Tim acting normal downtown."
         location="R"
         video_still_id="3"
-        video_title="Entry #52 (M2)">
+        video_title="Entry #52 (M2)"
+        start_time="13:02"
+        end_time="13:44">
         <character_list>
           <character name="Jay"></character>
           <character name="Tim"></character>
@@ -2636,7 +2869,9 @@
         description="totheark talks about Jay being broken."
         location="E"
         video_still_id="2"
-        video_title="Fragments (T2)">
+        video_title="Fragments (T2)"
+        start_time="0:00"
+        end_time="0:18">
         <character_list>
           <character name="totheark"></character>
         </character_list>
@@ -2664,7 +2899,9 @@
         description="Some more strange footage."
         location="E"
         video_still_id="2"
-        video_title="Broadcast (T2)">
+        video_title="Broadcast (T2)"
+        start_time="0:00"
+        end_time="0:14">
         <character_list>
           <character name="operator"></character>
           <character name="totheark"></character>
@@ -2693,7 +2930,9 @@
         description="Another cryptic message."
         location="E"
         video_still_id="2"
-        video_title="Sidetone (T2)">
+        video_title="Sidetone (T2)"
+        start_time="0:00"
+        end_time="0:18">
         <character_list>
           <character name="totheark"></character>
         </character_list>
@@ -2721,7 +2960,9 @@
         description="totheark points out (in sketches) that Hoody saw Jay."
         location="E"
         video_still_id="2"
-        video_title="Intermission (T2)">
+        video_title="Intermission (T2)"
+        start_time="0:00"
+        end_time="0:32">
         <character_list>
           <character name="Hoody"></character>
           <character name="totheark"></character>
@@ -2750,7 +2991,9 @@
         description="totheark defaces a doll."
         location="E"
         video_still_id="2"
-        video_title="Indicator (T2)">
+        video_title="Indicator (T2)"
+        start_time="0:00"
+        end_time="0:26">
         <character_list>
           <character name="totheark"></character>
         </character_list>
@@ -2778,7 +3021,9 @@
         description="Footage of Alex's old apartment.  It may have been footage from 2006."
         location="E"
         video_still_id="2"
-        video_title="Memories (T2)">
+        video_title="Memories (T2)"
+        start_time="0:00"
+        end_time="0:23">
         <character_list>
           <character name="totheark"></character>
         </character_list>
@@ -2806,7 +3051,9 @@
         description="More strange messages."
         location="E"
         video_still_id="2"
-        video_title="Inquiry (T2)">
+        video_title="Inquiry (T2)"
+        start_time="0:00"
+        end_time="1:01">
         <character_list>
           <character name="totheark"></character>
         </character_list>
@@ -2834,7 +3081,9 @@
         description="Another totheark video."
         location="E"
         video_still_id="2"
-        video_title="Classified (T2)">
+        video_title="Classified (T2)"
+        start_time="0:00"
+        end_time="0:18">
         <character_list>
           <character name="totheark"></character>
         </character_list>
@@ -2862,7 +3111,9 @@
         description="totheark anticipates the next entry."
         location="E"
         video_still_id="2"
-        video_title="Sidenote (T2)">
+        video_title="Sidenote (T2)"
+        start_time="0:00"
+        end_time="0:27">
         <character_list>
           <character name="Masky"></character>
           <character name="Tim"></character>
@@ -2892,7 +3143,9 @@
         description="totheark asks about hate."
         location="E"
         video_still_id="2"
-        video_title="Extraction (T2)">
+        video_title="Extraction (T2)"
+        start_time="0:00"
+        end_time="0:30">
         <character_list>
           <character name="Masky"></character>
           <character name="Tim"></character>
@@ -2922,7 +3175,9 @@
         description="Jay looks at the antique shop and asks the owner about Tim."
         location="R"
         video_still_id="1"
-        video_title="Entry #53 (M3)">
+        video_title="Entry #53 (M3)"
+        start_time="0:08"
+        end_time="1:42">
         <character_list>
           <character name="Antiques lady"></character>
           <character name="Jay"></character>
@@ -2938,7 +3193,9 @@
         description="Jay waits for Tim outside the Clinic and talks to him about Marble Hornets."
         location="R"
         video_still_id="2"
-        video_title="Entry #53 (M3)">
+        video_title="Entry #53 (M3)"
+        start_time="1:45"
+        end_time="5:44">
         <character_list>
           <character name="Jay"></character>
           <character name="Tim"></character>
@@ -2954,7 +3211,9 @@
         description="Tim calls Jay and agrees to give him some tapes."
         location="R"
         video_still_id="3"
-        video_title="Entry #53 (M3)">
+        video_title="Entry #53 (M3)"
+        start_time="6:20"
+        end_time="8:06">
         <character_list>
           <character name="Jay"></character>
           <character name="Tim"></character>
@@ -2983,7 +3242,9 @@
         description="totheark films Jay outside the Antique shop."
         location="R"
         video_still_id="2"
-        video_title="Reminder (T3)">
+        video_title="Reminder (T3)"
+        start_time="0:00"
+        end_time="0:29">
         <character_list>
           <character name="Jay"></character>
           <character name="totheark"></character>
@@ -3004,6 +3265,26 @@
     youtube_id="RKiQM6DIJck">
     <scene_list>
       <scene
+        date="2012/03/23"
+        time="12:00"
+        cameraperson="Jay"
+        tape_tag="6"
+        place="The clinic"
+        description="Tim gives Jay some more tapes."
+        location="R"
+        video_still_id="1"
+        video_title="Entry #54 (M3)"
+        start_time="0:08"
+        end_time="2:01">
+        <character_list>
+          <character name="Jay"></character>
+          <character name="Tim"></character>
+        </character_list>
+        <item_list>
+          <item name="Tim's tapes"></item>
+        </item_list>
+      </scene>
+      <scene
         date="2006/05/21"
         time="12:00"
         cameraperson="Tim"
@@ -3012,7 +3293,9 @@
         description="The crew run to Brian's house through the rain.  All leave except Alex, Tim, and Brian.  There's a powercut and the operator shows up."
         location="C"
         video_still_id="2"
-        video_title="Entry #54 (M3)">
+        video_title="Entry #54 (M3)"
+        start_time="2:27"
+        end_time="6:48">
         <character_list>
           <character name="Alex"></character>
           <character name="Brian"></character>
@@ -3023,24 +3306,6 @@
         </character_list>
         <item_list>
           <item name="AlexCam2"></item>
-          <item name="Tim's tapes"></item>
-        </item_list>
-      </scene>
-      <scene
-        date="2012/03/23"
-        time="12:00"
-        cameraperson="Jay"
-        tape_tag="6"
-        place="The clinic"
-        description="Tim gives Jay some more tapes."
-        location="R"
-        video_still_id="1"
-        video_title="Entry #54 (M3)">
-        <character_list>
-          <character name="Jay"></character>
-          <character name="Tim"></character>
-        </character_list>
-        <item_list>
           <item name="Tim's tapes"></item>
         </item_list>
       </scene>
@@ -3066,7 +3331,9 @@
         description="totheark recycles old footage."
         location="E"
         video_still_id="2"
-        video_title="Decay (T3)">
+        video_title="Decay (T3)"
+        start_time="0:00"
+        end_time="0:57">
         <character_list>
           <character name="totheark"></character>
         </character_list>
@@ -3094,7 +3361,9 @@
         description="Alex, Brian and Tim are filming scenes for Marble Hornets.  Tim mentions the Hospital to Alex as a possible location."
         location="C"
         video_still_id="2"
-        video_title="Entry #55 (M3)">
+        video_title="Entry #55 (M3)"
+        start_time="0:18"
+        end_time="3:21">
         <character_list>
           <character name="Alex"></character>
           <character name="Brian"></character>
@@ -3124,7 +3393,9 @@
         description="Alex and Tim go the Hospital for location scouting.  Alex attacks Tim and the operator appears."
         location="R"
         video_still_id="2"
-        video_title="Entry #56 (M3)">
+        video_title="Entry #56 (M3)"
+        start_time="0:23"
+        end_time="5:52">
         <character_list>
           <character name="Alex"></character>
           <character name="Tim"></character>
@@ -3154,7 +3425,9 @@
         description="Tim wakes up and moves from the Hospital to the Annex."
         location="R"
         video_still_id="1"
-        video_title="Entry #57 (M3)">
+        video_title="Entry #57 (M3)"
+        start_time="0:25"
+        end_time="2:55">
         <character_list>
           <character name="Tim"></character>
         </character_list>
@@ -3169,7 +3442,9 @@
         description="Tim moves to the Annex, where Alex is searching for him.  The operator appears."
         location="R"
         video_still_id="3"
-        video_title="Entry #57 (M3)">
+        video_title="Entry #57 (M3)"
+        start_time="2:57"
+        end_time="6:44">
         <character_list>
           <character name="Alex"></character>
           <character name="Tim"></character>
@@ -3201,7 +3476,9 @@
         description="totheark shows very old footage of children in school."
         location="E"
         video_still_id="3"
-        video_title="Session (T3)">
+        video_title="Session (T3)"
+        start_time="0:00"
+        end_time="0:37">
         <character_list>
           <character name="totheark"></character>
         </character_list>
@@ -3229,7 +3506,9 @@
         description="Jay and Tim discuss going to the Hospital."
         location="R"
         video_still_id="1"
-        video_title="Entry #58 (M3)">
+        video_title="Entry #58 (M3)"
+        start_time="0:22"
+        end_time="3:32">
         <character_list>
           <character name="Jay"></character>
           <character name="Tim"></character>
@@ -3245,7 +3524,9 @@
         description="Jay and Tim go to the Hospital, and Jay leads Tim to the Annex.  Hoody appears and leads them to the Maintenance Tunnel."
         location="R"
         video_still_id="2"
-        video_title="Entry #58 (M3)">
+        video_title="Entry #58 (M3)"
+        start_time="3:40"
+        end_time="11:14">
         <character_list>
           <character name="Hoody"></character>
           <character name="Jay"></character>
@@ -3262,7 +3543,9 @@
         description="Jay and Tim walk back along the Railway and Tim is suspicious of Jay."
         location="R"
         video_still_id="3"
-        video_title="Entry #58 (M3)">
+        video_title="Entry #58 (M3)"
+        start_time="11:15"
+        end_time="12:28">
         <character_list>
           <character name="Jay"></character>
           <character name="Tim"></character>
@@ -3291,7 +3574,9 @@
         description="Tim confronts Jay about the tapes he shared and the visit to the Hospital."
         location="R"
         video_still_id="2"
-        video_title="Entry #59 (M3)">
+        video_title="Entry #59 (M3)"
+        start_time="0:09"
+        end_time="5:19">
         <character_list>
           <character name="Jay"></character>
           <character name="Tim"></character>
@@ -3320,7 +3605,9 @@
         description="totheark recycles footage from Entry #59, then brielfy shows Masky in the Maintenance Tunnel."
         location="E"
         video_still_id="2"
-        video_title="Reference (T3)">
+        video_title="Reference (T3)"
+        start_time="0:00"
+        end_time="0:24">
         <character_list>
           <character name="totheark"></character>
         </character_list>
@@ -3348,7 +3635,9 @@
         description="Jay goes back to the Hospital and explores the Annex."
         location="R"
         video_still_id="1"
-        video_title="Entry #60 (M3)">
+        video_title="Entry #60 (M3)"
+        start_time="0:11"
+        end_time="3:16">
         <character_list>
           <character name="Jay"></character>
         </character_list>
@@ -3363,7 +3652,9 @@
         description="Jay goes into the Maintenance Tunnel and recovers Tim's medical records.  The operator chases him out.  Someone is walking upstairs."
         location="R"
         video_still_id="3"
-        video_title="Entry #60 (M3)">
+        video_title="Entry #60 (M3)"
+        start_time="3:17"
+        end_time="9:13">
         <character_list>
           <character name="Jay"></character>
           <character name="operator"></character>
@@ -3395,7 +3686,9 @@
         description="Jay looks at Tim's medical records."
         location="R"
         video_still_id="2"
-        video_title="Entry #60.5 (M3)">
+        video_title="Entry #60.5 (M3)"
+        start_time="0:26"
+        end_time="6:11">
         <character_list>
           <character name="Jay"></character>
         </character_list>
@@ -3423,7 +3716,9 @@
         description="totheark watches Tim take his medication."
         location="R"
         video_still_id="2"
-        video_title="observation (T3)">
+        video_title="observation (T3)"
+        start_time="0:00"
+        end_time="0:44">
         <character_list>
           <character name="Tim"></character>
           <character name="totheark"></character>
@@ -3452,7 +3747,9 @@
         description="Hoody films Tim at home.  He sneaks in and takes Tim's medication.  Tim returns and has a seizure.  When Hoody collects the camera, Tim's 'Masky' jacket is gone."
         location="R"
         video_still_id="2"
-        video_title="Entry #61 (M3)">
+        video_title="Entry #61 (M3)"
+        start_time="0:27"
+        end_time="6:09">
         <character_list>
           <character name="Hoody"></character>
           <character name="Masky"></character>
@@ -3485,7 +3782,9 @@
         description="Jay drives to the woods looking for Tim.  Masky attacks Jay."
         location="R"
         video_still_id="1"
-        video_title="Entry #62 (M3)">
+        video_title="Entry #62 (M3)"
+        start_time="0:11"
+        end_time="5:12">
         <character_list>
           <character name="Jay"></character>
           <character name="Masky"></character>
@@ -3502,7 +3801,9 @@
         description="Hoody positions the camera to face Jay."
         location="R"
         video_still_id="2"
-        video_title="Entry #62 (M3)">
+        video_title="Entry #62 (M3)"
+        start_time="5:24"
+        end_time="5:33">
         <character_list>
           <character name="Jay"></character>
         </character_list>
@@ -3519,7 +3820,9 @@
         description="Jay wakes up inside the Hoody Hut, and Tim wakes up outside.  They both head back to Rosswood."
         location="R"
         video_still_id="3"
-        video_title="Entry #62 (M3)">
+        video_title="Entry #62 (M3)"
+        start_time="5:34"
+        end_time="8:54">
         <character_list>
           <character name="Jay"></character>
           <character name="Tim"></character>
@@ -3550,7 +3853,9 @@
         description="Hoody stands outside the Hoody Hut."
         location="R"
         video_still_id="2"
-        video_title="Isolation (T3)">
+        video_title="Isolation (T3)"
+        start_time="0:00"
+        end_time="0:46">
         <character_list>
           <character name="Hoody"></character>
           <character name="totheark"></character>
@@ -3579,7 +3884,9 @@
         description="Jay and Tim are at Rosswood Park.  Jay drives home and Tim walks home."
         location="R"
         video_still_id="1"
-        video_title="Entry #63 (M3)">
+        video_title="Entry #63 (M3)"
+        start_time="0:11"
+        end_time="1:13">
         <character_list>
           <character name="Jay"></character>
           <character name="Tim"></character>
@@ -3595,7 +3902,9 @@
         description="Jay returns Tim's medical records to him.  They agree to go back to Rosswood Park."
         location="R"
         video_still_id="3"
-        video_title="Entry #63 (M3)">
+        video_title="Entry #63 (M3)"
+        start_time="1:37"
+        end_time="5:25">
         <character_list>
           <character name="Jay"></character>
           <character name="Tim"></character>
@@ -3626,7 +3935,9 @@
         description="Jay and Tim return to the Barn at Rosswood Park to search for clues."
         location="R"
         video_still_id="1"
-        video_title="Entry #64 (M3)">
+        video_title="Entry #64 (M3)"
+        start_time="0:12"
+        end_time="3:36">
         <character_list>
           <character name="Jay"></character>
           <character name="Tim"></character>
@@ -3644,7 +3955,9 @@
         description="Jay and Tim search unsuccessfully for the Hoody Hut."
         location="R"
         video_still_id="2"
-        video_title="Entry #64 (M3)">
+        video_title="Entry #64 (M3)"
+        start_time="3:38"
+        end_time="6:24">
         <character_list>
           <character name="Jay"></character>
           <character name="Tim"></character>
@@ -3660,7 +3973,9 @@
         description="Jay and Tim go to the Tunnel.  Alex calls Jay and tells him to leave.  The operator appears and Jay flees."
         location="R"
         video_still_id="3"
-        video_title="Entry #64 (M3)">
+        video_title="Entry #64 (M3)"
+        start_time="6:25"
+        end_time="9:24">
         <character_list>
           <character name="Alex"></character>
           <character name="Jay"></character>
@@ -3678,7 +3993,9 @@
         description="Jay runs through the woods back to his car, where he sees Tim.  Tim drives off without saying a word."
         location="R"
         video_still_id="3"
-        video_title="Entry #64 (M3)">
+        video_title="Entry #64 (M3)"
+        start_time="9:25"
+        end_time="11:07">
         <character_list>
           <character name="Jay"></character>
           <character name="Tim"></character>
@@ -3707,7 +4024,9 @@
         description="totheark shows footage of the Tunnel."
         location="R"
         video_still_id="3"
-        video_title="Display (T3)">
+        video_title="Display (T3)"
+        start_time="0:00"
+        end_time="0:03">
         <character_list>
           <character name="totheark"></character>
         </character_list>
@@ -3722,7 +4041,9 @@
         description="totheark shows a figure at the Lorry parking lot."
         location="R"
         video_still_id="1"
-        video_title="Display (T3)">
+        video_title="Display (T3)"
+        start_time="0:04"
+        end_time="0:37">
         <character_list>
           <character name="totheark"></character>
         </character_list>
@@ -3750,7 +4071,9 @@
         description="Jay and Tim return to Rosswood Park to search for clues."
         location="R"
         video_still_id="1"
-        video_title="Entry #65 (M3)">
+        video_title="Entry #65 (M3)"
+        start_time="0:11"
+        end_time="0:31">
         <character_list>
           <character name="Jay"></character>
           <character name="Tim"></character>
@@ -3766,7 +4089,9 @@
         description="Jay and Tim go to the Tunnel.  Alex calls Jay and tells him to leave.  The operator appears and takes Tim."
         location="R"
         video_still_id="2"
-        video_title="Entry #65 (M3)">
+        video_title="Entry #65 (M3)"
+        start_time="0:32"
+        end_time="1:10">
         <character_list>
           <character name="Alex"></character>
           <character name="Jay"></character>
@@ -3784,7 +4109,9 @@
         description="Tim gets taken to the Slendyverse by the operator."
         location="E"
         video_still_id="2"
-        video_title="Entry #65 (M3)">
+        video_title="Entry #65 (M3)"
+        start_time="1:16"
+        end_time="3:51">
         <character_list>
           <character name="Bruce"></character>
           <character name="Tim"></character>
@@ -3801,7 +4128,9 @@
         description="Tim sees Jay approach at Rosswood, then drives to the Hopsital Annex."
         location="R"
         video_still_id="2"
-        video_title="Entry #65 (M3)">
+        video_title="Entry #65 (M3)"
+        start_time="4:33"
+        end_time="11:23">
         <character_list>
           <character name="Tim"></character>
         </character_list>
@@ -3818,7 +4147,9 @@
         description="Tim gives Jay the footage for Entry #65."
         location="R"
         video_still_id="3"
-        video_title="Entry #65 (M3)">
+        video_title="Entry #65 (M3)"
+        start_time="11:28"
+        end_time="14:03">
         <character_list>
           <character name="Jay"></character>
           <character name="Tim"></character>
@@ -3847,7 +4178,9 @@
         description="totheark recycles some old footage, with new footage from the woods in Rosswood."
         location="R"
         video_still_id="2"
-        video_title="Surveillance (T3)">
+        video_title="Surveillance (T3)"
+        start_time="0:00"
+        end_time="0:52">
         <character_list>
           <character name="Hoody"></character>
           <character name="totheark"></character>
@@ -3876,7 +4209,9 @@
         description="Jay and Tim go back to the Annex where Tim explains his past.  They follow Hoody, but lose track."
         location="R"
         video_still_id="2"
-        video_title="Entry #66 (M3)">
+        video_title="Entry #66 (M3)"
+        start_time="0:11"
+        end_time="13:43">
         <character_list>
           <character name="Hoody"></character>
           <character name="Jay"></character>
@@ -3906,7 +4241,9 @@
         description="Hoody rescues Tim from the Annex, then waits for Alex to arrive."
         location="R"
         video_still_id="1"
-        video_title="Entry #67 (M3)">
+        video_title="Entry #67 (M3)"
+        start_time="0:55"
+        end_time="1:07">
         <character_list>
           <character name="Hoody"></character>
           <character name="Tim"></character>
@@ -3922,13 +4259,54 @@
         description="Hoody attacks Alex and ties him to a chair.  Masky attacks Alex, then Hoody threatens to kill Alex with his own gun.  The operator appears and scares Hoody away."
         location="R"
         video_still_id="2"
-        video_title="Entry #67 (M3)">
+        video_title="Entry #67 (M3)"
+        start_time="1:08"
+        end_time="5:45">
         <character_list>
           <character name="Alex"></character>
           <character name="Hoody"></character>
           <character name="Masky"></character>
           <character name="Tim"></character>
           <character name="operator"></character>
+        </character_list>
+        <item_list>
+          <item name="Gun"></item>
+        </item_list>
+      </scene>
+      <scene
+        date="2012/10/07"
+        time="15:00"
+        cameraperson="Unknown"
+        tape_tag="11"
+        place="Annex"
+        description="Hoody points the gun erratically."
+        location="R"
+        video_still_id="2"
+        video_title="Entry #67 (M3)"
+        start_time="6:30"
+        end_time="6:43">
+        <character_list>
+          <character name="Hoody"></character>
+        </character_list>
+        <item_list>
+          <item name="Gun"></item>
+        </item_list>
+      </scene>
+      <scene
+        date="2012/10/08"
+        time="11:00"
+        cameraperson="Hoody"
+        tape_tag="11"
+        place="Field"
+        description="Tim wakes up, to find the mask on ground next to him, and an unfamiliar object in his pocket."
+        location="R"
+        video_still_id="2"
+        video_title="Entry #67 (M3)"
+        start_time="6:44"
+        end_time="7:51">
+        <character_list>
+          <character name="Hoody"></character>
+          <character name="Tim"></character>
         </character_list>
         <item_list>
           <item name="Gun"></item>
@@ -3956,7 +4334,9 @@
         description="Jay and Tim prepare to flee Rosswood."
         location="R"
         video_still_id="2"
-        video_title="Entry #67.5 (M3)">
+        video_title="Entry #67.5 (M3)"
+        start_time="0:11"
+        end_time="3:45">
         <character_list>
           <character name="Jay"></character>
           <character name="Tim"></character>
@@ -3985,7 +4365,9 @@
         description="Hoody is waiting at his home and Alex arrives, chasing Hoody away."
         location="R"
         video_still_id="1"
-        video_title="Entry #68 (M3)">
+        video_title="Entry #68 (M3)"
+        start_time="0:28"
+        end_time="3:24">
         <character_list>
           <character name="Alex"></character>
           <character name="Hoody"></character>
@@ -4001,7 +4383,9 @@
         description="Hoody runs to the Maintenance Tunnel and Alex follows him."
         location="R"
         video_still_id="3"
-        video_title="Entry #68 (M3)">
+        video_title="Entry #68 (M3)"
+        start_time="3:25"
+        end_time="4:26">
         <character_list>
           <character name="Alex"></character>
           <character name="Hoody"></character>
@@ -4030,7 +4414,9 @@
         description="totheark recycles some footage and recites a short poem."
         location="R"
         video_still_id="2"
-        video_title="Decline (T3)">
+        video_title="Decline (T3)"
+        start_time="0:00"
+        end_time="0:47">
         <character_list>
           <character name="totheark"></character>
         </character_list>
@@ -4058,7 +4444,9 @@
         description="Jay and Tim return to CollegeTown to look for clues."
         location="C"
         video_still_id="1"
-        video_title="Entry #69 (M3)">
+        video_title="Entry #69 (M3)"
+        start_time="0:10"
+        end_time="2:23">
         <character_list>
           <character name="Jay"></character>
           <character name="Tim"></character>
@@ -4074,7 +4462,9 @@
         description="Jay and Tim go to the gazebo and swimming pool, looking for clues."
         location="C"
         video_still_id="2"
-        video_title="Entry #69 (M3)">
+        video_title="Entry #69 (M3)"
+        start_time="2:24"
+        end_time="3:30">
         <character_list>
           <character name="Jay"></character>
           <character name="Tim"></character>
@@ -4090,7 +4480,9 @@
         description="Jay and Tim go to the Red Tower and recover burned tapes from 2006."
         location="C"
         video_still_id="3"
-        video_title="Entry #69 (M3)">
+        video_title="Entry #69 (M3)"
+        start_time="3:31"
+        end_time="9:11">
         <character_list>
           <character name="Jay"></character>
           <character name="Tim"></character>
@@ -4121,7 +4513,9 @@
         description="Alex is driving and Amy calls him.  He lies to her about being at home."
         location="C"
         video_still_id="1"
-        video_title="Entry #70 (M3)">
+        video_title="Entry #70 (M3)"
+        start_time="0:38"
+        end_time="3:08">
         <character_list>
           <character name="Alex"></character>
           <character name="Amy"></character>
@@ -4137,7 +4531,9 @@
         description="Alex goes to the Playground and confronts the operator."
         location="C"
         video_still_id="3"
-        video_title="Entry #70 (M3)">
+        video_title="Entry #70 (M3)"
+        start_time="3:10"
+        end_time="5:04">
         <character_list>
           <character name="Alex"></character>
           <character name="operator"></character>
@@ -4153,7 +4549,7 @@
     channel="marblehornets"
     wikidot="entry-71"
     unfiction="?t=37476"
-    player_summary="Footage of Alex driving to the children's park, taken from a tape in the static hole."
+    player_summary="Alex gives the tapes to Jay.  Then attacks him."
     duration="5:46"
     youtube_id="SVV-Pi33-zQ">
     <scene_list>
@@ -4166,7 +4562,9 @@
         description="Jay goes to Alex's house to collect the tapes.  Alex attacks him and dumps his body."
         location="C"
         video_still_id="2"
-        video_title="Entry #71 (M3)">
+        video_title="Entry #71 (M3)"
+        start_time="0:21"
+        end_time="5:17">
         <character_list>
           <character name="Alex"></character>
           <character name="Jay"></character>
@@ -4182,7 +4580,7 @@
     channel="marblehornets"
     wikidot="entry-72"
     unfiction="?t=37558"
-    player_summary="Alex gives the tapes to Jay.  Then attacks him."
+    player_summary="Jay and Tim go to Alex's house, where they encounter the operator."
     duration="6:11"
     youtube_id="FITooL9WegA">
     <scene_list>
@@ -4195,7 +4593,9 @@
         description="Jay and Tim go to Alex's house to investigate.  The operator shows up and time skips."
         location="C"
         video_still_id="2"
-        video_title="Entry #72 (M3)">
+        video_title="Entry #72 (M3)"
+        start_time="0:13"
+        end_time="9:00">
         <character_list>
           <character name="Jay"></character>
           <character name="Tim"></character>
@@ -4212,7 +4612,9 @@
         description="Jay and Tim flee Alex's house but the operator incapacitates them."
         location="C"
         video_still_id="3"
-        video_title="Entry #72 (M3)">
+        video_title="Entry #72 (M3)"
+        start_time="9:01"
+        end_time="14:04">
         <character_list>
           <character name="Jay"></character>
           <character name="Tim"></character>
@@ -4231,7 +4633,7 @@
     channel="marblehornets"
     wikidot="entry-73"
     unfiction="?t=37820"
-    player_summary="Tim and Jay explore Alex's house and the opeator shows up."
+    player_summary="Hoody goes to the hospital, then to Tim's house to take some pills."
     duration="14:10"
     youtube_id="3Jg22PqvreI">
     <scene_list>
@@ -4244,7 +4646,9 @@
         description="Hoody goes to the house in the hospital and finds it in disarray.  Hoody takes a gun and realizes there are only a few pills left."
         location="R"
         video_still_id="1"
-        video_title="entry #73 (T3)">
+        video_title="entry #73 (T3)"
+        start_time="0:11"
+        end_time="4:25">
         <character_list>
           <character name="Hoody"></character>
         </character_list>
@@ -4263,7 +4667,9 @@
         description="Hoody walks down a street in Rosswood."
         location="R"
         video_still_id="2"
-        video_title="entry #73 (T3)">
+        video_title="entry #73 (T3)"
+        start_time="4:27"
+        end_time="5:25">
         <character_list>
           <character name="Hoody"></character>
         </character_list>
@@ -4278,7 +4684,9 @@
         description="Hoody breaks into Tim's house in search of pills.  Hoody finds a tape, but leaves it in place, then leaves as someone emerges from the attic."
         location="R"
         video_still_id="3"
-        video_title="entry #73 (T3)">
+        video_title="entry #73 (T3)"
+        start_time="5:26"
+        end_time="9:22">
         <character_list>
           <character name="Hoody"></character>
           <character name="Unknown"></character>
@@ -4310,7 +4718,9 @@
         description="Tim goes to a gas station to get some supplies."
         location="C"
         video_still_id="1"
-        video_title="Entry #74 (M3)">
+        video_title="Entry #74 (M3)"
+        start_time="0:12"
+        end_time="1:30">
         <character_list>
           <character name="Tim"></character>
         </character_list>
@@ -4328,7 +4738,9 @@
         description="Tim and Jay talk about entry #73 and decide to return."
         location="C"
         video_still_id="2"
-        video_title="Entry #74 (M3)">
+        video_title="Entry #74 (M3)"
+        start_time="1:46"
+        end_time="6:38">
         <character_list>
           <character name="Tim"></character>
         </character_list>
@@ -4358,7 +4770,9 @@
         description="totheark recycles some more footage"
         location="E"
         video_still_id="1"
-        video_title="Conversion (T3)">
+        video_title="Conversion (T3)"
+        start_time="0:00"
+        end_time="0:53">
         <character_list>
           <character name="totheark"></character>
         </character_list>
@@ -4386,7 +4800,9 @@
         description="Tim picks Jay up from the doctor's office, where he made an appointment.  Jay and Tim drive to Tim's house."
         location="R"
         video_still_id="1"
-        video_title="Entry #75 (M3)">
+        video_title="Entry #75 (M3)"
+        start_time="0:11"
+        end_time="2:24">
         <character_list>
           <character name="Jay"></character>
           <character name="Tim"></character>
@@ -4404,7 +4820,9 @@
         description="Tim and Jay go to Tim's house and find Alex's bed in the attic.  They find an address written on the back of a photo of Amy.  Tim takes the tape from entry #73."
         location="R"
         video_still_id="2"
-        video_title="Entry #75 (M3)">
+        video_title="Entry #75 (M3)"
+        start_time="2:25"
+        end_time="7:30">
         <character_list>
           <character name="Jay"></character>
           <character name="Tim"></character>
@@ -4423,7 +4841,9 @@
         description="Jay confronts Tim about hiding the tape from him.  He attacks Tim, takes the tape, then flees."
         location="R"
         video_still_id="2"
-        video_title="Entry #75 (M3)">
+        video_title="Entry #75 (M3)"
+        start_time="7:30"
+        end_time="10:10">
         <character_list>
           <character name="Jay"></character>
           <character name="Tim"></character>
@@ -4455,7 +4875,9 @@
         description="Masky takes Jessica from the hotel and gives her to Hoody."
         location="R"
         video_still_id="1"
-        video_title="Entry #76 (M3)">
+        video_title="Entry #76 (M3)"
+        start_time="0:22"
+        end_time="2:16">
         <character_list>
           <character name="Hoody"></character>
           <character name="Jessica"></character>
@@ -4472,7 +4894,9 @@
         description="Hoody takes Jessica to the woods and she wakes up.  Alex is searching with a flashlight, and finds them.  Alex threatens Hoody with the gun, Hoody flees.  Alex convinces Jessica to go with him to the tunnel, where tries to shoot her.  She dazzles him with the gun and attacks him, then Hoody turns up and tackles Alex.  Jessica flees and encounters the operator."
         location="R"
         video_still_id="2"
-        video_title="Entry #76 (M3)">
+        video_title="Entry #76 (M3)"
+        start_time="2:22"
+        end_time="9:00">
         <character_list>
           <character name="Alex"></character>
           <character name="Hoody"></character>
@@ -4493,7 +4917,9 @@
         description="Alex takes the gun from Jessica's body.  The operator teleports Jessica away.  Tim wakes up wearing the mask."
         location="R"
         video_still_id="3"
-        video_title="Entry #76 (M3)">
+        video_title="Entry #76 (M3)"
+        start_time="9:01"
+        end_time="10:12">
         <character_list>
           <character name="Alex"></character>
           <character name="Jessica"></character>
@@ -4527,7 +4953,9 @@
         description="totheark posts a video."
         location="E"
         video_still_id="2"
-        video_title="File (T3)">
+        video_title="File (T3)"
+        start_time="0:00"
+        end_time="0:24">
         <character_list>
           <character name="totheark"></character>
         </character_list>
@@ -4555,7 +4983,9 @@
         description="Jay goes to Tim's house to confront Tim.  He threatens Tim with the knife."
         location="R"
         video_still_id="1"
-        video_title="Entry #77 (M3)">
+        video_title="Entry #77 (M3)"
+        start_time="0:11"
+        end_time="1:58">
         <character_list>
           <character name="Jay"></character>
           <character name="Tim"></character>
@@ -4573,7 +5003,9 @@
         description="Tim overpowers Jay and takes his knife.  He ties Jay up and drives off with his camera."
         location="R"
         video_still_id="2"
-        video_title="Entry #77 (M3)">
+        video_title="Entry #77 (M3)"
+        start_time="2:00"
+        end_time="4:10">
         <character_list>
           <character name="Jay"></character>
           <character name="Tim"></character>
@@ -4605,7 +5037,9 @@
         description="Hoody comes to Tim's house and frees Jay from his bonds."
         location="R"
         video_still_id="1"
-        video_title="Entry #78 (M3)">
+        video_title="Entry #78 (M3)"
+        start_time="0:11"
+        end_time="2:24">
         <character_list>
           <character name="Hoody"></character>
           <character name="Jay"></character>
@@ -4636,7 +5070,9 @@
         description="Jay drives to the address to find the Benedict campus and Tim's car is there."
         location="R"
         video_still_id="1"
-        video_title="Entry #79 (M3)">
+        video_title="Entry #79 (M3)"
+        start_time="0:11"
+        end_time="1:50">
         <character_list>
           <character name="Jay"></character>
         </character_list>
@@ -4651,7 +5087,9 @@
         description="Jay explores a building and finds Hoody.  He confronts Hoody, who is having a coughing fit.  Hoody threatens Jay and runs off."
         location="R"
         video_still_id="2"
-        video_title="Entry #79 (M3)">
+        video_title="Entry #79 (M3)"
+        start_time="1:52"
+        end_time="4:20">
         <character_list>
           <character name="Hoody"></character>
           <character name="Jay"></character>
@@ -4667,7 +5105,9 @@
         description="In pursuit of Hoody, Jay sees Tim.  He follows Tim into a basement where he finds a room with photos of Alex in there and a message telling Jay to go to Benedict Hall.  Jay cannot get into the Hall, so he waits in an adjacent building."
         location="R"
         video_still_id="3"
-        video_title="Entry #79 (M3)">
+        video_title="Entry #79 (M3)"
+        start_time="4:22"
+        end_time="13:40">
         <character_list>
           <character name="Jay"></character>
           <character name="Tim"></character>
@@ -4696,7 +5136,9 @@
         description="totheark recycles some more footage and posts a mystererious message."
         location="E"
         video_still_id="1"
-        video_title="Quadrant (T3)">
+        video_title="Quadrant (T3)"
+        start_time="0:00"
+        end_time="0:37">
         <character_list>
           <character name="totheark"></character>
         </character_list>
@@ -4724,7 +5166,9 @@
         description="Jay sees Tim flee from Benedict Hall, and goes to investigate."
         location="R"
         video_still_id="1"
-        video_title="Entry #80 (M3)">
+        video_title="Entry #80 (M3)"
+        start_time="0:12"
+        end_time="0:36">
         <character_list>
           <character name="Jay"></character>
         </character_list>
@@ -4739,7 +5183,9 @@
         description="Jay goes into the basement where he finds Alex with the gun, who then shoots Jay.  Jay runs to a room and locks himself in.  The operator appears and takes him."
         location="R"
         video_still_id="2"
-        video_title="Entry #80 (M3)">
+        video_title="Entry #80 (M3)"
+        start_time="0:38"
+        end_time="4:00">
         <character_list>
           <character name="Alex"></character>
           <character name="Jay"></character>
@@ -4758,7 +5204,9 @@
         description="Someone stops Jay's camera from recording.  Tim picks up the camera and looks for Jay.  He sees Hoody and pursues them, but loses track of them."
         location="R"
         video_still_id="3"
-        video_title="Entry #80 (M3)">
+        video_title="Entry #80 (M3)"
+        start_time="4:02"
+        end_time="5:35">
         <character_list>
           <character name="Hoody"></character>
           <character name="Tim"></character>
@@ -4789,7 +5237,9 @@
         description="Tim looks around the Benedict Hall campus, finds a man who tells Tim where Benedict Hall is, but to come back tomorrow.  Tim finds Benedict Hall locked and decides to return the next day."
         location="R"
         video_still_id="1"
-        video_title="Entry #81 (M3)">
+        video_title="Entry #81 (M3)"
+        start_time="0:22"
+        end_time="3:48">
         <character_list>
           <character name="Jacob's friend"></character>
           <character name="Tim"></character>
@@ -4805,7 +5255,9 @@
         description="Tim explores the Benedict Hall campus, and Jay follows him.  Tim goes into the basement and finds a manhole cover, but he cannot open it.  He decides to wait another day."
         location="R"
         video_still_id="2"
-        video_title="Entry #81 (M3)">
+        video_title="Entry #81 (M3)"
+        start_time="4:05"
+        end_time="5:59">
         <character_list>
           <character name="Alex"></character>
           <character name="Jay"></character>
@@ -4823,7 +5275,9 @@
         description="Tim moves through the sewer, where he sees Hoody move past.  Tim finds a way into the basement of Benedict Hall, where he sees Alex.  He flees, leaving the door to Benedict Hall open."
         location="R"
         video_still_id="2"
-        video_title="Entry #81 (M3)">
+        video_title="Entry #81 (M3)"
+        start_time="6:13"
+        end_time="12:15">
         <character_list>
           <character name="Alex"></character>
           <character name="Hoody"></character>
@@ -4841,7 +5295,9 @@
         description="After fleeing Benedict Hall, Tim starts to cough and runs to his car.  As he searches for his pills he hears a gunshot.  He cannot find his pills and blacks out."
         location="R"
         video_still_id="3"
-        video_title="Entry #81 (M3)">
+        video_title="Entry #81 (M3)"
+        start_time="12:17"
+        end_time="13:22">
         <character_list>
           <character name="Alex"></character>
           <character name="Hoody"></character>
@@ -4874,7 +5330,9 @@
         description="Tim washes his face in a restroom.  He then walks to Jay's car and finds it unlocked.  He looks in the trunk and finds Jay's laptop."
         location="R"
         video_still_id="1"
-        video_title="Entry #82 (M3)">
+        video_title="Entry #82 (M3)"
+        start_time="0:11"
+        end_time="2:24">
         <character_list>
           <character name="Tim"></character>
         </character_list>
@@ -4891,7 +5349,9 @@
         description="Jay walks though the tunnel to the other side, and finds that the geography of Rosswood Park is changing around him.  He calls Tim and leaves a message.  The operator appears and Jay has a seizure.  Jay flees the area."
         location="R"
         video_still_id="2"
-        video_title="Entry #82 (M3)">
+        video_title="Entry #82 (M3)"
+        start_time="2:50"
+        end_time="9:07">
         <character_list>
           <character name="operator"></character>
           <character name="Jay"></character>
@@ -4920,7 +5380,9 @@
         description="totheark tells Tim he is alone."
         location="E"
         video_still_id="1"
-        video_title="Null (T3)">
+        video_title="Null (T3)"
+        start_time="0:00"
+        end_time="0:41">
         <character_list>
           <character name="totheark"></character>
         </character_list>
@@ -4948,7 +5410,9 @@
         description="Tim washes finds Hoody in a corridor of Benedict Campus.  The operator shows up and Hoody flees.  Tim chases him."
         location="R"
         video_still_id="1"
-        video_title="Entry #83 (M3)">
+        video_title="Entry #83 (M3)"
+        start_time="0:11"
+        end_time="2:40">
         <character_list>
           <character name="Tim"></character>
           <character name="Hoody"></character>
@@ -4966,7 +5430,9 @@
         description="Tim chases Hoody and they teleport to various locations."
         location="E"
         video_still_id="2"
-        video_title="Entry #83 (M3)">
+        video_title="Entry #83 (M3)"
+        start_time="2:40"
+        end_time="5:05">
         <character_list>
           <character name="Tim"></character>
           <character name="Jay"></character>
@@ -4982,10 +5448,12 @@
         cameraperson="Tim"
         tape_tag="6"
         place="Various places"
-        description="Tim and Hoody teleport back to Bendict Campus.  Hoody falls from a balcony to the ground.  Tim takes his pills and a tape, before the operator chases him away.  Tim teleports and ends up waking up in a field."
+        description="Tim and Hoody teleport back to Benedict Campus.  Hoody falls from a balcony to the ground.  Tim takes his pills and a tape, before the operator chases him away.  Tim teleports and ends up waking up in a field."
         location="R"
         video_still_id="3"
-        video_title="Entry #83 (M3)">
+        video_title="Entry #83 (M3)"
+        start_time="5:06"
+        end_time="7:09">
         <character_list>
           <character name="Tim"></character>
           <character name="Brian"></character>
@@ -5019,7 +5487,9 @@
         description="Tim is driving in his car.  The chestcam malfunctions and stops working."
         location="R"
         video_still_id="0"
-        video_title="Entry #84 (M3)">
+        video_title="Entry #84 (M3)"
+        start_time="0:10"
+        end_time="0:33">
         <character_list>
           <character name="Tim"></character>
         </character_list>
@@ -5036,7 +5506,9 @@
         description="Tim returns to his house to find it as Jay left it (knife and zip ties on the floor).  He takes Hoody's tape and plays it with Jay's camera."
         location="R"
         video_still_id="0"
-        video_title="Entry #84 (M3)">
+        video_title="Entry #84 (M3)"
+        start_time="0:45"
+        end_time="1:26">
         <character_list>
           <character name="Tim"></character>
         </character_list>
@@ -5054,7 +5526,9 @@
         description="Alex is holding auditions.  Brian and Tim arrive and try out.  Brian is wearing the hooded top."
         location="C"
         video_still_id="1"
-        video_title="Entry #84 (M3)">
+        video_title="Entry #84 (M3)"
+        start_time="1:39"
+        end_time="8:00">
         <character_list>
           <character name="Alex"></character>
           <character name="Brian"></character>
@@ -5074,7 +5548,9 @@
         description="Alex films a residential area.  The operator shows up and Alex notices distortion."
         location="C"
         video_still_id="2"
-        video_title="Entry #84 (M3)">
+        video_title="Entry #84 (M3)"
+        start_time="8:01"
+        end_time="8:40">
         <character_list>
           <character name="Alex"></character>
           <character name="operator"></character>
@@ -5083,9 +5559,6 @@
       </scene>
     </scene_list>
   </video>
-  
-  
-  
 
   <event
     name="Tim admitted to hospital"

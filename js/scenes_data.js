@@ -211,7 +211,6 @@ function order_scenes(){
     if(a.month !=b.month) return a.month - b.month ;
     if(a.day   !=b.day  ) return a.day   - b.day   ;
     return a.hour - b.hour ;
-  }
-) ;
+  }) ;
   for(var i=0 ; i<scenes.length ; i++){ scenes[i].position = i ; }
 }

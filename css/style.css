@@ -112,8 +112,7 @@ h4{
   margin : auto ;
 }
 body{
-  background : url('woods.jpg') ; /* Taken from http://ghostsnghouls.com/ */
-  background : url('woods2.jpg') ; /* http://stentzel.blogspot.com/ */
+  background : url('../images/woods2.jpg') ; /* http://stentzel.blogspot.com/ */
   background-repeat : none ;
   background-attachment : fixed ;
 }

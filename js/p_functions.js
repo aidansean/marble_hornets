@@ -11,6 +11,8 @@ var set_focus_on_change_video = true  ;
 var play_on_change_video      = true  ;
 
 var main_player = null ;
+var scenes = [] ;
+var scene_player_first = true ;
 
 // Playlist settings
 var entries = [] ;
@@ -31,91 +33,6 @@ function get_entry_by_name(name){
 var current_playlist = 0 ;
 var release_order_playlist = new Array() ;
 var chronological_order_playlist = new Array() ;
-{
-chronological_order_playlist.push( get_entry_by_name('enttry 37'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #5'   ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #2'   ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #55'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #12'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #54'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #4'   ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #13'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #70'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #10'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #7'   ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #11'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #1'   ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #6'   ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #3'   ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #8'   ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #17'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #20'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #9'   ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #14'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #71'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #22'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #56'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #57'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #51'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #15'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #16'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #19'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #19.5') ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #18'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #21'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #23'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #24'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #25'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #26'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #34'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #35'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #36'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #39'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #40'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #41'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #42'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #43'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #44'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #45'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #46'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #47'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #48'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #49'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #38'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #50'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #52'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #29'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #27'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #28'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #30'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #31'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #32'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #76'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #33'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #53'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #58'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #59'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #60'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #60.5') ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #61'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #62'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #63'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #64'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #65'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #67'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #66'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #68'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #67.5') ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #69'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #72'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #73'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #74'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #75'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #77'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #78'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #79'  ) ) ;
-chronological_order_playlist.push( get_entry_by_name('Entry #80'  ) ) ;
-}
 
 var current_playlist = release_order_playlist ;
 var current_entry    = null ;
@@ -310,9 +227,9 @@ function update_entry_info(){
   Get('entry_characters'  ).innerHTML = get_all_names(entries[current_entry].characters  ) ;
   Get('entry_cameraperson').innerHTML = get_all_names(entries[current_entry].cameraperson) ;
 
-  Get('entry_youtube_link'  ).href = 'http://www.youtube.com/watch?v='                  + entries[current_entry].youtube_id     ;
-  Get('entry_wikidot_link'  ).href = 'http://marblehornets.wikidot.com/'                + entries[current_entry].wikidot_link   ;
-  Get('entry_unfiction_link').href = 'http://forums.unfiction.com/forums/viewtopic.php' + entries[current_entry].unfiction_link ;
+  Get('entry_youtube_link'           ).href = 'http://www.youtube.com/watch?v='                  + entries[current_entry].youtube_id     ;
+  Get('entry_wikidot_link'           ).href = 'http://marblehornets.wikidot.com/'                + entries[current_entry].wikidot_link   ;
+  Get('entry_unfiction_link'         ).href = 'http://forums.unfiction.com/forums/viewtopic.php' + entries[current_entry].unfiction_link ;
 
   Get('entry_youtube_external_link'  ).href = 'http://www.youtube.com/watch?v='                  + entries[current_entry].youtube_id     ;
   Get('entry_wikidot_external_link'  ).href = 'http://marblehornets.wikidot.com/'                + entries[current_entry].wikidot_link   ;
@@ -389,6 +306,7 @@ function remove_className(id, className){
 }
 
 function change_video(){
+  if(getParameterByName('scene')) return ;
   if(current_entry<0 || current_entry>=entries.length) current_entry = 0 ;
 
   if(autoplay && main_player.loadVideoById){
@@ -584,6 +502,7 @@ function start(){
   update_n_videos() ;
   set_flashlight(current_entry) ;
   heartbeat() ;
+  if(getParameterByName('scene')) scene_player_heartbeat() ;
 }
 function heartbeat(){
   if(heartbeat_entry!=-1){
@@ -688,6 +607,31 @@ function keyDown(e){
       create_playlist() ;
     break ;
   }
+}
+
+/* Stuff for playing the scenes in order without white text etc */
+var scene_player_delay = 100 ;
+var scene_player_current_index = 0 ;
+function scene_player_heartbeat(){
+  var queue_next_video = false ;
+  if(main_player.getCurrentTime()>scenes[scene_player_current_index].end){
+    if(scene_player_current_index==scenes.length-1){
+      return ;
+    }
+    scene_player_current_index++ ;
+    queue_next_video = true ;
+  }
+  if(scene_player_first){
+    scene_player_first = false ;
+    queue_next_video = true ;
+  }
+  if(queue_next_video){
+    var youtube_id = scenes[scene_player_current_index].video.fields['youtube_id'] ;
+    main_player.cueVideoById(youtube_id, scenes[scene_player_current_index].start) ;
+    main_player.playVideo() ;
+  }
+  
+  window.setTimeout(scene_player_heartbeat, scene_player_delay) ;
 }
 
 function    Get(id ){ return document.getElementById(id) ; }

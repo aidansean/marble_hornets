@@ -325,6 +325,13 @@ function scene_object(node, mode){
     this.fields     = get_fields_from_xml(element) ;
     this.characters = get_array_from_xml(element, 'character') ;
     this.items      = get_array_from_xml(element, 'item'     ) ;
+    
+    var start_s = parseInt(this.fields['start_time'].split(':')[1]) ;
+    var start_m = parseInt(this.fields['start_time'].split(':')[0]) ;
+    var end_s   = parseInt(this.fields[  'end_time'].split(':')[1]) ;
+    var end_m   = parseInt(this.fields[  'end_time'].split(':')[0]) ;
+    this.start    = 60*start_m+start_s ;
+    this.end      = 60*end_m  +end_s   ;
   }
   this.selected = false ;
   this.fields = [] ;
