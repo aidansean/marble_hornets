@@ -185,6 +185,7 @@ function load_scenes_from_xml(){
     }
   }
   order_scenes() ;
+  order_videos() ;
   
   for(var i=0 ; i<scenes.length ; i++){
     if(scenes[i].items==undefined) continue ;
@@ -213,4 +214,30 @@ function order_scenes(){
     return a.hour - b.hour ;
   }) ;
   for(var i=0 ; i<scenes.length ; i++){ scenes[i].position = i ; }
+}
+
+function order_videos(){
+  videos.sort(function(a,b){
+    var a_r = a.fields['release_date'] ;
+    var b_r = b.fields['release_date'] ;
+    var a_year  = parseInt(a_r.split('/')[0]) ;
+    var b_year  = parseInt(b_r.split('/')[0]) ;
+    var a_month = parseInt(a_r.split('/')[1]) ;
+    var b_month = parseInt(b_r.split('/')[1]) ;
+    var a_day   = parseInt(a_r.split('/')[2]) ;
+    var b_day   = parseInt(b_r.split('/')[2]) ;
+    if(a_year !=b_year ) return a_year  - b_year  ;
+    if(a_month!=b_month) return a_month - b_month ;
+    return a_day - b_day ;
+  }) ;
+}
+
+function order_scenes_by_release(){
+  scenes = [] ;
+  for(var i=0 ; i<videos.length ; i++){
+    var v = videos[i] ;
+    for(var j=0 ; j<v.scenes.length ; j++){
+      scenes.push(v.scenes[j]) ;
+    }
+  }
 }

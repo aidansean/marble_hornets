@@ -12,21 +12,18 @@
     title="Season 1 begins"
     season="1"
     description="Jay is reminded about the operator by a post of SomethingAwful and starts to post videos"></epoch>
-
   <epoch
     date="2010/04/20"
     time="12:00"
     title="Seven month gap"
     season="2"
     description="Jay's memory of this period was erased"></epoch>
-
   <epoch
     date="2010/11/22"
     time="23:00"
     title="Season 2 begins"
     season="2"
     description="Jay starts to upload footage again"></epoch>
-
   <epoch
     date="2012/02/29"
     time="10:00"
@@ -42,7 +39,8 @@
     unfiction="?t=28021"
     player_summary="Introduction to the series."
     duration="2:00"
-    youtube_id="Wmhfn3mgWUI">
+    youtube_id="Wmhfn3mgWUI"
+    release_date="2009/06/20">
     <scene_list>
       <scene
         date="2009/06/20"
@@ -70,7 +68,8 @@
     unfiction="?t=28021"
     player_summary="Alex sees the Operator outside his house."
     duration="0:48"
-    youtube_id="Bn59FJ4HrmU">
+    youtube_id="Bn59FJ4HrmU"
+    release_date="2009/06/21">
     <scene_list>
       <scene
         date="2006/07/05"
@@ -103,7 +102,8 @@
     unfiction="?t=28021"
     player_summary="Alex is driving to a lamppost."
     duration="1:36"
-    youtube_id="JVECb0bYq8w">
+    youtube_id="JVECb0bYq8w"
+    release_date="2009/06/21">
     <scene_list>
       <scene
         date="2006/05/29"
@@ -135,7 +135,8 @@
     unfiction="?p=622434#622434"
     player_summary="Alex is constantly filming himself."
     duration="2:29"
-    youtube_id="b52bwPam7O8">
+    youtube_id="b52bwPam7O8"
+    release_date="2009/06/23">
     <scene_list>
       <scene
         date="2006/06/21"
@@ -165,7 +166,8 @@
     unfiction="?p=622760#622760"
     player_summary="Alex chases the Operator around a playground.  Sound is disabled."
     duration="0:46"
-    youtube_id="yBNQZvOkSCw">
+    youtube_id="yBNQZvOkSCw"
+    release_date="2009/06/25">
     <scene_list>
       <scene
         date="2006/06/01"
@@ -196,7 +198,8 @@
     unfiction="?t=33443"
     player_summary="Alex and Jay go location scouting."
     duration="3:35"
-    youtube_id="6GMQ_FULc4M">
+    youtube_id="6GMQ_FULc4M"
+    release_date="2009/06/30">
     <scene_list>
       <scene
         date="2006/05/05"
@@ -245,7 +248,8 @@
     unfiction="?p=624022#624022"
     player_summary="The Operator is stalking Alex outside his house."
     duration="0:44"
-    youtube_id="lQGvn82NNQw">
+    youtube_id="lQGvn82NNQw"
+    release_date="2009/07/04">
     <scene_list>
       <scene
         date="2006/07/05"
@@ -276,7 +280,8 @@
     unfiction="?p=624607#624607"
     player_summary="Alex and Brian are filming.  The Operator shows up."
     duration="2:01"
-    youtube_id="0q3cQjeerNU">
+    youtube_id="0q3cQjeerNU"
+    release_date="2009/07/08">
     <scene_list>
       <scene
         date="2006/06/25"
@@ -308,7 +313,8 @@
     unfiction="?p=625519#625519"
     player_summary="Alex draws some things in charcoal."
     duration="0:36"
-    youtube_id="rfAL3hubpoA">
+    youtube_id="rfAL3hubpoA"
+    release_date="2009/07/13">
     <scene_list>
       <scene
         date="2006/07/01"
@@ -340,7 +346,8 @@
     unfiction="?p=626949#626949"
     player_summary="Filming in the gazebo for Marble Hornets."
     duration="3:36"
-    youtube_id="OT25GyRBHy8">
+    youtube_id="OT25GyRBHy8"
+    release_date="2009/07/20">
     <scene_list>
       <scene
         date="2006/06/29"
@@ -373,7 +380,8 @@
     unfiction="?p=626949#626949"
     player_summary="totheark introduce themselves to Jay."
     duration="0:10"
-    youtube_id="NmqDPBu1UaM">
+    youtube_id="NmqDPBu1UaM"
+    release_date="2009/07/23">
     <scene_list>
       <scene
         date="2009/07/22"
@@ -403,7 +411,8 @@
     unfiction="?p=628718#628718"
     player_summary="Alex runs after or from the Operator.  Sound is disabled."
     duration="1:32"
-    youtube_id="1icUgVa7EYg">
+    youtube_id="1icUgVa7EYg"
+    release_date="2009/07/28">
     <scene_list>
       <scene
         date="2006/07/13"
@@ -434,7 +443,8 @@
     unfiction="?p=627739#627739"
     player_summary="totheark shares some audio."
     duration="0:22"
-    youtube_id="WVtGwViUILk">
+    youtube_id="WVtGwViUILk"
+    release_date="2009/07/31">
     <scene_list>
       <scene
         date="2009/07/31"
@@ -464,7 +474,8 @@
     unfiction="?t=28021"
     player_summary="Alex wakes up and searches for the Operator.  He doesn't see it."
     duration="1:58"
-    youtube_id="5a4Tm34wwck">
+    youtube_id="5a4Tm34wwck"
+    release_date="2009/08/10">
     <scene_list>
       <scene
         date="2006/07/17"
@@ -497,7 +508,8 @@
     unfiction="?t=28021"
     player_summary="'Watching YOU'"
     duration="0:15"
-    youtube_id="Dm3CjL6vS18">
+    youtube_id="Dm3CjL6vS18"
+    release_date="2009/08/12">
     <scene_list>
       <scene
         date="2009/08/11"
@@ -527,7 +539,8 @@
     unfiction="?t=28021"
     player_summary="Alex, Brian and Sarah(?) are filming.  The Operator shows up."
     duration="1:00"
-    youtube_id="UXKZlwoPfBU">
+    youtube_id="UXKZlwoPfBU"
+    release_date="2009/08/30">
     <scene_list>
       <scene
         date="2006/05/09"
@@ -561,7 +574,8 @@
     unfiction="?t=28381"
     player_summary="A rainy day."
     duration="0:34"
-    youtube_id="zxPDaFeUzT0">
+    youtube_id="zxPDaFeUzT0"
+    release_date="2009/09/01">
     <scene_list>
       <scene
         date="2009/09/01"
@@ -591,7 +605,8 @@
     unfiction="?t=28021"
     player_summary="Alex and Jay are filming.  Alex chases the Operator around an old swimming pool."
     duration="1:00"
-    youtube_id="j-YEsCFM100">
+    youtube_id="j-YEsCFM100"
+    release_date="2009/09/11">
     <scene_list>
       <scene
         date="2006/06/05"
@@ -623,7 +638,8 @@
     unfiction="?t=28021"
     player_summary="Behind the scenes footage of Jay at Alex's car."
     duration="1:07"
-    youtube_id="hn42IHeear4">
+    youtube_id="hn42IHeear4"
+    release_date="2009/09/16">
     <scene_list>
       <scene
         date="2006/06/05"
@@ -654,7 +670,8 @@
     unfiction="?t=28507"
     player_summary="The Operator pays Alex a visit in his bedroom."
     duration="1:59"
-    youtube_id="1lxsMHeOGjE">
+    youtube_id="1lxsMHeOGjE"
+    release_date="2009/09/23">
     <scene_list>
       <scene
         date="2006/07/21"
@@ -685,7 +702,8 @@
     unfiction="?t=28021"
     player_summary="bleed more"
     duration="0:18"
-    youtube_id="46GwQd-X38g">
+    youtube_id="46GwQd-X38g"
+    release_date="2009/09/26">
     <scene_list>
       <scene
         date="2009/09/26"
@@ -715,7 +733,8 @@
     unfiction="?t=28559"
     player_summary="Jay asks Tim about his experiences filming Marble Hornets."
     duration="5:01"
-    youtube_id="BFb7eTQmVA8">
+    youtube_id="BFb7eTQmVA8"
+    release_date="2009/10/03">
     <scene_list>
       <scene
         date="2009/10/02"
@@ -748,7 +767,8 @@
     unfiction="?t=28591"
     player_summary="'sit down'"
     duration="0:22"
-    youtube_id="Q3eq2SZYsEA">
+    youtube_id="Q3eq2SZYsEA"
+    release_date="2009/10/13">
     <scene_list>
       <scene
         date="2009/10/12"
@@ -778,7 +798,8 @@
     unfiction="?t=28603"
     player_summary="Jay goes to the abandoned house for the first time."
     duration="7:57"
-    youtube_id="5agHXjRdb_8">
+    youtube_id="5agHXjRdb_8"
+    release_date="2009/10/16">
     <scene_list>
       <scene
         date="2009/10/13"
@@ -813,7 +834,8 @@
     unfiction="?t=28618"
     player_summary="totheark films Jay at the house."
     duration="0:16"
-    youtube_id="WHFRTgjVYyY">
+    youtube_id="WHFRTgjVYyY"
+    release_date="2009/10/21">
     <scene_list>
       <scene
         date="2009/10/13"
@@ -844,7 +866,8 @@
     unfiction="?t=28649"
     player_summary="Forgotten footage from Marble Hornets."
     duration="1:51"
-    youtube_id="IqsAWxVUUIU">
+    youtube_id="IqsAWxVUUIU"
+    release_date="2009/11/02">
     <scene_list>
       <scene
         date="2006/05/17"
@@ -877,7 +900,8 @@
     unfiction="?t=28667"
     player_summary="A message from totheark using old movie footage."
     duration="0:30"
-    youtube_id="qw78k0dldHI">
+    youtube_id="qw78k0dldHI"
+    release_date="2009/11/05">
     <scene_list>
       <scene
         date="2009/11/04"
@@ -907,7 +931,8 @@
     unfiction="?t=28678"
     player_summary="Jay returns the house and gets tackled by Masky."
     duration="3:37"
-    youtube_id="6BsPPQSwdVw">
+    youtube_id="6BsPPQSwdVw"
+    release_date="2009/11/11">
     <scene_list>
       <scene
         date="2009/11/09"
@@ -959,7 +984,8 @@
     unfiction="?t="
     player_summary="'Tell us.  You have been keeping secrets.  Smile for the camera.'"
     duration="0:26"
-    youtube_id="-VK-JaLhFIM">
+    youtube_id="-VK-JaLhFIM"
+    release_date="2009/11/21">
     <scene_list>
       <scene
         date="2009/11/21"
@@ -989,7 +1015,8 @@
     unfiction="?t=28756"
     player_summary="Masky shows up in Jay's room.  Jay disappears for a few hours."
     duration="2:23"
-    youtube_id="x-qZUgxShlM">
+    youtube_id="x-qZUgxShlM"
+    release_date="2009/11/26">
     <scene_list>
       <scene
         date="2009/11/20"
@@ -1024,7 +1051,8 @@
     unfiction="?t=33601"
     player_summary="Footage and Jay and the Operator, getting close."
     duration="0:11"
-    youtube_id="sUI-3lU6bek">
+    youtube_id="sUI-3lU6bek"
+    release_date="2009/12/02">
     <scene_list>
       <scene
         date="2009/11/20"
@@ -1056,7 +1084,8 @@
     unfiction="?t=28800"
     player_summary="Jay looks at the items he recovered in Entry #16."
     duration="3:10"
-    youtube_id="gv54NJa2yhI">
+    youtube_id="gv54NJa2yhI"
+    release_date="2009/12/10">
     <scene_list>
       <scene
         date="2009/12/08"
@@ -1086,7 +1115,8 @@
     unfiction="?t=28818"
     player_summary="Alex, Tim, Jay and the cameraperson go through a script reading."
     duration="3:18"
-    youtube_id="1VKridtP5FQ">
+    youtube_id="1VKridtP5FQ"
+    release_date="2009/12/16">
     <scene_list>
       <scene
         date="2006/05/13"
@@ -1121,7 +1151,8 @@
     unfiction="?t="
     player_summary="totheark draws attention to the red tower."
     duration="0:10"
-    youtube_id="j09PpA5fJaQ">
+    youtube_id="j09PpA5fJaQ"
+    release_date="2009/12/17">
     <scene_list>
       <scene
         date="2009/11/21"
@@ -1151,7 +1182,8 @@
     unfiction="?t=28835"
     player_summary="Jay recovers a tape from the tower."
     duration="5:24"
-    youtube_id="N-TCS5_yQj0">
+    youtube_id="N-TCS5_yQj0"
+    release_date="2009/12/22">
     <scene_list>
       <scene
         date="2009/12/21"
@@ -1183,7 +1215,8 @@
     unfiction="?t=28838"
     player_summary="Jay plays the tape from the red tower.  Seth and Alex explore the basement of doom.  Seth gets taken.  Alex makes a confessional tape and promises to burn the tape."
     duration="6:46"
-    youtube_id="-Y7_WP9HOME">
+    youtube_id="-Y7_WP9HOME"
+    release_date="2009/12/23">
     <scene_list>
       <scene
         date="2006/08/05"
@@ -1233,7 +1266,8 @@
     unfiction="?t="
     player_summary="More old movie footage.  'Return to us'."
     duration="0:14"
-    youtube_id="6PdSebzNinc">
+    youtube_id="6PdSebzNinc"
+    release_date="2010/01/11">
     <scene_list>
       <scene
         date="2010/01/11"
@@ -1263,7 +1297,8 @@
     unfiction="?t=28965"
     player_summary="totheark suggests another visit to the abandoned house.  'There are doors left unopened'."
     duration="0:43"
-    youtube_id="rIe-a6-TNHI">
+    youtube_id="rIe-a6-TNHI"
+    release_date="2010/01/16">
     <scene_list>
       <scene
         date="2010/01/16"
@@ -1294,7 +1329,8 @@
     unfiction="?t=29390"
     player_summary="Jay goes back to the abandoned house.  The Operator teleports him to the basement of doom.  Jay decides it's time to quit."
     duration="7:54"
-    youtube_id="SzdZyZgCY58">
+    youtube_id="SzdZyZgCY58"
+    release_date="2010/01/29">
     <scene_list>
       <scene
         date="2010/01/27"
@@ -1366,7 +1402,8 @@
     unfiction="?t=29041"
     player_summary="'The following are footage excerpts from Alex Kralie'"
     duration="0:43"
-    youtube_id="Of07rSEO0hE">
+    youtube_id="Of07rSEO0hE"
+    release_date="2010/02/04">
     <scene_list>
       <scene
         date="2010/02/03"
@@ -1397,7 +1434,8 @@
     unfiction="?t=29091"
     player_summary="Jay is transported from his own house"
     duration="2:54"
-    youtube_id="B_rA7gQl95w">
+    youtube_id="B_rA7gQl95w"
+    release_date="2010/02/17">
     <scene_list>
       <scene
         date="2010/02/15"
@@ -1429,7 +1467,8 @@
     unfiction="?t=29153"
     player_summary="'We will wait for you no more.  Control is being taken away from you.'"
     duration="0:27"
-    youtube_id="N7QXQZjp5XM">
+    youtube_id="N7QXQZjp5XM"
+    release_date="2010/03/06">
     <scene_list>
       <scene
         date="2010/03/05"
@@ -1462,7 +1501,8 @@
     unfiction="?t=29248"
     player_summary="Jay is staying in a hotel.  His apartment building burns to the ground."
     duration="1:54"
-    youtube_id="OCASnK9F4DI">
+    youtube_id="OCASnK9F4DI"
+    release_date="2010/03/25">
     <scene_list>
       <scene
         date="2010/03/25"
@@ -1494,7 +1534,8 @@
     unfiction="?t=29390"
     player_summary="Jay is about to give up, but just before he does a tape arrives.  It shows footage of Alex and Amy, and their encounter with the Operator."
     duration="5:17"
-    youtube_id="tLIpL26ztFo">
+    youtube_id="tLIpL26ztFo"
+    release_date="2010/04/19">
     <scene_list>
       <scene
         date="2010/04/04"
@@ -1581,7 +1622,8 @@
     unfiction="?t=30826"
     player_summary="Jay wakes up with a seven month memory gap."
     duration="6:14"
-    youtube_id="Hn7Qow98Gr4">
+    youtube_id="Hn7Qow98Gr4"
+    release_date="2010/11/24">
     <scene_list>
       <scene
         date="2010/11/23"
@@ -1613,7 +1655,8 @@
     unfiction="?t=30955"
     player_summary="Jay finds a bag, a locked safe and meets Jessica."
     duration="4:52"
-    youtube_id="MM_2_9fUcfs">
+    youtube_id="MM_2_9fUcfs"
+    release_date="2010/12/04">
     <scene_list>
       <scene
         date="2010/12/02"
@@ -1679,7 +1722,8 @@
     unfiction="?t=31114"
     player_summary="Jay finds footage of Alex running through the woods and to the tunnel."
     duration="1:06"
-    youtube_id="bxCVvI7kgR0">
+    youtube_id="bxCVvI7kgR0"
+    release_date="2010/12/17">
     <scene_list>
       <scene
         date="2010/10/02"
@@ -1710,7 +1754,8 @@
     unfiction="?t=31167"
     player_summary="Jay speaks to Jessica and the camera starts to malfunction around her.  Strange noises come from her room."
     duration="3:29"
-    youtube_id="rPCEaa7-Hrw">
+    youtube_id="rPCEaa7-Hrw"
+    release_date="2010/12/22">
     <scene_list>
       <scene
         date="2010/12/21"
@@ -1759,7 +1804,8 @@
     unfiction="?t=31294"
     player_summary="Jay goes to the park and talks to a stranger.  He returns to the hotel and asks Jessica some questions."
     duration="7:34"
-    youtube_id="LL0URnfDBos">
+    youtube_id="LL0URnfDBos"
+    release_date="2011/01/04">
     <scene_list>
       <scene
         date="2010/12/26"
@@ -1808,7 +1854,8 @@
     unfiction="?t=31373"
     player_summary="Jessica confesses some strange experiences to Jay."
     duration="3:02"
-    youtube_id="wjFnujnjC8M">
+    youtube_id="wjFnujnjC8M"
+    release_date="2011/01/13">
     <scene_list>
       <scene
         date="2011/01/12"
@@ -1839,7 +1886,8 @@
     unfiction="?t=31419"
     player_summary="Jessica goes missing and Jay gets chased out of the hotel."
     duration="2:46"
-    youtube_id="h_lgYbjAKG4">
+    youtube_id="h_lgYbjAKG4"
+    release_date="2011/01/19">
     <scene_list>
       <scene
         date="2011/01/12"
@@ -1871,7 +1919,8 @@
     unfiction="?t=31561"
     player_summary="Jay follows the return address on the package to the burned out building."
     duration="4:32"
-    youtube_id="MaR4NbfyzAc">
+    youtube_id="MaR4NbfyzAc"
+    release_date="2011/02/09">
     <scene_list>
       <scene
         date="2010/04/21"
@@ -1918,7 +1967,8 @@
     unfiction="?t=31609"
     player_summary="Jay goes back to the burned out building and meets Alex.  He is confronted with Masky, who is revealed to be Tim."
     duration="2:14"
-    youtube_id="cJ3Orif19ew">
+    youtube_id="cJ3Orif19ew"
+    release_date="2011/02/16">
     <scene_list>
       <scene
         date="2010/04/22"
@@ -1953,7 +2003,8 @@
     unfiction="?p=814134"
     player_summary="Jay and Alex drive home, and talk about their encounter with Tim."
     duration="2:15"
-    youtube_id="O6p-8Lu-Hm8">
+    youtube_id="O6p-8Lu-Hm8"
+    release_date="2011/03/03">
     <scene_list>
       <scene
         date="2010/04/22"
@@ -1984,7 +2035,8 @@
     unfiction="?t=31869"
     player_summary="Footage from one of Alex's early birthday parties."
     duration="1:08"
-    youtube_id="hE8aZZx1dTI">
+    youtube_id="hE8aZZx1dTI"
+    release_date="2011/03/24">
     <scene_list>
       <scene
         date="1994/04/04"
@@ -2015,7 +2067,8 @@
     unfiction="?t=32025"
     player_summary="Alex and Jay walk through the woods.  Alex tells a spooky ghost story."
     duration="3:29"
-    youtube_id="FMcgL3hgMYM">
+    youtube_id="FMcgL3hgMYM"
+    release_date="2011/04/05">
     <scene_list>
       <scene
         date="2010/10/02"
@@ -2046,7 +2099,8 @@
     unfiction="?t=32102"
     player_summary="Jay is in his car and gets a phonecall from Alex.  When he sleeps in his car a strange visitor walks by."
     duration="3:03"
-    youtube_id="6eDQUXD7G3Y">
+    youtube_id="6eDQUXD7G3Y"
+    release_date="2011/04/13">
     <scene_list>
       <scene
         date="2010/04/29"
@@ -2094,7 +2148,8 @@
     unfiction="?t=32160"
     player_summary="Stock footage of a reanimated dog lung, followed by footage of Jay asleep in his car."
     duration="0:41"
-    youtube_id="VrvjDtghdk0">
+    youtube_id="VrvjDtghdk0"
+    release_date="2011/04/22">
     <scene_list>
       <scene
         date="2010/04/29"
@@ -2125,7 +2180,8 @@
     unfiction="?t=32244"
     player_summary="Jay has a very close encounter with the Operator."
     duration="5:22"
-    youtube_id="p2Jo6yrUVwM">
+    youtube_id="p2Jo6yrUVwM"
+    release_date="2011/05/04">
     <scene_list>
       <scene
         date="2010/04/30"
@@ -2157,7 +2213,8 @@
     unfiction="?t=32392"
     player_summary="Jay's camera is returned to his car."
     duration="3:23"
-    youtube_id="e-d5ibaU4PM">
+    youtube_id="e-d5ibaU4PM"
+    release_date="2011/05/26">
     <scene_list>
       <scene
         date="2010/04/30"
@@ -2189,7 +2246,8 @@
     unfiction="?t=32536"
     player_summary="Alex and Jay meet after Jay's encounter with the Operator."
     duration="5:30"
-    youtube_id="KHhxDGbUgco">
+    youtube_id="KHhxDGbUgco"
+    release_date="2011/06/10">
     <scene_list>
       <scene
         date="2010/04/30"
@@ -2244,7 +2302,8 @@
     unfiction="?t=32618"
     player_summary="Jay and Alex look for Amy.  Alex goes to Rosswood Park and approaches the Operator."
     duration="7:04"
-    youtube_id="zqQIVmauiXI">
+    youtube_id="zqQIVmauiXI"
+    release_date="2011/06/28">
     <scene_list>
       <scene
         date="2010/06/01"
@@ -2311,7 +2370,8 @@
     unfiction="?t=32783"
     player_summary="Alex summons the Operator to his home."
     duration="4:09"
-    youtube_id="Ti-DYUnVr30">
+    youtube_id="Ti-DYUnVr30"
+    release_date="2011/07/16">
     <scene_list>
       <scene
         date="2010/06/15"
@@ -2360,7 +2420,8 @@
     unfiction="?t=32847"
     player_summary="Hoody and Masky show up at Alex's house.  He follows them to the woods where they attack him, until the Oprerator shows up."
     duration="3:12"
-    youtube_id="xPvHv5Vzkso">
+    youtube_id="xPvHv5Vzkso"
+    release_date="2011/07/24">
     <scene_list>
       <scene
         date="2010/07/22"
@@ -2411,7 +2472,8 @@
     unfiction="?t=32909"
     player_summary="Jay breaks into Alex's house and the Operator shows up.  As Jay flees his steals Alex's spare key."
     duration="3:47"
-    youtube_id="W4DFmc177AE">
+    youtube_id="W4DFmc177AE"
+    release_date="2011/08/03">
     <scene_list>
       <scene
         date="2010/08/01"
@@ -2445,7 +2507,8 @@
     unfiction="?t=33052"
     player_summary="Jay and Alex talk about the events of Entry #46.  Jay gets Jessica's number from Alex.  Jay calls Jessica."
     duration="7:40"
-    youtube_id="BZxzkiUM3pQ">
+    youtube_id="BZxzkiUM3pQ"
+    release_date="2011/08/19">
     <scene_list>
       <scene
         date="2010/08/01"
@@ -2494,7 +2557,8 @@
     unfiction="?t=33156"
     player_summary="Jay follows Alex through Rosswood Park to the tunnel."
     duration="6:42"
-    youtube_id="R61CAeFCIW0">
+    youtube_id="R61CAeFCIW0"
+    release_date="2011/09/01">
     <scene_list>
       <scene
         date="2010/10/01"
@@ -2544,7 +2608,8 @@
     unfiction="?t=33206"
     player_summary="Alex walks to the tunnel and kills a passerby."
     duration="6:37"
-    youtube_id="hVnwNBJask8">
+    youtube_id="hVnwNBJask8"
+    release_date="2011/09/07">
     <scene_list>
       <scene
         date="2010/10/01"
@@ -2595,7 +2660,8 @@
     unfiction="?t=33354"
     player_summary="Alex leads Jay through the woods (leading to Entry #38.)  Jay leaves while Alex remains in the woods.  Masky leads Jay to the tunnel.  Jay breaks into Alex's house again and takes a tape."
     duration="14:07"
-    youtube_id="ssUWOfRjRDk">
+    youtube_id="ssUWOfRjRDk"
+    release_date="2011/10/01">
     <scene_list>
       <scene
         date="2010/10/02"
@@ -2666,7 +2732,8 @@
     unfiction="?t=33419"
     player_summary="Contents of the tape from Entry #50.  Alex and Brian are filming Marble Hornets footage in the abandoned hospital.  The Operator shows up and Alex disappears.  Brian wakes up and searches the building, finding Tim.  The Operator shows up again."
     duration="8:59"
-    youtube_id="XOwlyWVOTVs">
+    youtube_id="XOwlyWVOTVs"
+    release_date="2011/10/13">
     <scene_list>
       <scene
         date="2006/08/02"
@@ -2741,7 +2808,8 @@
     unfiction="?t=33593"
     player_summary="Alex leads Jay and Jessica to the barn where he pulls a gun on them.  Masky turns up and stops Alex.  Jay and Jessica go to a hotel where the Operator shows up.  Jay wakes up after the encounter with no memory.  Jay sees Tim downtown."
     duration="14:33"
-    youtube_id="1jlbdYFY79M">
+    youtube_id="1jlbdYFY79M"
+    release_date="2011/11/13">
     <scene_list>
       <scene
         date="2010/11/22"
@@ -2858,7 +2926,8 @@
     unfiction="?t=31575"
     player_summary="'You are broken.  You cannot be fixed.'"
     duration="0:18"
-    youtube_id="SUeFeJtqn28">
+    youtube_id="SUeFeJtqn28"
+    release_date="2011/02/11">
     <scene_list>
       <scene
         date="2011/02/10"
@@ -2888,7 +2957,8 @@
     unfiction="?t=31962"
     player_summary="A mysterious underwater message."
     duration="0:14"
-    youtube_id="_myhIXgVF-o">
+    youtube_id="_myhIXgVF-o"
+    release_date="2011/02/27">
     <scene_list>
       <scene
         date="2011/02/26"
@@ -2919,7 +2989,8 @@
     unfiction="?t=31962"
     player_summary="Alex's voicemail."
     duration="0:18"
-    youtube_id="HOou1wxXu4o">
+    youtube_id="HOou1wxXu4o"
+    release_date="2011/03/16">
     <scene_list>
       <scene
         date="2011/03/15"
@@ -2949,7 +3020,8 @@
     unfiction="?t=32332"
     player_summary="'Did you see me?  I saw you.'"
     duration="0:32"
-    youtube_id="lQ-JriTEqn8">
+    youtube_id="lQ-JriTEqn8"
+    release_date="2011/05/17">
     <scene_list>
       <scene
         date="2011/05/16"
@@ -2980,7 +3052,8 @@
     unfiction="?t=32450"
     player_summary="'Messages everywhere.  Signs everywhere.  You will never be free.'"
     duration="0:26"
-    youtube_id="oCeBFW0KYV0">
+    youtube_id="oCeBFW0KYV0"
+    release_date="2011/06/03">
     <scene_list>
       <scene
         date="2011/06/02"
@@ -3010,7 +3083,8 @@
     unfiction="?t=32586"
     player_summary="'Years wasted.  You've done nothing.  So much more than time has been taken.'"
     duration="0:23"
-    youtube_id="gyOQvJgkOvQ">
+    youtube_id="gyOQvJgkOvQ"
+    release_date="2011/06/21">
     <scene_list>
       <scene
         date="2011/06/20"
@@ -3040,7 +3114,8 @@
     unfiction="?t=32706"
     player_summary="'Look at you.  You are who you are.  You are you.  But who are you?'"
     duration="1:01"
-    youtube_id="HUFe8bEIDQE">
+    youtube_id="HUFe8bEIDQE"
+    release_date="2011/07/08">
     <scene_list>
       <scene
         date="2011/07/07"
@@ -3070,7 +3145,8 @@
     unfiction="?t=33016"
     player_summary="Another creepy message from totheark.  'I saw it'."
     duration="0:18"
-    youtube_id="8bOR9j5Ld74">
+    youtube_id="8bOR9j5Ld74"
+    release_date="2011/08/16">
     <scene_list>
       <scene
         date="2011/08/15"
@@ -3100,7 +3176,8 @@
     unfiction="?t=33160"
     player_summary="totheark warns Jay about the tunnel incident.  'This is the best part'."
     duration="0:27"
-    youtube_id="DQRVI9OZY4Y">
+    youtube_id="DQRVI9OZY4Y"
+    release_date="2011/09/02">
     <scene_list>
       <scene
         date="2011/09/01"
@@ -3132,7 +3209,8 @@
     unfiction="?t=33320"
     player_summary="'How much do you hate?  It is not enough.'"
     duration="0:30"
-    youtube_id="7pkJ26HzFu8">
+    youtube_id="7pkJ26HzFu8"
+    release_date="2011/09/28">
     <scene_list>
       <scene
         date="2011/09/27"
@@ -3164,7 +3242,8 @@
     unfiction="?t=34186"
     player_summary="Jay tracks down Tim via the antique shop.  He approaches Tim outside his doctor's office and they exchange phone numbers."
     duration="8:27"
-    youtube_id="qcWlenKaKdQ">
+    youtube_id="qcWlenKaKdQ"
+    release_date="2012/03/11">
     <scene_list>
       <scene
         date="2012/03/01"
@@ -3231,7 +3310,8 @@
     unfiction="?t=33320"
     player_summary="totheark films Jay outside the antique shop.  'I have not forgotten.'"
     duration="0:29"
-    youtube_id="UUaqrdxbZ30">
+    youtube_id="UUaqrdxbZ30"
+    release_date="2012/03/16">
     <scene_list>
       <scene
         date="2012/03/01"
@@ -3262,7 +3342,8 @@
     unfiction="?t=34302"
     player_summary="Jay meets Tim and takes some tapes from him.  The tapes contain footage of behind the scenes of the Marble Hornets crew.  The Operator shows up in Tim's house."
     duration="7:00"
-    youtube_id="RKiQM6DIJck">
+    youtube_id="RKiQM6DIJck"
+    release_date="2012/03/26">
     <scene_list>
       <scene
         date="2012/03/23"
@@ -3320,7 +3401,8 @@
     unfiction="?t=34356"
     player_summary="totheark splices footage together.  'He will lead me to you.  Lead me to death.'"
     duration="0:57"
-    youtube_id="XhwO6wm76-U">
+    youtube_id="XhwO6wm76-U"
+    release_date="2012/04/05">
     <scene_list>
       <scene
         date="2012/04/04"
@@ -3350,7 +3432,8 @@
     unfiction="?t=34380"
     player_summary="More behind the scenes footage of Marble Hornets.  Tim tells Alex about the abandoned hospital.  Tim calls his doctor and asks for an appointment."
     duration="4:01"
-    youtube_id="SvVJcbnEmWw">
+    youtube_id="SvVJcbnEmWw"
+    release_date="2012/04/10">
     <scene_list>
       <scene
         date="2006/05/25"
@@ -3382,7 +3465,8 @@
     unfiction="?t=34446"
     player_summary="Tim and Alex go to the abandoned hospital.  Alex attacks Tim and the Operator makes an appearance."
     duration="5:59"
-    youtube_id="3Fw0i-bbc7M">
+    youtube_id="3Fw0i-bbc7M"
+    release_date="2012/04/26">
     <scene_list>
       <scene
         date="2006/08/01"
@@ -3414,7 +3498,8 @@
     unfiction="?t=34499"
     player_summary="Tim wakes up the hospital and makes his way to the annex.  Alex is there with a steel rod.  The Operator shows up twice."
     duration="8:11"
-    youtube_id="-_7Clc-gliM">
+    youtube_id="-_7Clc-gliM"
+    release_date="2012/05/07">
     <scene_list>
       <scene
         date="2006/08/01"
@@ -3465,7 +3550,8 @@
     unfiction="?t=34575"
     player_summary="Various short pieces of footage, mostly of children watching or making film.  'One day you will understand."
     duration="0:37"
-    youtube_id="whW2eRRh5J8">
+    youtube_id="whW2eRRh5J8"
+    release_date="2012/05/15">
     <scene_list>
       <scene
         date="2012/05/14"
@@ -3495,7 +3581,8 @@
     unfiction="?t=34594"
     player_summary="Tim and Jay go to the abandoned hospital.  Hoody is seen and leads Jay to the maintenance tunnel.  Jay and Tim leave.  Tim shows signs of suspicion and sickness."
     duration="13:36"
-    youtube_id="wb8BXDWVwYc">
+    youtube_id="wb8BXDWVwYc"
+    release_date="2012/05/22">
     <scene_list>
       <scene
         date="2012/05/16"
@@ -3563,7 +3650,8 @@
     unfiction="?t=35021"
     player_summary="Tim confronts Jay about the entries on the youtube channel."
     duration="5:25"
-    youtube_id="GLbp-1NjZsM">
+    youtube_id="GLbp-1NjZsM"
+    release_date="2012/06/15">
     <scene_list>
       <scene
         date="2012/06/13"
@@ -3594,7 +3682,8 @@
     unfiction="?t=35202"
     player_summary="totheark plays back Tim's rant with footage of the maintenance tunnel."
     duration="0:24"
-    youtube_id="U5rLxsvlVK8">
+    youtube_id="U5rLxsvlVK8"
+    release_date="2012/06/22">
     <scene_list>
       <scene
         date="2012/06/18"
@@ -3624,7 +3713,8 @@
     unfiction="?t=35526"
     player_summary="Jay goes down the maintenance tunnel and finds a gift from Hoody.  The Operator chases Jay out."
     duration="10:07"
-    youtube_id="6a-pO2Pm37A">
+    youtube_id="6a-pO2Pm37A"
+    release_date="2012/07/01">
     <scene_list>
       <scene
         date="2012/06/27"
@@ -3675,7 +3765,8 @@
     unfiction="?t=35726"
     player_summary="Jay reviews the contents of the medical documents found in Entry #60."
     duration="6:47"
-    youtube_id="goVRBWjFG58">
+    youtube_id="goVRBWjFG58"
+    release_date="2012/07/14">
     <scene_list>
       <scene
         date="2012/07/06"
@@ -3705,7 +3796,8 @@
     unfiction="?t=35970"
     player_summary="totheark films Tim at home."
     duration="0:44"
-    youtube_id="OTXncpJFlf0">
+    youtube_id="OTXncpJFlf0"
+    release_date="2012/08/02">
     <scene_list>
       <scene
         date="2012/08/01"
@@ -3736,7 +3828,8 @@
     unfiction="?t=36005"
     player_summary="Hoody hacks Jay's account and watches Tim have a seizure."
     duration="6:44"
-    youtube_id="YGupNlQ2eSY">
+    youtube_id="YGupNlQ2eSY"
+    release_date="2012/08/09">
     <scene_list>
       <scene
         date="2012/08/08"
@@ -3771,7 +3864,8 @@
     unfiction="?t=36102"
     player_summary="Jay follows Tim into the woods and is attacked by Masky.  Tim and Jay work up somewhere unfamiliar."
     duration="9:01"
-    youtube_id="dQUOItNzqI0">
+    youtube_id="dQUOItNzqI0"
+    release_date="2012/09/01">
     <scene_list>
       <scene
         date="2012/08/09"
@@ -3842,7 +3936,8 @@
     unfiction="?t=36184"
     player_summary="totheark asks questions about Tim and Jay."
     duration="0:46"
-    youtube_id="vcgIEUjUlNE">
+    youtube_id="vcgIEUjUlNE"
+    release_date="2012/09/15">
     <scene_list>
       <scene
         date="2012/08/15"
@@ -3873,7 +3968,8 @@
     unfiction="?t=36259"
     player_summary="Jay and Tim talk about teaming up against the operator."
     duration="5:30"
-    youtube_id="mEYbWOKP4Ng">
+    youtube_id="mEYbWOKP4Ng"
+    release_date="2012/09/26">
     <scene_list>
       <scene
         date="2012/08/10"
@@ -3924,7 +4020,8 @@
     unfiction="?t=36325"
     player_summary="Jay and Tim explore Rosswood Park looking for answers.  Some unexpected things happen with time and space."
     duration="11:49"
-    youtube_id="S-pmfGI-S3s">
+    youtube_id="S-pmfGI-S3s"
+    release_date="2012/10/14">
     <scene_list>
       <scene
         date="2012/10/07"
@@ -4013,7 +4110,8 @@
     unfiction="?t=36372"
     player_summary="totheark tells Jay that Alex is looking for him."
     duration="0:37"
-    youtube_id="_JGKBVCHcxI">
+    youtube_id="_JGKBVCHcxI"
+    release_date="2012/10/26">
     <scene_list>
       <scene
         date="2012/10/25"
@@ -4060,7 +4158,8 @@
     unfiction="?t=36554"
     player_summary="Tim shares the footage recovered from Entry #64 with Jay."
     duration="14:10"
-    youtube_id="4OgLL1N9sNI">
+    youtube_id="4OgLL1N9sNI"
+    release_date="2012/11/20">
     <scene_list>
       <scene
         date="2012/10/07"
@@ -4167,7 +4266,8 @@
     unfiction="?t=36841"
     player_summary="totheark smashes up some TVs in the woods."
     duration="0:52"
-    youtube_id="cFQKzg-yXgo">
+    youtube_id="cFQKzg-yXgo"
+    release_date="2012/12/31">
     <scene_list>
       <scene
         date="2012/12/31"
@@ -4198,7 +4298,8 @@
     unfiction="?t=37022"
     player_summary="Jay and Tim head back to the hospital where they find Hoody depositing a tape."
     duration="13:49"
-    youtube_id="2hh58HVegQE">
+    youtube_id="2hh58HVegQE"
+    release_date="2013/01/24">
     <scene_list>
       <scene
         date="2013/01/21"
@@ -4230,7 +4331,8 @@
     unfiction="?t=37169"
     player_summary="Hoody, Tim and Alex come to blows in the hospital."
     duration="7:57"
-    youtube_id="h7DcVYRrUNg">
+    youtube_id="h7DcVYRrUNg"
+    release_date="2013/02/15">
     <scene_list>
       <scene
         date="2012/10/07"
@@ -4323,7 +4425,8 @@
     unfiction="?t=37225"
     player_summary="Jay and Tim decide to move away from Rosswood."
     duration="4:19"
-    youtube_id="CTdYtBEoaY8">
+    youtube_id="CTdYtBEoaY8"
+    release_date="2013/03/02">
     <scene_list>
       <scene
         date="2013/02/28"
@@ -4354,7 +4457,8 @@
     unfiction="?t=37262"
     player_summary="totheark hijacks Jay's youtube account and shows that Alex is chasing Hoody."
     duration="4:52"
-    youtube_id="V9DYoRYy71w">
+    youtube_id="V9DYoRYy71w"
+    release_date="2013/03/11">
     <scene_list>
       <scene
         date="2013/03/10"
@@ -4403,7 +4507,8 @@
     unfiction="?t=37384"
     player_summary="totheark recites a poem."
     duration="0:47"
-    youtube_id="Iy8eUS2T5TQ">
+    youtube_id="Iy8eUS2T5TQ"
+    release_date="2013/04/05">
     <scene_list>
       <scene
         date="2013/04/04"
@@ -4433,7 +4538,8 @@
     unfiction="?t=37418"
     player_summary="Jay and Tim return to some Season 1 location and find some tapes."
     duration="9:17"
-    youtube_id="Zm-cs_yqHu4">
+    youtube_id="Zm-cs_yqHu4"
+    release_date="2013/04/12">
     <scene_list>
       <scene
         date="2013/04/12"
@@ -4502,7 +4608,8 @@
     unfiction="?t=37476"
     player_summary="Footage of Alex driving to the children's park, taken from a tape in the static hole."
     duration="5:46"
-    youtube_id="VNazUSCAEBw">
+    youtube_id="VNazUSCAEBw"
+    release_date="2013/04/29">
     <scene_list>
       <scene
         date="2006/06/09"
@@ -4551,7 +4658,8 @@
     unfiction="?t=37476"
     player_summary="Alex gives the tapes to Jay.  Then attacks him."
     duration="5:46"
-    youtube_id="SVV-Pi33-zQ">
+    youtube_id="SVV-Pi33-zQ"
+    release_date="2013/05/15">
     <scene_list>
       <scene
         date="2006/08/30"
@@ -4582,7 +4690,8 @@
     unfiction="?t=37558"
     player_summary="Jay and Tim go to Alex's house, where they encounter the operator."
     duration="6:11"
-    youtube_id="FITooL9WegA">
+    youtube_id="FITooL9WegA"
+    release_date="2013/06/10">
     <scene_list>
       <scene
         date="2013/06/09"
@@ -4635,7 +4744,8 @@
     unfiction="?t=37820"
     player_summary="Hoody goes to the hospital, then to Tim's house to take some pills."
     duration="14:10"
-    youtube_id="3Jg22PqvreI">
+    youtube_id="3Jg22PqvreI"
+    release_date="2013/07/10">
     <scene_list>
       <scene
         date="2013/07/09"
@@ -4707,7 +4817,8 @@
     unfiction="?t=38293"
     player_summary="Jay and Tim talk about entry #73."
     duration="6:45"
-    youtube_id="bDeOkTbQ1U8">
+    youtube_id="bDeOkTbQ1U8"
+    release_date="2013/08/01">
     <scene_list>
       <scene
         date="2013/07/31"
@@ -4759,7 +4870,8 @@
     unfiction="?t=38348"
     player_summary="totheark asks if Tim or Jay are liars."
     duration="0:53"
-    youtube_id="-xX7-eFWmy8">
+    youtube_id="-xX7-eFWmy8"
+    release_date="2013/08/12">
     <scene_list>
       <scene
         date="2013/08/12"
@@ -4789,7 +4901,8 @@
     unfiction="?t=38411"
     player_summary="Jay and Tim drive to Tim's house.  They find Alex's bed in the attic and an address on the back of a photo of Amy.  Tim takes the tape from entry #73 but denies taking it.  Jay tackles Tim and takes the tape from him, then runs off, telling Tim not to follow."
     duration="10:16"
-    youtube_id="tEixWTGuLJs">
+    youtube_id="tEixWTGuLJs"
+    release_date="2013/08/23">
     <scene_list>
       <scene
         date="2013/08/23"
@@ -4864,7 +4977,8 @@
     unfiction="?t=38498"
     player_summary="Hoody films Masky carrying Jessica from the hotel, Hoody takes her to the woods.  Jessica wakes up to find Alex searching for her.  Alex chases off Hoody, and convinces Jessica to follow him to the tunnel, where pulls a gun on her.  Jessica stops Alex, then Hoody tackles Alex.  Jessica flees, only to find the operator."
     duration="10:57"
-    youtube_id="sZD7S5Xp5bs">
+    youtube_id="sZD7S5Xp5bs"
+    release_date="2013/09/12">
     <scene_list>
       <scene
         date="2011/01/12"
@@ -4942,7 +5056,8 @@
     unfiction="?t=38822"
     player_summary="totheark suggests that Jay should bring a knife to his next encounter."
     duration="0:24"
-    youtube_id="TNUweuEnBI0">
+    youtube_id="TNUweuEnBI0"
+    release_date="2013/10/10">
     <scene_list>
       <scene
         date="2013/10/10"
@@ -4972,7 +5087,8 @@
     unfiction="?t=38857"
     player_summary="Jay confronts Tim, armed with a knife and zip ties.  Tim overpowers Jay, ties him up and takes his camera, then drives to the address."
     duration="4:50"
-    youtube_id="QHiGEqFvoso">
+    youtube_id="QHiGEqFvoso"
+    release_date="2013/10/16">
     <scene_list>
       <scene
         date="2013/10/16"
@@ -5026,7 +5142,8 @@
     unfiction="?t=39009"
     player_summary="Hoody comes to Tim's house and frees Jay from his bonds.  Jay leaves to go to the address."
     duration="2:46"
-    youtube_id="m-_IJR_x4Vw">
+    youtube_id="m-_IJR_x4Vw"
+    release_date="2013/11/01">
     <scene_list>
       <scene
         date="2013/10/16"
@@ -5059,7 +5176,8 @@
     unfiction="?t=39085"
     player_summary="Jay arrives at the address to find it is a college campus and Tim is already there.  Jay confronts Hoody, who runs off.  Jay follows Tim into a basement where he finds a room with photos of Alex.  Jay watches the basement building from a neighbouring building."
     duration="4:50"
-    youtube_id="KVhtdtJDyos">
+    youtube_id="KVhtdtJDyos"
+    release_date="2013/11/21">
     <scene_list>
       <scene
         date="2013/11/21"
@@ -5125,7 +5243,8 @@
     unfiction="?t=39179"
     player_summary="totheark leaves another mysterious message for Jay."
     duration="0:37"
-    youtube_id="ZPiSh9aEzMA">
+    youtube_id="ZPiSh9aEzMA"
+    release_date="2013/12/03">
     <scene_list>
       <scene
         date="2013/12/03"
@@ -5155,7 +5274,8 @@
     unfiction="?t=39185"
     player_summary="totheark leaves another mysterious message for Jay."
     duration="6:20"
-    youtube_id="BJY3Nsky8SA">
+    youtube_id="BJY3Nsky8SA"
+    release_date="2013/12/05">
     <scene_list>
       <scene
         date="2013/11/21"
@@ -5226,7 +5346,8 @@
     unfiction="?t=39548"
     player_summary="Tim shares the footage from the chestcam he was wearing in Entry #80.  Tim talks to a member of staff at the school and gets entry to Benedict Hall.  He sees Alex and flees to his car.  He passes out before finding any pills and wakes up hours later, realising his pills have been taken."
     duration="14:26"
-    youtube_id="sb6sGFZHnac">
+    youtube_id="sb6sGFZHnac"
+    release_date="2014/01/09">
     <scene_list>
       <scene
         date="2013/11/20"
@@ -5319,7 +5440,8 @@
     unfiction="?t=39656"
     player_summary="Tim goes to Jay's car and finds his laptop.  He shares the footage of Jay walking to the other side of the tunnel to find a shapeshifting Rosswood Park."
     duration="9:59"
-    youtube_id="G7g1owxFHKk">
+    youtube_id="G7g1owxFHKk"
+    release_date="2014/02/06">
     <scene_list>
       <scene
         date="2013/11/23"
@@ -5369,7 +5491,8 @@
     unfiction="?t=39736"
     player_summary="totheark reminds Tim he is now alone."
     duration="0:41"
-    youtube_id="Uk735Xvu-ZU">
+    youtube_id="Uk735Xvu-ZU"
+    release_date="2014/02/20">
     <scene_list>
       <scene
         date="2014/02/20"
@@ -5399,7 +5522,8 @@
     unfiction="?t=39777"
     player_summary="Tim finds Hoody in Benedict Campus.  The operator shows up and there is a lot of teleporting.  Hoody falls from a balcony and Tim teleports to a field."
     duration="7:14"
-    youtube_id="Tb33j_DWu8Y">
+    youtube_id="Tb33j_DWu8Y"
+    release_date="2014/03/06">
     <scene_list>
       <scene
         date="2014/03/06"
@@ -5476,7 +5600,8 @@
     unfiction="?t=39884"
     player_summary="The chestcam stops working so Tim starts using Jay's camera.  He returns to his house to find it as Jay left it.  Alex films a residential area at night, where the operator shows up."
     duration="9:41"
-    youtube_id="-Ru39FMzIvs">
+    youtube_id="-Ru39FMzIvs"
+    release_date="2014/04/01">
     <scene_list>
       <scene
         date="2014/04/02"
@@ -7045,7 +7170,9 @@
           title="Video title"
           location="R"
           video_still_id="2"
-          video_title="Video title (M0)">
+          video_title="Video title (M0)"
+          start_time="0:00"
+          end_time="0:01">
           <character_list></character_list>
           <item_list></item_list>
         </scene>

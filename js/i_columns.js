@@ -112,3 +112,18 @@ all_columns.push(spacer_column_2  ) ;
 all_columns.push(character_column ) ;
 all_columns.push(location_column  ) ;
 all_columns.push(entry83_column   ) ;
+
+
+
+
+// Broody columns example
+var broody_persona_column = new column_object('character' , 'Persona', 'b',   0, '#000000', '#ffffff') ;
+columns_by_name['broody'] = broody_persona_column ;
+  
+// Broody columns
+var broody_columns = new Array() ;
+broody_columns.push(new column_object('broody_Br', 'Brian'  , 'Br' , 350, '#dddddd', '#000000')) ;
+broody_columns.push(new column_object('Broody_Ho', 'Hoody'  , 'Ho' , 350, '#bbbbbb', '#000000')) ;
+  
+for(var i=0 ; i<broody_columns.length   ; i++){ broody_persona_column.add_subcolumn( broody_columns[i]) ; }
+all_columns.push(broody_persona_column) ;

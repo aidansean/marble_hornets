@@ -11,7 +11,7 @@ var mode   = 'player' ;
 </script>
 
   <div class="right">
-    <p>This is a collection of useful information related to Marble Hornets.</p>
+    <p>This is a collection of useful information related to Marble Hornets.  <a id="keep_watching_link" href="">Link to current page</a></p>
   </div>
 
   <div class="right">

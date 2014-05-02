@@ -322,14 +322,12 @@ function change_video(){
   if(main_player.onStateChange) main_player.onStateChange() = update_video_status() ;
   set_flashlight(current_entry) ;
 }
-
 function get_position_in_playlist(){
   for(var i=0 ; i<current_playlist.length ; i++){
     if(current_playlist[i]==current_entry) return i ;
   }
   return -999 ;
 }
-
 function update_video_status(){
   if(autoskip && main_player.getPlayerState()==0){
     var position = get_position_in_playlist() ;
@@ -340,7 +338,6 @@ function update_video_status(){
     change_video() ;
   }
 }
-
 function entry(name, youtube_id, description, channel, wikidot_link, unfiction_link, runtime, characters, cameraperson, operator, season){
   this.name           = name           ;
   this.youtube_id     = youtube_id     ;
@@ -502,7 +499,17 @@ function start(){
   update_n_videos() ;
   set_flashlight(current_entry) ;
   heartbeat() ;
-  if(getParameterByName('scene')) scene_player_heartbeat() ;
+  if(getParameterByName('scene')){
+    if(getParameterByName('index')){
+      scene_player_current_index = parseInt(getParameterByName('index')) ;
+    }
+    if(getParameterByName('order')){
+      if(getParameterByName('order')=='release'){
+        order_scenes_by_release() ;
+      }
+    }
+    scene_player_heartbeat() ;
+  }
 }
 function heartbeat(){
   if(heartbeat_entry!=-1){
@@ -629,8 +636,23 @@ function scene_player_heartbeat(){
     var youtube_id = scenes[scene_player_current_index].video.fields['youtube_id'] ;
     main_player.cueVideoById(youtube_id, scenes[scene_player_current_index].start) ;
     main_player.playVideo() ;
+    var uri = '?scene=true&index=' + scene_player_current_index ;
+    if(getParameterByName('order')=='release') uri = uri + '&order=release' ;
+    Get('keep_watching_link').href = uri ;
+    
+    // Hmm, might need to rethink this part
+    var v = scenes[scene_player_current_index].video ;
+    Get('entry_title'       ).innerHTML = v.fields['title'] ;
+    Get('entry_description' ).innerHTML = scenes[scene_player_current_index].fields['description'] ;
+    
+    Get('entry_youtube_link'           ).href = 'http://www.youtube.com/watch?v='                  + v.fields['youtube_id'] ;
+    Get('entry_wikidot_link'           ).href = 'http://marblehornets.wikidot.com/'                + v.fields['wikidot'   ] ;
+    Get('entry_unfiction_link'         ).href = 'http://forums.unfiction.com/forums/viewtopic.php' + v.fields['unfiction' ] ;
+
+    Get('entry_youtube_external_link'  ).href = 'http://www.youtube.com/watch?v='                  + v.fields['youtube_id'] ;
+    Get('entry_wikidot_external_link'  ).href = 'http://marblehornets.wikidot.com/'                + v.fields['wikidot'   ] ;
+    Get('entry_unfiction_external_link').href = 'http://forums.unfiction.com/forums/viewtopic.php' + v.fields['unfiction' ] ;
   }
-  
   window.setTimeout(scene_player_heartbeat, scene_player_delay) ;
 }
 

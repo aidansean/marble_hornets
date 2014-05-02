@@ -1,0 +1,110 @@
+This repository contains two main applications:
+    The Marble Hornets Player
+    The Marble Hornets Infographics Generator
+Each application uses a common set of files for data storage and manipulation.
+
+==============
+ Data storage 
+==============
+The data are stored in the xml directory.  The default xml file is master_timline.xml and this contains the information about the most important things that happened in the Marble Hornets universe.  It mostly follows the "comprehensive" timeline laid out in the wikidot (http://marblehornets.wikidot.com/comprehensive-timeline).  The different datatypes are stored in the following order:
+    Epochs - The timeline is split into different periods of time, and the epoch object represents the start of a new period of time.  The epochs are: Summer 2006, Seasons 1, Seven Month Gap, Season 2, Season 3
+    Videos - The videos, roughly in release order (except for Season 2 totheark videos.)  Each video contains a list of scenes.  The scenes split up the videos into large chunks, so a single "scene" may take place in many locations and at many times, if finer splitting would not add any useful information.  (For example, Entry #3 contains one scene, despite having several filming locations.)
+    Events - Things of interest that happen in the Marble Hornets universe that are either not shown on camera, or are very important to the story.  These typically include the fates of important characters, and the acquisition of new footage.
+
+The data are parsed using the js/xml.js and js/scenes_data.js libraries.  Once the scenes are loaded, they can be filtered and reordered for different purposes.
+
+Information about the characters and items are stored in js/i_characters.js, with further manipulation in js/i_items_data.js.  Scenes can be filtered according to characters, camerapersons and items.
+
+A typical video and scene object looks like:
+
+  <video
+    title="Entry #82"
+    season="3"
+    channel="marblehornets"
+    wikidot="entry-82"
+    unfiction="?t=39656"
+    player_summary="Tim goes to Jay's car and finds his laptop.  He shares the footage of Jay walking to the other side of the tunnel to find a shapeshifting Rosswood Park."
+    duration="9:59"
+    youtube_id="G7g1owxFHKk"
+    release_date="2014/02/06">
+    <scene_list>
+      <scene
+        date="2013/11/23"
+        time="12:00"
+        cameraperson="Tim"
+        tape_tag="6"
+        place="Benedict campus"
+        description="Tim washes his face in a restroom.  He then walks to Jay's car and finds it unlocked.  He looks in the trunk and finds Jay's laptop."
+        location="R"
+        video_still_id="1"
+        video_title="Entry #82 (M3)"
+        start_time="0:11"
+        end_time="2:24">
+        <character_list>
+          <character name="Tim"></character>
+        </character_list>
+        <item_list>
+          <item name="Jay's laptop"></item>
+        </item_list>
+      </scene>
+      <scene
+        date="2013/10/15"
+        time="11:00"
+        cameraperson="Jay"
+        tape_tag="8"
+        place="Rosswood woods"
+        description="Jay walks though the tunnel to the other side, and finds that the geography of Rosswood Park is changing around him.  He calls Tim and leaves a message.  The operator appears and Jay has a seizure.  Jay flees the area."
+        location="R"
+        video_still_id="2"
+        video_title="Entry #82 (M3)"
+        start_time="2:50"
+        end_time="9:07">
+        <character_list>
+          <character name="operator"></character>
+          <character name="Jay"></character>
+        </character_list>
+        <item_list></item_list>
+      </scene>
+    </scene_list>
+  </video>
+
+======================
+ Characters and items 
+======================
+Characters and items are treated in much the same manner, both use the character_object class.  For each character or item, the list of scenes in which they appear is parsed and paths are drawn to connect up the scenes.  Each character or item has a unique name and color, and each also has a specified fate.  Characters are shown moving between major locations (CollegeTown, Rosswood, Elsewhere), whereas items are shown moving between major characters (Alex, Jay, Tim/Masky, Brian/Hoody, Other) and as a result the items have their members updated after the characters have been loaded.
+
+=========
+ Columns 
+=========
+The characters and items "flow" between the various columns, each of which is identified by a short unique string.  Each scene is assigned a column and the characters and items connect the scenes.  The default columns are: Date, Spacer1, Spacer2.
+
+==========================
+ Making your own timeline 
+==========================
+The easiest way to make your own timeline is to edit the master xml file (or create your own) and then add the xml file to the textarea.  You can create your own columns by declaring them in the i_columns.js file, and giving them their own abbreviations.
+
+As an example, to make a timeline that shows which persona Brian has in each scene, we can create a new character called Broody.  First filter the scenes by character:
+http://www.aidansean.com/marble_hornets/timeline.php?characters=Brian,Hoody
+Click the scenes/events to select them, then copy the output xml from the textarea.  Save the xml file as xml/broody_timeline.php .  (Due to a bug, when a scene is selected the entire videos gets added.  This will eventually be fixed.)
+
+Next create two columns, one for Hoody and one for Brian and put them in i_columns.js:
+
+  var broody_persona_column = new column_object('character' , 'Persona', 'c',   0, '#000000', '#ffffff') ;
+  columns_by_name['broody'] = broody_persona_column ;
+  
+  // Broody columns
+  var broody_columns = new Array() ;
+  broody_columns.push(new column_object('broody_Br', 'Brian'  , 'Br' , 350, '#dddddd', '#000000')) ;
+  broody_columns.push(new column_object('Broody_Ho', 'Hoody'  , 'Ho' , 350, '#bbbbbb', '#000000')) ;
+  
+  for(var i=0 ; i<broody_columns.length   ; i++){ broody_persona_column.add_subcolumn( broody_columns[i]) ; }
+  all_columns.push(broody_column) ;
+  
+Then edit the xml file so that scenes with Brian have 'location="Br"' and scenes with Hoody have 'location="Ho"'.  Then change each occurrence of <character name="Brian"></character> or <character name="Hoody"></character> to <character name="Broody"></character>.
+
+Finally add the settings to timeline.php:
+
+else if(type=='broody'){
+  main_column = columns_by_name['broody'] ;
+  prefix = 'broody' ;
+}

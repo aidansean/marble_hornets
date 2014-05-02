@@ -31,13 +31,16 @@ else if(type=='items'){
   main_column = columns_by_name['character'] ;
   draw_option = 2 ;
 }
+else if(type=='broody'){
+  main_column = columns_by_name['broody'] ;
+  prefix = 'broody' ;
+}
 else if(type=='hotel'){
   prefix = 'hotel' ;
 }
-elise if(type=='2006'){
+else if(type=='2006'){
   prefix = '2006' ;
 }
-?>
 </script>
 <div class="center">
   <p>(Timeline height = <span id="span_ch">-</span>px)</p>
