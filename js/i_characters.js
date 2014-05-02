@@ -403,6 +403,8 @@ characters.push( new character_object('totheark' , '#555555', '#ffffff' , 'Extan
 characters.push( new character_object('operator' , '#000000', '#ffffff' , 'Extant' , 'antagonist')) ;
 characters.push( new character_object('Unknown'  , '#00bbbb', '#ffffff' , 'Extant' , 'minor'     )) ;
 
+characters.push( new character_object('Broody'   , '#ffa500', '#ffffff' , 'Extant' , 'minor'     )) ;
+
 // Items
 var items = new Array() ;
 
