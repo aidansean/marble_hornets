@@ -102,6 +102,9 @@ Next create two columns, one for Hoody and one for Brian and put them in i_colum
   
 Then edit the xml file so that scenes with Brian have 'location="Br"' and scenes with Hoody have 'location="Ho"'.  Then change each occurrence of <character name="Brian"></character> or <character name="Hoody"></character> to <character name="Broody"></character>.
 
+Add a new character to i_characters.js:
+  characters.push( new character_object('Broody'   , '#ffa500', '#ffffff' , 'Extant' , 'minor'     )) ;
+
 Finally add the settings to timeline.php:
 
 else if(type=='broody'){
