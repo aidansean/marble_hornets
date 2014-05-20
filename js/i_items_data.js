@@ -86,6 +86,7 @@ function update_item_info(){
   update_item_details('Entry #67 scene 2', 'H', 'Hoody takes the gun from Alex') ;
   update_item_details('Entry #76 scene 3', 'A', 'Alex takes the gun from Jessica') ;
   update_item_details('Entry #80 scene 2', 'A', 'Alex has the gun') ;
+  update_item_details('Entry #85 scene 2', 'A', 'Alex has the gun') ;
 
   // Tapes
   update_item_details('Entry #22 scene 1', 'U', 'Seth films Entry #22') ;

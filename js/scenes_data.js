@@ -10,6 +10,7 @@
 // 8: Footage taken from Jay's laptop by Tim in 2013 (Season 3)
 // 10: totheark footage (Seasons 1,2,3)
 // 11: hoody footage (Seasons 1,2,3)
+// 12: Hoody's tape (stolen from Alex)
 
 // A video_object contains the information relating to the youtube video, and they contain a list of scenes.
 // A scene_object contains the information for a short period of time.  The scenes are timetamped so that they appear in order.  If a scene is just another scene reycled (eg a totheark video that uses footage Jay uploaded) then the timestamp is set to the time of upload.

@@ -75,6 +75,7 @@ tape_tag_background_colors[7]  = 'rgb(150,255,225)' ; // 7: Footage filmed by Ti
 tape_tag_background_colors[8]  = 'rgb(255,200,150)' ; // 8: Footage taken from Jay's laptop
 tape_tag_background_colors[10] = 'rgb(255,225,225)' ; // 10: totheark footage
 tape_tag_background_colors[11] = 'rgb(225,225,255)' ; // 11: hoody footage
+tape_tag_background_colors[12] = 'rgb(225,225,225)' ; // 12: hoody tape (stolen from Alex)
 
 var character_line_width = 3 ;
 var character_font_size = 10 ;

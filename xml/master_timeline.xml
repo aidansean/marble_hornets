@@ -5607,7 +5607,7 @@
         date="2014/04/02"
         time="12:00"
         cameraperson="Tim"
-        tape_tag="0"
+        tape_tag="7"
         place="Tim's car"
         description="Tim is driving in his car.  The chestcam malfunctions and stops working."
         location="R"
@@ -5626,7 +5626,7 @@
         date="2014/04/02"
         time="14:00"
         cameraperson="Tim"
-        tape_tag="0"
+        tape_tag="7"
         place="Tim's house"
         description="Tim returns to his house to find it as Jay left it (knife and zip ties on the floor).  He takes Hoody's tape and plays it with Jay's camera."
         location="R"
@@ -5646,7 +5646,7 @@
         date="2006/05/01"
         time="16:00"
         cameraperson="Alex"
-        tape_tag="0"
+        tape_tag="12"
         place="Jay's College"
         description="Alex is holding auditions.  Brian and Tim arrive and try out.  Brian is wearing the hooded top."
         location="C"
@@ -5668,11 +5668,11 @@
         date="2006/05/01"
         time="22:00"
         cameraperson="Alex"
-        tape_tag="0"
+        tape_tag="12"
         place="Residential area"
         description="Alex films a residential area.  The operator shows up and Alex notices distortion."
         location="C"
-        video_still_id="2"
+        video_still_id="3"
         video_title="Entry #84 (M3)"
         start_time="8:01"
         end_time="8:40">
@@ -5684,6 +5684,59 @@
       </scene>
     </scene_list>
   </video>
+  
+  <video
+    title="Entry #85"
+    season="3"
+    channel="marblehornets"
+    wikidot="entry-85"
+    unfiction="?t=40056"
+    player_summary="Tim waits in his house for Alex to show up.  Alex arrives and burns down the house."
+    duration="9:11"
+    youtube_id="9tKRictWEEI"
+    release_date="2014/05/14">
+    <scene_list>
+      <scene
+        date="2014/05/01"
+        time="12:00"
+        cameraperson="Tim"
+        tape_tag="7"
+        place="Tim's house"
+        description="Tim is waiting in his house for Alex to arrive."
+        location="R"
+        video_still_id="1"
+        video_title="Entry #85 (M3)"
+        start_time="0:10"
+        end_time="1:20">
+        <character_list>
+          <character name="Tim"></character>
+        </character_list>
+        <item_list></item_list>
+      </scene>
+      <scene
+        date="2014/05/13"
+        time="12:00"
+        cameraperson="Tim"
+        tape_tag="7"
+        place="Tim's house"
+        description="Tim leaves the house and waits in his car.  Alex arrives, armed with a gun and a tank of lighter fluid.  Tim follows Alex into the house.  Alex shouts for Tim, then leaves, before setting the house alight.  Tim flees through the back door and drives off."
+        location="R"
+        video_still_id="3"
+        video_title="Entry #85 (M3)"
+        start_time="1:21"
+        end_time="8:19">
+        <character_list>
+          <character name="Alex"></character>
+          <character name="Tim"></character>
+        </character_list>
+        <item_list>
+          <item name="Gun"></item>
+        </item_list>
+      </scene>
+    </scene_list>
+  </video>
+  
+  
 
   <event
     name="Tim admitted to hospital"
@@ -7135,6 +7188,24 @@
     </item_list>
   </event>
   
+  <event
+    name="Alex burns down Tim's house"
+    title="Alex burns down Tim's house"
+    date="2014/05/13"
+    time="12:00"
+    description=""
+    season="3"
+    location="R"
+    color="rgb(0,0,99)">
+    <character_list>
+      <character name="Alex"></character>
+    </character_list>
+    <item_list>
+    </item_list>
+  </event>
+  
+  
+  
   
   <key>
     <event
@@ -7338,6 +7409,21 @@
       season="-1"
       location="E"
       tape_tag="11">
+      <character_list>
+      </character_list>
+      <item_list>
+      </item_list>
+    </event>
+    
+    <event
+      name="Hoody's tape"
+      title="Hoody's tape"
+      date="1900/01/01"
+      time="12:00"
+      description="This is footage that Hoody (or Brian) stole from Alex and kept secret."
+      season="-1"
+      location="E"
+      tape_tag="12">
       <character_list>
       </character_list>
       <item_list>
