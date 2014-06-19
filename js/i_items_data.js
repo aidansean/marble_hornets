@@ -84,16 +84,22 @@ function update_item_info(){
   update_item_details('Entry #52 scene 1', 'J', 'Jay has the knife') ;
   update_item_details('Entry #52 scene 2', 'A', 'Alex has the gun') ;
   update_item_details('Entry #67 scene 2', 'H', 'Hoody takes the gun from Alex') ;
+  update_item_details('Entry #67 scene 3', 'H', 'Hoody has the gun') ;
+  update_item_details('Entry #67 scene 4', 'T', 'Tim wakes up and finds he has the gun') ;
   update_item_details('Entry #76 scene 3', 'A', 'Alex takes the gun from Jessica') ;
   update_item_details('Entry #80 scene 2', 'A', 'Alex has the gun') ;
   update_item_details('Entry #85 scene 2', 'A', 'Alex has the gun') ;
+  
+  update_item_details('Entry #86 scene 1', 'A', 'Alex has the gun') ;
+  update_item_details('Entry #86 scene 2', 'T', 'Tim takes the gun') ;
+  update_item_details('Entry #86 scene 3', 'T', 'Tim has the knife') ;
 
   // Tapes
   update_item_details('Entry #22 scene 1', 'U', 'Seth films Entry #22') ;
   update_item_details('Entry #21 scene 1', 'J', 'Jay takes the Entry #22 tape from the Red Tower') ;
 
-  update_item_details('Entry #26 scene 1', 'U', 'Amy films footage of her apartment in Entry #26 using Alex\'s camera') ;
-  update_item_details('Entry #26 scene 3', 'J', 'Jay receives the Entry #26 tape') ;
+  update_item_details('Entry #26 scene 2', 'U', 'Amy films footage of her apartment in Entry #26 using Alex\'s camera') ;
+  update_item_details('Entry #26 scene 4', 'J', 'Jay receives the Entry #26 tape') ;
 
   update_item_details('Jay obtains Alex tapes', 'J', 'Jay gets the entries tapes from Alex') ;
 

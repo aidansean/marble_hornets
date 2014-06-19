@@ -16,7 +16,7 @@ var fade_down_height = 200 ;
 var column_spacing = 50 ;
 var column_padding =  5 ;
 var video_spacing  = 20 ;
-var scene_spacing  = 14 ;
+var scene_spacing  = 13 ;
 
 var scene_padding = 6 ;
 var scene_width   = 250 + 2*scene_padding ;

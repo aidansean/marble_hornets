@@ -151,13 +151,19 @@ function update_n_videos(){ Get('nVideos_playlist').innerHTML = current_playlist
 
 function get_all_names(names){
   var string = '' ;
+  var names_out = [] ;
   for(var i=0 ; i<names.length ; i++){
-    if(i==0){
-      string = string +        get_name(names[i]) ;
+    var accept = true ;
+    for(var j=0 ; j<names_out.length ; j++){
+      if(names[i]==names_out[j]){
+        accept = false ;
+        break ;
+      }
     }
-    else{
-      string = string + ', ' + get_name(names[i]) ;
-    }
+    if(accept) names_out.push(names[i]) ;
+  }
+  for(var i=0 ; i<names_out.length ; i++){
+    string = (i==0) ? string + get_name(names_out[i]) : string + ', ' + get_name(names_out[i]) ;
   }
   return string ;
 }
@@ -383,21 +389,22 @@ function start(){
         else if(s.characters[k]=='Unknown' ) characters.push('U' ) ;
         else characters.push('X') ;
       }
-      if(s.cameraperson=='') camerapeople.push() ;
-      else if(s.cameraperson=='Alex'    ) camerapeople.push('A' ) ;
-      else if(s.cameraperson=='Amy'     ) camerapeople.push('Am') ;
-      else if(s.cameraperson=='Brian'   ) camerapeople.push('B' ) ;
-      else if(s.cameraperson=='Bruce'   ) camerapeople.push('Br') ;
-      else if(s.cameraperson=='Hoody'   ) camerapeople.push('H' ) ;
-      else if(s.cameraperson=='Jay'     ) camerapeople.push('J' ) ;
-      else if(s.cameraperson=='Jessica' ) camerapeople.push('Je') ;
-      else if(s.cameraperson=='Masky'   ) camerapeople.push('M' ) ;
-      else if(s.cameraperson=='operator') camerapeople.push('O' ) ;
-      else if(s.cameraperson=='Sarah'   ) camerapeople.push('Sa') ;
-      else if(s.cameraperson=='Seth'    ) camerapeople.push('Se') ;
-      else if(s.cameraperson=='Tim'     ) camerapeople.push('T' ) ;
-      else if(s.cameraperson=='totheark') camerapeople.push('To') ;
-      else if(s.cameraperson=='Unknown' ) camerapeople.push('U' ) ;
+      var cameraperson = s.fields['cameraperson'] ;
+      if(cameraperson=='') camerapeople.push() ;
+      else if(cameraperson=='Alex'    ) camerapeople.push('A' ) ;
+      else if(cameraperson=='Amy'     ) camerapeople.push('Am') ;
+      else if(cameraperson=='Brian'   ) camerapeople.push('B' ) ;
+      else if(cameraperson=='Bruce'   ) camerapeople.push('Br') ;
+      else if(cameraperson=='Hoody'   ) camerapeople.push('H' ) ;
+      else if(cameraperson=='Jay'     ) camerapeople.push('J' ) ;
+      else if(cameraperson=='Jessica' ) camerapeople.push('Je') ;
+      else if(cameraperson=='Masky'   ) camerapeople.push('M' ) ;
+      else if(cameraperson=='operator') camerapeople.push('O' ) ;
+      else if(cameraperson=='Sarah'   ) camerapeople.push('Sa') ;
+      else if(cameraperson=='Seth'    ) camerapeople.push('Se') ;
+      else if(cameraperson=='Tim'     ) camerapeople.push('T' ) ;
+      else if(cameraperson=='totheark') camerapeople.push('To') ;
+      else if(cameraperson=='Unknown' ) camerapeople.push('U' ) ;
       else camerapeople.push('X') ;
     }
     var e = new entry(f.title, f.youtube_id, f.player_summary, f.channel, f.wikidot, f.unfiction, f.duration, characters, camerapeople, 0) ;

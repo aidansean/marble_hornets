@@ -382,28 +382,28 @@ function check_line_collisions(x1,y1,x2,y2){
 
 var characters = new Array() ;
 // Holy Trinity
-characters.push( new character_object('Alex'     , '#0000ff', '#ffffff' , 'Extant' , 'primary')) ;
-characters.push( new character_object('Jay'      , '#ff0000', '#ffffff' , 'Missing', 'primary')) ;
+characters.push( new character_object('Alex'     , '#0000ff', '#ffffff' , 'Dead'   , 'primary')) ;
+characters.push( new character_object('Jay'      , '#ff0000', '#ffffff' , 'Dead'   , 'primary')) ;
 characters.push( new character_object('Tim'      , '#eeee00', '#000000' ,' Extant' , 'primary')) ;
 
 // Marble Hornets crew
-characters.push( new character_object('Brian'    , '#005500', '#ffffff' , 'Missing', 'cast')) ;
+characters.push( new character_object('Brian'    , '#005500', '#ffffff' , 'Dead'   , 'cast')) ;
 characters.push( new character_object('Seth'     , '#00aa00', '#ffffff' , 'Missing', 'cast')) ;
 characters.push( new character_object('Sarah'    , '#00dd00', '#ffffff' , 'Missing', 'cast')) ;
 
 // Other normal humans
 characters.push( new character_object('Amy'      , '#ff00ff', '#ffffff' , 'Missing', 'minor'    )) ;
 characters.push( new character_object('Bruce'    , '#aa00aa', '#ffffff' , 'Dead'   , 'minor'    )) ;
-characters.push( new character_object('Jessica'  , '#550055', '#ffffff' , 'Missing', 'secondary')) ;
+characters.push( new character_object('Jessica'  , '#550055', '#ffffff' , 'Dead'   , 'secondary')) ;
 
 // Unknown quantities
 characters.push( new character_object('Masky'    , '#eeeeee', '#000000' , 'Extant' , 'antagonist')) ;
-characters.push( new character_object('Hoody'    , '#888888', '#ffffff' , 'Missing', 'antagonist')) ;
-characters.push( new character_object('totheark' , '#555555', '#ffffff' , 'Extant' , 'antagonist')) ;
+characters.push( new character_object('Hoody'    , '#888888', '#ffffff' , 'Dead'   , 'antagonist')) ;
+characters.push( new character_object('totheark' , '#555555', '#ffffff' , 'Missing', 'antagonist')) ;
 characters.push( new character_object('operator' , '#000000', '#ffffff' , 'Extant' , 'antagonist')) ;
 characters.push( new character_object('Unknown'  , '#00bbbb', '#ffffff' , 'Extant' , 'minor'     )) ;
 
-characters.push( new character_object('Broody'   , '#ffa500', '#ffffff' , 'Extant' , 'minor'     )) ;
+characters.push( new character_object('Broody'   , '#ffa500', '#ffffff' , 'Dead'   , 'minor'     )) ;
 
 // Items
 var items = new Array() ;

@@ -1552,6 +1552,7 @@
         <character_list>
           <character name="Alex"></character>
         </character_list>
+        <item_list></item_list>
       </scene>
       <scene
         date="2010/04/04"
@@ -5736,6 +5737,101 @@
     </scene_list>
   </video>
   
+  <video
+    title="Entry #86"
+    season="3"
+    channel="marblehornets"
+    wikidot="entry-86"
+    unfiction="?t=40145"
+    player_summary="Tim goes to Benedict Hall to confront Alex.  They meet, Alex fires his gun, Alex and Tim teleport.  Tim stabs Alex in the neck, and Alex gets taken."
+    duration="13:23"
+    youtube_id="cA1bu7vDoVg"
+    release_date="2014/06/15">
+    <scene_list>
+      <scene
+        date="2014/06/14"
+        time="12:00"
+        cameraperson="Tim"
+        tape_tag="7"
+        place="Benedict Campus"
+        description="Tim goes to Benedict Hall to confront Alex.  Alex sees him and fires his gun.  The operator shows up and Alex and Tim teleport to the tunnel."
+        location="R"
+        video_still_id="1"
+        video_title="Entry #86 (M3)"
+        start_time="0:10"
+        end_time="5:17">
+        <character_list>
+          <character name="Tim"></character>
+          <character name="Alex"></character>
+          <character name="operator"></character>
+        </character_list>
+        <item_list>
+          <item name="Gun"></item>
+        </item_list>
+      </scene>
+      <scene
+        date="2014/06/14"
+        time="13:00"
+        cameraperson="Tim"
+        tape_tag="7"
+        place="Benedict Campus"
+        description="Alex and Tim are in the tunnel at Rosswood.  Tim attempts to stab Alex.  They struggle, Tim takes the gun, which has no bullets left.  They teleport to the hospital."
+        location="R"
+        video_still_id="2"
+        video_title="Entry #86 (M3)"
+        start_time="5:17"
+        end_time="7:06">
+        <character_list>
+          <character name="Tim"></character>
+          <character name="Alex"></character>
+        </character_list>
+        <item_list>
+          <item name="Gun"></item>
+          <item name="Knife"></item>
+        </item_list>
+      </scene>
+      <scene
+        date="2014/06/14"
+        time="14:00"
+        cameraperson="Tim"
+        tape_tag="7"
+        place="Hospital"
+        description="Alex and Tim argue and fight in the hospital.  They teleport to Benedict Hall."
+        location="R"
+        video_still_id="2"
+        video_title="Entry #86 (M3)"
+        start_time="7:07"
+        end_time="8:26">
+        <character_list>
+          <character name="Tim"></character>
+          <character name="Alex"></character>
+        </character_list>
+        <item_list>
+        </item_list>
+      </scene>
+      <scene
+        date="2014/06/14"
+        time="15:00"
+        cameraperson="Tim"
+        tape_tag="7"
+        place="Benedict Campus"
+        description="Alex shows Brian's dead body.  Tim teleports to Jay's death room.  Alex and Tim continue to fight.  Tim stabs Alex in the neck, who gets taken.  Tim collapses on the stairs."
+        location="R"
+        video_still_id="3"
+        video_title="Entry #86 (M3)"
+        start_time="8:27"
+        end_time="13:17">
+        <character_list>
+          <character name="Tim"></character>
+          <character name="Alex"></character>
+          <character name="Brian"></character>
+          <character name="operator"></character>
+        </character_list>
+        <item_list></item_list>
+      </scene>
+    </scene_list>
+  </video>
+  
   
 
   <event
@@ -7193,6 +7289,22 @@
     title="Alex burns down Tim's house"
     date="2014/05/13"
     time="12:00"
+    description=""
+    season="3"
+    location="R"
+    color="rgb(0,0,99)">
+    <character_list>
+      <character name="Alex"></character>
+    </character_list>
+    <item_list>
+    </item_list>
+  </event>
+  
+  <event
+    name="Alex is taken"
+    title="Alex is taken by the operator"
+    date="2014/06/14"
+    time="18:00"
     description=""
     season="3"
     location="R"

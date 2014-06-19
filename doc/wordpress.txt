@@ -1,6 +1,6 @@
 [mathjax]
 
-Marble Horets is an ongoing webseries that currently spans the course of about five years.  The premise of the series is that a student film maker started filming an amateur movie in 2006, but abandoned the film due to "unworkable conditions on set".  It quickly turns into a horror series that brings with some novel techniques.  However what really inspired me to make this project was the asynchronous storytelling narrative, which requires the viewer to piece together the true chronology based on the context of the videos.  I'm an active participant on one of the busiest discussion boards for this series and regularly update this project as each new video is released.
+Marble Hornets is an ongoing webseries that currently spans the course of about five years.  The premise of the series is that a student film maker started filming an amateur movie in 2006, but abandoned the film due to "unworkable conditions on set".  It quickly turns into a horror series that brings with some novel techniques.  However what really inspired me to make this project was the asynchronous storytelling narrative, which requires the viewer to piece together the true chronology based on the context of the videos.  I'm an active participant on one of the busiest discussion boards for this series and regularly update this project as each new video is released.
 
 <h3>Links</h3>
 
@@ -38,3 +38,4 @@ The second aspect of the project is more interesting and challenging, and it is 
 <dt><em>Challenge</em>: There have been many many challenges with this project, so I may add more as they occur to me!</dt>
 
 <dd><em>Solution</em>:  (Resolved)</dd>
+</dl>
