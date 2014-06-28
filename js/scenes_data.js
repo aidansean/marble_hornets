@@ -49,6 +49,9 @@ var key_events        = [] ;
 var key_color_events  = [] ;
 
 function load_scenes_from_xml(){
+  // all_scenes is used to find the final appearance of things
+  var all_scenes = [] ;
+
   if(getParameterByName('prefix')) prefix = getParameterByName('prefix') ;
   var xml_timeline_doc = loadXMLDoc('xml/'+prefix+'_timeline.xml') ;
   var xml_timeline = xml_timeline_doc.childNodes[0] ;
@@ -83,11 +86,20 @@ function load_scenes_from_xml(){
           var scene_counter = 0 ;
           for(var k=0 ; k<video_node.childNodes[j].childNodes.length ; k++){
             var scene_node = video_node.childNodes[j].childNodes[k] ;
+            var add_scene = true ;
+            if(selected_epoch_string!=null && scene_node.getAttribute){
+              var date = scene_node.getAttribute('date') ;
+              if(date<lower_date) add_scene = false ;
+              if(date>upper_date) add_scene = false ;
+            }
             if(scene_node.nodeName=='scene'){
               scene_counter++ ;
               var scene = new scene_object(scene_node, mode) ;
-              scenes.push(scene) ;
-              video.add_scene(scene) ;
+              if(add_scene){
+                scenes.push(scene) ;
+                video.add_scene(scene) ;
+              }
+              all_scenes.push(scene) ;
             }
           }
         }
@@ -102,20 +114,33 @@ function load_scenes_from_xml(){
           var season = event_node.getAttribute('season') ;
           if(season!=selected_season_string) add_event = false ;
         }
+        if(selected_epoch_string!=null){
+          var date = event_node.getAttribute('date') ;
+          if(date<lower_date) add_event = false ;
+          if(date>upper_date) add_event = false ;
+        }
         if(add_event) scenes.push(event) ;
+        all_scenes.push(event) ;
       }
       else if(xml_timeline.childNodes[i].nodeName=='epoch'){
         var add_epoch = true ;
-        if(filtered_scenes) add_epoch = false ;
+        //if(filtered_scenes) add_epoch = false ;
         var epoch_node = xml_timeline.childNodes[i] ;
         var epoch = new epoch_object(epoch_node) ;
         if(selected_season_string!=null){
           var season = epoch_node.getAttribute('season') ;
-          if(season!=selected_season_string) add_epoch = false ;
+          if(season.indexOf(selected_season_string)==-1) add_epoch = false ;
+        }
+        if(selected_epoch_string!=null){
+          var date = epoch_node.getAttribute('date') ;
+          if(date<lower_date) add_epoch = false ;
+          if(date>upper_date) add_epoch = false ;
         }
         if(add_epoch) scenes.push(epoch) ;
+        all_scenes.push(epoch) ;
       }
       else if(xml_timeline.childNodes[i].nodeName=='key'){
+        if(selected_epoch_string!=null) continue ;
         var key_node = xml_timeline.childNodes[i] ;
         for(var j=0 ; j<key_node.childNodes.length ; j++){
           if(key_node.childNodes[j].nodeName=='video'){
@@ -153,7 +178,6 @@ function load_scenes_from_xml(){
       }
     }
   }
-  
   
   if(selected_characters_string!=null){
     var selected_characters = selected_characters_string.split(',') ;
@@ -204,6 +228,37 @@ function load_scenes_from_xml(){
       if(success==false) continue ;
     }
     if(scenes[i].items.length > 0) item_scenes.push(scenes[i]) ;
+  }
+  
+  for(var i=0 ; i<things.length ; i++){
+    for(var j=0 ; j<all_scenes.length ; j++){
+      if(!all_scenes[j].characters) continue ;
+      for(var k=0 ; k<all_scenes[j].characters.length ; k++){
+        if(things[i].name==all_scenes[j].characters[k]){
+          if(things[i].first_date==null){
+            things[i].first_date  = all_scenes[j].fields['date'] ;
+            things[i].first_scene = all_scenes[j] ;
+          }
+          else{
+            if(all_scenes[j].fields['date']<things[i].first_date){
+              things[i].first_date  = all_scenes[j].fields['date'] ;
+              things[i].first_scene = all_scenes[j] ;
+            }
+          }
+          
+          if(things[i].final_date==null){
+            things[i].final_date  = all_scenes[j].fields['date'] ;
+            things[i].final_scene = all_scenes[j] ;
+          }
+          else{
+            if(all_scenes[j].fields['date']>things[i].final_date){
+              things[i].final_date  = all_scenes[j].fields['date'] ;
+              things[i].final_scene = all_scenes[j] ;
+            }
+          }
+        }
+      }
+    }
   }
 }
 

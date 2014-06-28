@@ -10,13 +10,14 @@ function text_box(text,width){
     wrapText(this.text,this.x+0.5,this.y+0.5,this.w,line_height,true) ;
   }
 }
-function image_box(url,width,height){
+function image_box(url,width,height,scene){
   n_images++ ;
   this.url = url ;
   this.x = -1 ;
   this.y = -1 ;
   this.w = width  ;
   this.h = height ;
+  this.scene = scene ;
   this.do_clip = false ;
   this.draw = function(x,y,border){
     if(abs(this.x+1)<1e-3) this.x = x ;
@@ -29,14 +30,20 @@ function image_box(url,width,height){
     var img_w = this.w ;
     var img_h = this.h ;
     var do_clip = this.do_clip ;
-    var r = 4 ;
+    var r = image_corner_radius ;
+    scene = this.scene ;
     this.img.onload = function(){
+      context.save() ;
       if(do_clip){
-        context.save() ;
         rounded_box_path(img_x, img_y, img_x+img_w, img_y+img_h, r, context) ;
         context.clip() ;
       }
       context.drawImage(img,img_x,img_y,img_w,img_h) ;
+      context.fillStyle = '#ffffff' ;
+      context.textBaseline = 'bottom' ;
+      context.textAlign = 'center' ;
+      context.font = tapetag_title_font_size + 'px ' + font_family ;
+      scene.draw_tapetag_text(0,0) ;
       context.restore() ;
     }
     if(border){
@@ -70,6 +77,7 @@ function event_object(node, mode){
   }
   this.fields = [] ;
   this.selected = false ;
+  this.border_width = 0 ;
   
   this.read_from_xml(node) ;
   this.type = 'event' ;
@@ -114,8 +122,10 @@ function event_object(node, mode){
     this.hour = parseInt(this.fields['time'].split(':')[0],10) ;
   }
   
-  this.characters_in  = [] ;
-  this.characters_out = [] ;
+  this.characters_in        = [] ;
+  this.characters_in_elbow  = [] ;
+  this.characters_out       = [] ;
+  this.characters_out_elbow = [] ;
   this.add_character_in  = function(name){
     var add_char = true ;
     for(var i=0 ; i<this.characters_in.length ; i++){
@@ -126,6 +136,16 @@ function event_object(node, mode){
     }
     if(add_char) this.characters_in.push(name) ;
   }
+  this.add_character_in_elbow  = function(name){
+    var add_char = true ;
+    for(var i=0 ; i<this.characters_in_elbow.length ; i++){
+      if(name==this.characters_in_elbow[i]){
+        add_char = false ;
+        break ;
+      }
+    }
+    if(add_char) this.characters_in_elbow.push(name) ;
+  }
   this.add_character_out = function(name){
     var add_char = true ;
     for(var i=0 ; i<this.characters_out.length ; i++){
@@ -135,6 +155,16 @@ function event_object(node, mode){
       }
     }
     if(add_char) this.characters_out.push(name) ;
+  }
+  this.add_character_out_elbow = function(name){
+    var add_char = true ;
+    for(var i=0 ; i<this.characters_out_elbow.length ; i++){
+      if(name==this.characters_out_elbow[i]){
+        add_char = false ;
+        break ;
+      }
+    }
+    if(add_char) this.characters_out_elbow.push(name) ;
   }
   
   this.draw_border = function(draw){
@@ -152,13 +182,16 @@ function event_object(node, mode){
     }
   }
   this.draw = function(y_in,draw){
-    var dy = (this.characters_in.length+0)*scene_spacing ;
+    var dy = 0 ;
     var y = y_in + dy ;
     if(y_in>=0) this.y = y ;
     this.x = this.parent_column.center - 0.5*this.w ;
     
     // Rectangle
     context.fillStyle = this.fields['color'] ;
+    if(type=='poster'){
+      if(this.fields['type']=='found_footage') context.fillStyle = found_footage_event_color ;
+    } 
     if(draw){
       var x1 = this.x+0.5 ;
       var x2 = x1+this.w  ;
@@ -187,8 +220,8 @@ function event_object(node, mode){
     dy += event_title_font_size + event_font_size ;
     if(this.fields['description']!=''){
       var y = this.y+dy-0.5*event_font_size ;
-      context.textAlign = 'left' ;
-      x = this.x + scene_padding ;
+      context.textAlign = 'center' ;
+      x = this.x + 0.5*this.w ;
       dy += wrapText(this.fields['description'],x,y,this.w-2*scene_padding,event_font_size,draw) ;
     }
     this.h = dy ;
@@ -197,11 +230,10 @@ function event_object(node, mode){
     x = columns_by_name['chronology'].center ;
     context.fillStyle = 'rgb(255,255,255)' ;
     context.textAlign = 'center' ;
+    context.font = date_font_size + 'px' + font_family ;
     if(draw && this.year>1950) context.fillText(this.fields['date'],x,this.y+0.5*this.h) ;
     
-    var spacing = (this.characters_in.length+1)*scene_spacing ;
-    if(spacing<scene_spacing) spacing = scene_spacing ;
-    return this.h + spacing ;
+    return this.h + (this.characters_out_elbow.length+2.0)*scene_spacing ;
   }
   this.make_xml_element = function(){
     var element = xmlDoc.createElement('event') ;
@@ -224,6 +256,7 @@ function epoch_object(node, mode){
   this.w = -1 ;
   this.h = -1 ;
   this.selected = false ;
+  this.border_width = 0 ;
   
   this.set_date_time = function(date,time){
     this.fields['date' ] = date ;
@@ -254,7 +287,7 @@ function epoch_object(node, mode){
     this.w = margin_left+total_width-margin_right-fade_out_width+ribbon_size_x ;
     this.h = epoch_title_font_size + 3*epoch_font_size ;
 
-    if(y_in>=0) this.y = y_in ;
+    if(y_in>=0) this.y = y_in + scene_spacing ;
     
     // Border
     this.draw_border(draw) ;
@@ -262,22 +295,24 @@ function epoch_object(node, mode){
     this.x = 0 ;
     context.beginPath() ;
     context.fillStyle = epoch_color ;
-    if(draw) context.fillRect(this.x+0.5,this.y+0.5,this.w,this.h) ;
+    if(draw) context.fillRect(this.x,this.y,this.w,this.h) ;
 
     context.fillStyle = 'rgb(255,255,255)' ;
     context.font = epoch_title_font_size + 'px ' + font_family ;
     this.x = margin_left + 0.5*total_width ;
-    var dy = 10 ;
+    var dy = 20*scale ;
     context.textAlign = 'center' ;
-    if(draw) context.fillText(this.fields['title'],this.x+0.5,this.y+dy+0.5) ;
+    context.textBaseline = 'middle' ;
+    if(draw) context.fillText(this.fields['title'],this.x,this.y+dy) ;
 
     context.font = epoch_font_size + 'px ' + font_family ;
-    dy += epoch_title_font_size + 0.75*epoch_font_size ;
+    dy += 0.75*epoch_title_font_size + 0.75*epoch_font_size ;
     var y = this.y+dy ;
-    if(draw) context.fillText(this.fields['description'],this.x+0.5,y+0.5) ;
+    if(draw) context.fillText(this.fields['description'],this.x,y) ;
     dy += line_height ;
 
     context.font = font_size  + 'px ' + font_family ;
+    context.textBaseline = 'top' ;
     return this.h ;
   }
   this.make_xml_element = function(){
@@ -337,10 +372,11 @@ function scene_object(node, mode){
   this.read_from_xml(node) ;
   this.characters = this.characters.sort() ;
   this.type       = 'scene' ;
+  this.border_width = 1 ;
   
   this.set_date_time = function(date,time){
-    this.fields['date' ] = date ;
-    this.fields['time' ] = time ;
+    this.fields['date'] = date ;
+    this.fields['time'] = time ;
     this.year  = parseInt(this.fields['date'].split('/')[0],10) ;
     this.month = parseInt(this.fields['date'].split('/')[1],10) ;
     this.day   = parseInt(this.fields['date'].split('/')[2],10) ;
@@ -377,8 +413,10 @@ function scene_object(node, mode){
     this.image_height = youtube_scale*youtube_image_height ;
     this.set_video_still = function(i){ this.fields['video_still_id'] = i ; }
   }
-  this.characters_in  = [] ;
-  this.characters_out = [] ;
+  this.characters_in        = [] ;
+  this.characters_in_elbow  = [] ;
+  this.characters_out       = [] ;
+  this.characters_out_elbow = [] ;
   this.add_character_in  = function(name, other_scene){
     var add_char = true ;
     for(var i=0 ; i<this.characters_in.length ; i++){
@@ -391,6 +429,18 @@ function scene_object(node, mode){
       this.characters_in.push([name,other_scene]) ;
     }
   }
+  this.add_character_in_elbow  = function(name){
+    var add_char = true ;
+    for(var i=0 ; i<this.characters_in_elbow.length ; i++){
+      if(name==this.characters_in_elbow[i]){
+        add_char = false ;
+        break ;
+      }
+    }
+    if(add_char){
+      this.characters_in_elbow.push(name) ;
+    }
+  }
   this.add_character_out = function(name){
     var add_char = true ;
     for(var i=0 ; i<this.characters_out.length ; i++){
@@ -401,7 +451,28 @@ function scene_object(node, mode){
     }
     if(add_char) this.characters_out.push(name) ;
   }
+  this.add_character_out_elbow = function(name){
+    var add_char = true ;
+    for(var i=0 ; i<this.characters_out_elbow.length ; i++){
+      if(name==this.characters_out_elbow[i]){
+        add_char = false ;
+        break ;
+      }
+    }
+    if(add_char) this.characters_out_elbow.push(name) ;
+  }
   
+  this.draw_tapetag_text = function(x,y){
+    var x1 = Math.floor(this.tapetag_text.x-0.5*this.tapetag_text.w) ;
+    var x2 = Math.ceil (this.tapetag_text.x+0.5*this.tapetag_text.w) ;
+    var y1 = this.tapetag_text.y-3 ;
+    var y2 = this.tapetag_text.y+this.tapetag_text.h-3 ;
+    context.fillStyle = 'rgba(255,255,255,0.8)' ;
+    rounded_box_path(x1, y1, x2, y2, image_corner_radius-2, context) ;
+    context.fill() ;
+    context.fillStyle = '#000000' ;
+    this.tapetag_text.draw(x,y) ;
+  }
   this.draw_thumbnail_text = function(){
     context.beginPath() ;
     context.fillStyle = 'rgb(200,200,200)' ;
@@ -425,15 +496,16 @@ function scene_object(node, mode){
     this.y = -1 ;
 
     var url = this.video.video_still_url(this.fields['video_still_id']) ;
-    this.youtube = new image_box(url,this.image_width,this.image_height) ;
+    this.youtube = new image_box(url,this.image_width,this.image_height, this) ;
+    if(this.fields['thumbnail']) this.youtube = new image_box('images/cropped/'+this.fields['thumbnail'],this.image_width,this.image_height, this) ;
     this.youtube.x = this.w - scene_padding - this.image_width ;
     this.youtube.y = scene_padding ;
     this.youtube.do_clip = true ;
-
-    this.video_icon  = new image_box( video_icon_url, scene_icon_width, scene_icon_height) ;
-    this.date_icon   = new image_box(  date_icon_url, scene_icon_width, scene_icon_height) ;
-    this.filmed_icon = new image_box(filmed_icon_url, scene_icon_width, scene_icon_height) ;
-    this.place_icon  = new image_box( place_icon_url, scene_icon_width, scene_icon_height) ;
+    
+    this.video_icon  = new image_box( video_icon_url, scene_icon_width, scene_icon_height, this) ;
+    this.date_icon   = new image_box(  date_icon_url, scene_icon_width, scene_icon_height, this) ;
+    this.filmed_icon = new image_box(filmed_icon_url, scene_icon_width, scene_icon_height, this) ;
+    this.place_icon  = new image_box( place_icon_url, scene_icon_width, scene_icon_height, this) ;
     
     if(this.fields['video_title']==''){
       var initial = this.video.fields['channel'][0] ;
@@ -446,6 +518,7 @@ function scene_object(node, mode){
     this.filmed_text      = new text_box(this.fields['cameraperson'], this.w-3*scene_padding-this.image_width) ;
     this.place_text       = new text_box(this.fields['place'       ], this.w-3*scene_padding-this.image_width) ;
     this.description_text = new text_box(this.fields['description' ], this.w-2*scene_padding-this.image_width) ;
+    this.tapetag_text     = new text_box(tape_tag_descriptions[this.fields['tape_tag']], this.image_width-6) ;
 
     var text_dy = 2 ;
     var w  = 0.6*(this.w - this.image_width - 4*scene_padding) ;
@@ -461,33 +534,37 @@ function scene_object(node, mode){
     this.video_icon.x  = x1 ;
     this.video_text.x  = x2 ;
     this.video_icon.y  = y1 ;
-    this.video_text.y  = y2 ;
+    this.video_text.y  = y2+4 ;
 
     this.filmed_icon.x = x3 ;
     this.filmed_text.x = x4 ;
     this.filmed_icon.y = y3 ;
-    this.filmed_text.y = y4 ;
+    this.filmed_text.y = y4+4 ;
 
     this.date_icon.x   = x3 ;
     this.date_text.x   = x4 ;
     this.date_icon.y   = y1 ;
-    this.date_text.y   = y2 ;
+    this.date_text.y   = y2+4 ;
 
     this.place_icon.x  = x1 ;
     this.place_text.x  = x2 ;
     this.place_icon.y  = y3 ;
-    this.place_text.y  = y4 ;
+    this.place_text.y  = y4+4 ;
+    
+    this.tapetag_text.x = this.youtube.x+0.5*this.image_width  ;
+    this.tapetag_text.y = this.youtube.y+    this.image_height - 1.25*tapetag_title_font_size - 3 ;
 
     this.description_text.x = scene_padding ;
     this.description_text.y = this.place_text.y+this.place_text.h + line_height ;
 
     this.h = scene_padding + (this.description_text.y-this.y) + this.description_text.h ;
+    this.h = Math.max(2*scene_padding+this.image_height,this.h) ;
     return this.h ;
   }
   this.draw_border = function(draw){
     context.strokeStyle = 'rgb(0,0,0)'
     if(this.selected) context.strokeStyle = selected_border_color ;
-    context.lineWidth = 1 ;
+    context.lineWidth = border_width ;
     context.beginPath() ;
     var r = corner_radius ;
     var x1 = this.x+0.5 ;
@@ -500,8 +577,7 @@ function scene_object(node, mode){
   }
   this.draw = function(y_in,draw){
     var dy = 0 ;
-    dy += (this.characters_in.length+0)*scene_spacing ;
-    if(this.h<this.image_height+2*scene_padding) this.h = this.image_height+2*scene_padding ;
+    this.h = Math.max(this.h,this.image_height+2*scene_padding) ;
     
     if(y_in>=0){
       this.arrange_items() ;
@@ -517,13 +593,14 @@ function scene_object(node, mode){
       this.video_text.x       += this.x ; this.video_text.y       += this.y ;
       this.date_text.x        += this.x ; this.date_text.y        += this.y ;
       this.description_text.x += this.x ; this.description_text.y += this.y ;
+      this.tapetag_text.x     += this.x ; this.tapetag_text.y     += this.y ;
     }
     context.font = font_size + 'px ' + font_family ;
 
     // Shadow
     context.lineWidth = 1 ;
     context.fillStyle = shadow_color ;
-    if(draw){
+    if(draw && draw_shadows){
       var x1 = this.x+shadow_size+0.5 ;
       var y1 = this.y+shadow_size+0.5 ;
       var x2 = x1 + this.w ;
@@ -535,6 +612,7 @@ function scene_object(node, mode){
 
     // Background box
     context.fillStyle = tape_tag_background_colors[this.fields['tape_tag']] ;
+    if(override_tapetag_colors) context.fillStyle = '#dddddd' ;
     if(draw){
       var x1 = this.x+0.5 ;
       var y1 = this.y+0.5 ;
@@ -550,6 +628,7 @@ function scene_object(node, mode){
     y = this.y+dy ;
     context.fillStyle = 'rgb(255,255,255)' ;
     context.textAlign = 'center' ;
+    context.font = date_font_size + 'px' + font_family ;
     if(draw && this.year>1950){
       context.fillText(this.fields['date'],x,y) ;
       context.fillText(this.video.fields['title'],x,y+line_height) ;
@@ -604,25 +683,12 @@ function scene_object(node, mode){
         this.description_text.draw(0,0) ;
         this.youtube.draw(0,0,true) ;
         break ;
-        
-        //case 3:
-        //  break ;
     }
 
     // Border
     this.draw_border(draw) ;
     
-    if(false){
-      for(var i=this.characters_in.length-1 ; i>=0 ; i--){
-        var character = null ;
-        for(var j=0 ; j<characters.length ; j++){
-          if(characters[j].name==this.characters_in[i][0]) character = characters[j] ;
-        }
-        connect_two_scenes(this.characters_in[i][1], this, character, 2) ;
-      }
-    }
-    
-    return this.h + (this.characters_in.length+1)*scene_spacing ;
+    return this.h + (this.characters_out_elbow.length+2.0)*scene_spacing ;
   }
   this.make_xml_element = function(){
     var element = xmlDoc.createElement('scene') ;

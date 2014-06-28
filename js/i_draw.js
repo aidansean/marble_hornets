@@ -57,29 +57,23 @@ function draw(option){
   y += arrow_fade ;
   context.font = font_size  + 'px ' + font_family ;
   for(var i=0 ; i<the_scenes.length ; i++){
+    if(the_scenes[i].is_active==false) continue ;
     dy = the_scenes[i].draw(y,option) + scene_spacing ;
-    dy += (type=='items') ? scene_spacing : 0 ;
-    if(the_scenes[i].type=='epoch') dy += scene_spacing ; // A bit of extra spae for the arrowheads
-    if(type=='items'){
-      if(the_scenes[i].parent) y += dy ;
-    }
-    else{
-      y += dy ;
-    }
-    if(y>last_label_clear+last_label_interval){
+    dy += scene_spacing ;
+    if(the_scenes[i].type=='epoch') dy += scene_spacing ; // A bit of extra space for the arrowheads
+    y += dy ;
+    if(y>last_label_clear){
       label_clears.push(y) ;
       y += clear_height ;
-      last_label_clear = y ;
+      last_label_clear = y + last_label_interval ;
     }
   }
-  y += (type=='items') ? fade_down_height + margin_bottom : 0 ;
+  y += fade_down_height + margin_bottom ;
   
   ch = Math.ceil(y) ;
-  Get('span_ch').innerHTML = ch ;
+  Get('span_dimensions').innerHTML = 'w = ' + cw + 'px, h = ' + ch + ' size = ' + (cw*ch) + 'px<sup>2</sup><br />w = ' + (cw/112) + 'cm x ' + (ch/112) + 'cm' ;
   
-  for(var i=0 ; i<columns.length ; i++){
-    columns[i].set_height(y-margin_bottom) ;
-  }
+  for(var i=0 ; i<columns.length ; i++){ columns[i].set_height(y-margin_bottom) ; }
   
   cw = total_width ;
   canvas.width        = cw ;
@@ -108,12 +102,10 @@ function draw(option){
       resolve_connection_conflicts(connections[i],connections[j]) ;
     }
   }
-  for(var i=0 ; i<connections.length ; i++){
-    connections[i].draw() ;
-  }
+  for(var i=0 ; i<connections.length ; i++){ connections[i].draw() ; }
   for(var i=0 ; i<things.length ; i++){
-    things[i].fade_in() ;
     if(type=='items'){
+      things[i].fade_in() ;
       if(things[i].fate=='Destroyed' || things[i].fate=='Missing'){
         things[i].fade_out(2) ;
       }
@@ -122,11 +114,37 @@ function draw(option){
       }
     }
     else{
-      things[i].fade_out(2) ;
+      var fated = false ;
+      var born  = false ;
+      for(var j=0 ; j<scenes.length ; j++){
+        if(scenes[j]==things[i].first_scene) born  = true ;
+        if(scenes[j]==things[i].final_scene) fated = true ;
+      }
+      if(things[i].fate=='Extant') fated = false ;
+      if(fated){
+        things[i].fade_out(2) ;
+      }
+      else{
+        things[i].fade_down(2) ;
+      }
+      if(born){
+        things[i].fade_in() ;
+      }
+      else{
+        things[i].fade_top() ;
+      }
     }
   }
   for(var i=0 ; i<the_scenes.length ; i++){
+    if(the_scenes[i].is_active==false) continue ;
     the_scenes[i].draw(-1,option) ;
+  }
+  for(var i=0 ; i<columns.length ; i++){
+    columns[i].draw_title() ;
+    for(var j=0 ; j<columns[i].sub_columns.length ; j++){
+      columns[i].sub_columns[j].draw_title() ;
+    }
   }
   if(!filtered_scenes && type!='items') add_key() ;
 }
+

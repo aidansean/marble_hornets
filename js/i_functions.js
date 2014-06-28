@@ -78,6 +78,7 @@ function wrapText(text,x,y_in,maxWidth,lineHeight,draw){
     }
   }
   y = y_in+h ;
+  context.textBaseline = 'top' ;
   if(draw) context.fillText(line, x, y) ;
   h += lineHeight ;
   if(draw==-1) return w ;
@@ -91,6 +92,19 @@ if(filter_items_from_URL) filter_items = filter_items_from_URL.split(',') ;
 var filter_categories = [] ;
 var filter_categories_from_URL = getParameterByName('categories') ;
 if(filter_categories_from_URL) filter_categories = filter_categories_from_URL.split(',') ;
+
+var selected_epoch_string = getParameterByName('epoch') ;
+lower_date = '1900/01/01' ;
+upper_date = '3000/01/01' ;
+if(selected_epoch_string=='2006'   ){ lower_date = '1900/01/01' ;  upper_date = '2009/04/30' ; }
+if(selected_epoch_string=='season1'){ lower_date = '2009/06/17' ;  upper_date = '2010/04/19' ; }
+if(selected_epoch_string=='7months'){ lower_date = '2010/04/19' ;  upper_date = '2010/11/22' ; }
+if(selected_epoch_string=='season2'){ lower_date = '2010/11/23' ;  upper_date = '2012/02/28' ; }
+if(selected_epoch_string=='season3'){ lower_date = '2012/02/28' ;  upper_date = '3001/01/01' ; }
+
+if(selected_epoch_string=='S1'){ lower_date = '1900/01/01' ;  upper_date = '2010/04/19' ; }
+if(selected_epoch_string=='S2'){ lower_date = '2010/04/19' ;  upper_date = '2012/02/28' ; }
+if(selected_epoch_string=='S3'){ lower_date = '2012/02/28' ;  upper_date = '3001/01/01' ; }
 
 function start(){
   if(type=='items'){
@@ -112,9 +126,7 @@ function start(){
   columns.push(main_column      ) ;
 
   var x = margin_left ;
-  for(var i=0 ; i<columns.length ; i++){
-    x = columns[i].assign_positions(x) ;
-  }
+  for(var i=0 ; i<columns.length ; i++){ x = columns[i].assign_positions(x) ; }
   total_width = columns[columns.length-1].x + columns[columns.length-1].width + fade_out_width ;
   cw = total_width ;
   
@@ -122,7 +134,7 @@ function start(){
   canvas.id = 'timeline' ;
   canvas.width  = total_width ;
   Get('canvas_wrapper').appendChild(canvas) ;
-
+  
   context = canvas.getContext("2d") ;
   context.font = font_size + ' ' + font_family
   context.textBaseline = 'top' ;

@@ -1,6 +1,5 @@
 function draw_vertical_label(context, x, y, color, font_color, text){
   context.save() ;
-  var dx = 5 ;
   var r = textbox_corner_radius ;
   
   context.lineWidth = 1 ;
@@ -17,7 +16,7 @@ function draw_vertical_label(context, x, y, color, font_color, text){
   context.textAlign = 'left' ;
   context.textBaseline = 'middle' ;
   context.fillStyle = font_color ;
-  context.fillText(text, dx, 0) ;
+  context.fillText(text, text_margin_LR, 0) ;
   context.restore() ;
 }
 
@@ -38,6 +37,7 @@ function connection_object(character, x1, y1, x2, y2, yC){
   this.color      = character.color ;
   this.font_color = character.font_color ;
   this.name       = character.name ;
+  this.resolved_conflicts = false ;
   this.draw = function(){
     // Arrow path
     context.lineWidth = character_line_width ;
@@ -64,7 +64,7 @@ function connection_object(character, x1, y1, x2, y2, yC){
       context.lineTo(this.x1,this.yC-this.r) ;
       context.arcTo (this.x1,this.yC,this.x1+this.dx,this.yC,this.r) ;
       context.lineTo(this.x2-this.dx,this.yC) ;
-      context.arcTo(this.x2,this.yC,this.x2,this.yC+this.r,this.r) ;
+      context.arcTo (this.x2,this.yC,this.x2,this.yC+this.r,this.r) ;
       context.lineTo(this.x2,this.y2) ;
       context.stroke() ;
       
@@ -81,22 +81,40 @@ function connection_object(character, x1, y1, x2, y2, yC){
     }
 
     // Arrowhead
-    context.beginPath() ;
-    context.moveTo(this.x2,this.y2) ;
-    context.lineTo(this.x2-arrowhead_size*arrowhead_fraction,this.y2-arrowhead_size) ;
-    context.lineTo(this.x2+arrowhead_size*arrowhead_fraction,this.y2-arrowhead_size) ;
-    context.moveTo(this.x2,this.y2) ;
-    context.fill() ;
+    if(arrowhead_type=='triangle'){
+      context.beginPath() ;
+      context.moveTo(this.x2,this.y2) ;
+      context.lineTo(this.x2-arrowhead_size*arrowhead_fraction,this.y2-arrowhead_size) ;
+      context.lineTo(this.x2+arrowhead_size*arrowhead_fraction,this.y2-arrowhead_size) ;
+      context.moveTo(this.x2,this.y2) ;
+      context.fill() ;
+    }
+    else if(arrowhead_type=='circle'){
+      context.beginPath() ;
+      context.arc(this.x1,this.y1,0.5*arrowhead_size,0,2*Math.PI,true) ;
+      context.fill() ;
+      context.beginPath() ;
+      context.arc(this.x2,this.y2,0.5*arrowhead_size,0,2*Math.PI,true) ;
+      context.fill() ;
+    }
   }
 }
 function resolve_connection_conflicts(c1, c2){
+  if(Math.abs(c1.x1-c1.x2)<5) return ;
+  if(Math.abs(c2.x1-c2.x2)<5) return ;
+  //if(c1.resolved_conflicts) return ;
+  //if(c2.resolved_conflicts) return ;
   var nConflicts = 0 ;
   if( is_between(c2.yC, c1.y1, c1.y2) && is_between(c1.x1, c2.x1, c2.y2) ) nConflicts++ ;
   if( is_between(c1.yC, c2.y1, c2.y2) && is_between(c2.x2, c1.x1, c1.y2) ) nConflicts++ ;
+  var y1 = 1*c1.yC ;
+  var y2 = 1*c2.yC ;
+  //if(Math.abs(y1-y2)<5) return ;
   if(nConflicts==2){
-    var yC_tmp = c1.yC ;
-    c1.yC = c2.yC ;
-    c2.yC = yC_tmp ;
+    c1.yC = y2 ;
+    c2.yC = y1 ;
+    c1.resolved_conflicts = true ;
+    c2.resolved_conflicts = true ;
   }
 }
 
@@ -107,7 +125,11 @@ function character_object(name,color,font_color,fate,category){
   this.fate       = fate  ;
   this.position   = 0 ;
   this.category   = category ;
-  this.scenes = new Array() ;
+  this.scenes     = new Array() ;
+  this.first_date  = null ;
+  this.first_scene = null ;
+  this.final_date  = null ;
+  this.final_scene = null ;
   
   this.parse_scenes = function(){
     this.scenes = new Array() ;
@@ -163,28 +185,36 @@ function character_object(name,color,font_color,fate,category){
     n_fade_in = (n_fade_in==0) ? 1 : n_fade_in ;
     var y = s.y + scene_padding + (s.h-2*scene_padding)*y_index/n_fade_in ;
     if(n_fade_in==1) y = s.y + 0.5*s.h ;
-
+    
     context.strokeStyle = this.color ;
     context.fillStyle   = this.color ;
     context.beginPath() ;
     context.moveTo(x1,y) ;
     context.lineTo(x2,y) ;
     context.stroke() ;
-
-    context.moveTo(x2,y) ;
-    context.lineTo(x2-arrowhead_size,y-arrowhead_size*arrowhead_fraction) ;
-    context.lineTo(x2-arrowhead_size,y+arrowhead_size*arrowhead_fraction) ;
-    context.moveTo(x2,y) ;
-    context.fill() ;
+    
+    if(arrowhead_type=='triangle'){
+      context.moveTo(x2,y) ;
+      context.lineTo(x2-arrowhead_size,y-arrowhead_size*arrowhead_fraction) ;
+      context.lineTo(x2-arrowhead_size,y+arrowhead_size*arrowhead_fraction) ;
+      context.moveTo(x2,y) ;
+      context.fill() ;
+    }
+    else if(arrowhead_type=='circle'){
+      context.beginPath() ;
+      context.arc(x2,y,0.5*arrowhead_size,0,2*Math.PI,true) ;
+      context.fill() ;
+    }
     horizontal_line_segments.push(new line_segment(x1,y,x2,y)) ;
     
     var w = columns[1].width - 10 ;
     context.textBaseline = 'middle' ;
+    context.font = character_font_size + 'pt ' + font_family ;
     var h     = wrapText(this.name,x,0,w,line_height,false) + 2*text_margin_TB ;
     var w_box = wrapText(this.name,x,0,w,line_height,-1   ) + 2*text_margin_LR ;
     var r = textbox_corner_radius ;
     var x = columns[1].center ;
-    var y_text = y-0.5*h+2 ;
+    var y_text = y-0.5*h+text_margin_TB ;
     rounded_box_path(x-0.5*w_box, y-0.5*h, x+0.5*w_box, y+0.5*h, r, context) ;
     context.fill() ;
     if(this.color=='#ffffff'){
@@ -196,9 +226,24 @@ function character_object(name,color,font_color,fate,category){
     context.textAlign = 'center' ;
     context.textBaseline = 'top' ;
     context.fillStyle = this.font_color ;
-    context.font = character_font_size + 'pt ' + font_family ;
     wrapText(this.name,x,y_text,w_box,line_height,true) ;
     context.textBaseline = 'top' ;
+    
+    // Arrowhead
+    context.fillStyle = this.color ;
+    if(arrowhead_type=='triangle'){
+      context.beginPath() ;
+      context.moveTo(x2,y1) ;
+      context.lineTo(x2-arrowhead_size*arrowhead_fraction,y1-arrowhead_size) ;
+      context.lineTo(x2+arrowhead_size*arrowhead_fraction,y1-arrowhead_size) ;
+      context.moveTo(x2,y1) ;
+      context.fill() ;
+    }
+    else if(arrowhead_type=='circle'){
+      context.beginPath() ;
+      context.arc(x2,y,0.5*arrowhead_size,0,2*Math.PI,true) ;
+      context.fill() ;
+    }
   }
   this.fade_out = function(type){
     if(this.scenes.length==0) return ;
@@ -228,6 +273,7 @@ function character_object(name,color,font_color,fate,category){
     
     horizontal_line_segments.push(new line_segment(x1,y,x2,y)) ;
     
+    context.font = character_font_size + 'pt ' + font_family ;
     var w = context.measureText(this.name+' ('+this.fate+')').width + 2*text_margin_LR ;
     var h = character_font_size + 2*text_margin_TB ;
     var r = textbox_corner_radius ;
@@ -238,7 +284,7 @@ function character_object(name,color,font_color,fate,category){
     context.textAlign = 'left' ;
     context.textBaseline = 'middle' ;
     context.fillStyle = this.font_color ;
-    context.font = character_font_size + 'pt ' + font_family ;
+    
     if(type==1){
       context.fillText(this.name,x3,y) ;
       context.fillText('('+this.fate+')',x2,y+line_height) ;
@@ -247,6 +293,22 @@ function character_object(name,color,font_color,fate,category){
       context.fillText(this.name+' ('+this.fate+')',x3,y) ;
     }
     context.textBaseline = 'top' ;
+    
+    // Arrowhead
+    context.fillStyle = this.color ;
+    if(arrowhead_type=='triangle'){
+      context.beginPath() ;
+      context.moveTo(x1,y1) ;
+      context.lineTo(x1-arrowhead_size*arrowhead_fraction,y1-arrowhead_size) ;
+      context.lineTo(x1+arrowhead_size*arrowhead_fraction,y1-arrowhead_size) ;
+      context.moveTo(x1,y1) ;
+      context.fill() ;
+    }
+    else if(arrowhead_type=='circle'){
+      context.beginPath() ;
+      context.arc(x1,y,0.5*arrowhead_size,0,2*Math.PI,true) ;
+      context.fill() ;
+    }
   }
   this.fade_down = function(){
     if(this.scenes.length==0) return ;
@@ -273,7 +335,63 @@ function character_object(name,color,font_color,fate,category){
       }
     }
     
+    // Arrowhead
+    if(arrowhead_type=='triangle'){
+      context.beginPath() ;
+      context.moveTo(x,y1) ;
+      context.lineTo(x-arrowhead_size*arrowhead_fraction,y1-arrowhead_size) ;
+      context.lineTo(x+arrowhead_size*arrowhead_fraction,y1-arrowhead_size) ;
+      context.moveTo(x,y1) ;
+      context.fill() ;
+    }
+    else if(arrowhead_type=='circle'){
+      context.beginPath() ;
+      context.arc(x,y1,0.5*arrowhead_size,0,2*Math.PI,true) ;
+      context.fill() ;
+    }
   }
+  this.fade_top = function(){
+    if(this.scenes.length==0) return ;
+    context.lineWidth = character_line_width ;
+    var i  = this.scenes[0] ;
+    var s  = i[3] ;
+    var x  = s.x+((1+i[1])/(1+i[2]))*s.w + 0.5 ;
+    var y2 = s.y ;
+    var y1 = s.parent_column.y ;
+
+    context.strokeStyle = this.color ;
+    context.fillStyle   = this.color ;
+    context.beginPath() ;
+    context.moveTo(x,y1) ;
+    context.lineTo(x,y2) ;
+    context.stroke() ;
+    
+    for(var i=0 ; i<label_clears.length ; i++){
+      var y_lc = label_clears[i] ;
+      if(y_lc>=y1 && y_lc<=y2){
+        draw_vertical_label(context, x, y_lc, this.color, this.font_color, this.name) ;
+      }
+    }
+    
+    // Arrowhead
+    if(arrowhead_type=='triangle'){
+      context.beginPath() ;
+      context.moveTo(x,y1) ;
+      context.lineTo(x-arrowhead_size*arrowhead_fraction,y1-arrowhead_size) ;
+      context.lineTo(x+arrowhead_size*arrowhead_fraction,y1-arrowhead_size) ;
+      context.moveTo(x,y1) ;
+      context.fill() ;
+    }
+    else if(arrowhead_type=='circle'){
+      context.beginPath() ;
+      context.arc(x,y1,0.5*arrowhead_size,0,2*Math.PI,true) ;
+      context.fill() ;
+      context.beginPath() ;
+      context.arc(x,y2,0.5*arrowhead_size,0,2*Math.PI,true) ;
+      context.fill() ;
+    }
+  }
+  
   this.intermediate_scene = function(s1,s2){
     return false ;
     for(var i=s1.position+1 ; i<s2 ; i++){
@@ -287,8 +405,13 @@ function character_object(name,color,font_color,fate,category){
     var position = (1+this.position)/(1+things.length) ;
     var x1 = scene_out.x+position*scene_out.w ;
     var x2 = scene_in.x +position*scene_in.w  ;
-    var y1 = scene_out.y+scene_out.h ;
-    var y2 = scene_in.y ;
+    var y1 = scene_out.y+scene_out.h+2*scene_out.border_width+1 ;
+    var y2 = scene_in.y-1 ;
+    
+    if(Math.abs(x1-x2)>10){
+      scene_out.add_character_out_elbow(this.name) ;
+      scene_in .add_character_in_elbow (this.name) ;
+    }
     
     // Now we have reserved some space for the vertical line
     // We need to find the values of yA and yB to make this work
@@ -297,21 +420,24 @@ function character_object(name,color,font_color,fate,category){
     var yB = y2-arrow_spacing ;
     
     var yC = (type==1) ? yA : yB ;
+    var rho = 1.0 ;
     if(type==1){
-      for(yC=y1+arrow_spacing ; yC<y2-arrow_spacing ; yC+=arrow_spacing){
+      for(yC=y1+rho*arrow_spacing ; yC<y2-rho*arrow_spacing ; yC+=arrow_spacing){
         var result = check_line_collisions(x1,yC,x2,yC) ;
         if(result[0]==0) break ;
       }
     }
     else{
-      for(yC=y2-2*arrow_spacing ; yC>=y1+arrow_spacing ; yC-=arrow_spacing){
+      for(yC=y2-rho*arrow_spacing ; yC>=y1+rho*arrow_spacing ; yC-=arrow_spacing){
         var result = check_line_collisions(x1,yC,x2,yC) ;
         if(result[0]==0) break ;
       }
     }
     
-    horizontal_line_segments.push(new line_segment(x1,yC,x2,yC)) ;
-    connections.push(new connection_object(this, x1, y1, x2, y2, yC)) ;
+    if(Math.abs(x1-x2)>10) horizontal_line_segments.push(new line_segment(x1,yC,x2,yC)) ;
+    var conn = new connection_object(this, x1, y1, x2, y2, yC) ;
+    conn.index = connections.length ;
+    connections.push(conn) ;
   }
 }
 
@@ -382,22 +508,22 @@ function check_line_collisions(x1,y1,x2,y2){
 
 var characters = new Array() ;
 // Holy Trinity
-characters.push( new character_object('Alex'     , '#0000ff', '#ffffff' , 'Dead'   , 'primary')) ;
-characters.push( new character_object('Jay'      , '#ff0000', '#ffffff' , 'Dead'   , 'primary')) ;
-characters.push( new character_object('Tim'      , '#eeee00', '#000000' ,' Extant' , 'primary')) ;
+characters.push( new character_object('Alex'     , '#aaaadd', '#000000' , 'Dead'   , 'primary'   )) ;
+characters.push( new character_object('Jay'      , '#ccaaaa', '#000000' , 'Dead'   , 'primary'   )) ;
+characters.push( new character_object('Tim'      , '#dddd00', '#000000' , 'Extant' , 'primary'   )) ;
 
 // Marble Hornets crew
-characters.push( new character_object('Brian'    , '#005500', '#ffffff' , 'Dead'   , 'cast')) ;
-characters.push( new character_object('Seth'     , '#00aa00', '#ffffff' , 'Missing', 'cast')) ;
-characters.push( new character_object('Sarah'    , '#00dd00', '#ffffff' , 'Missing', 'cast')) ;
+characters.push( new character_object('Brian'    , '#226622', '#ffffff' , 'Dead'   , 'cast'      )) ;
+characters.push( new character_object('Seth'     , '#008800', '#ffffff' , 'Missing', 'cast'      )) ;
+characters.push( new character_object('Sarah'    , '#33bb33', '#ffffff' , 'Missing', 'cast'      )) ;
 
 // Other normal humans
-characters.push( new character_object('Amy'      , '#ff00ff', '#ffffff' , 'Missing', 'minor'    )) ;
-characters.push( new character_object('Bruce'    , '#aa00aa', '#ffffff' , 'Dead'   , 'minor'    )) ;
-characters.push( new character_object('Jessica'  , '#550055', '#ffffff' , 'Dead'   , 'secondary')) ;
+characters.push( new character_object('Amy'      , '#dd44cc', '#ffffff' , 'Dead'   , 'minor'     )) ;
+characters.push( new character_object('Bruce'    , '#666699', '#ffffff' , 'Dead'   , 'minor'     )) ;
+characters.push( new character_object('Jessica'  , '#8844bb', '#ffffff' , 'Unknown', 'secondary' )) ;
 
 // Unknown quantities
-characters.push( new character_object('Masky'    , '#eeeeee', '#000000' , 'Extant' , 'antagonist')) ;
+characters.push( new character_object('Masky'    , '#eeeeee', '#000000' , 'Unknown', 'antagonist')) ;
 characters.push( new character_object('Hoody'    , '#888888', '#ffffff' , 'Dead'   , 'antagonist')) ;
 characters.push( new character_object('totheark' , '#555555', '#ffffff' , 'Missing', 'antagonist')) ;
 characters.push( new character_object('operator' , '#000000', '#ffffff' , 'Extant' , 'antagonist')) ;
@@ -409,40 +535,43 @@ characters.push( new character_object('Broody'   , '#ffa500', '#ffffff' , 'Dead'
 var items = new Array() ;
 
 // Cameras
-items.push(new character_object('AlexCam1', '#ffff00', '#000000' , 'Missing'  , 'camera')) ;
-items.push(new character_object('AlexCam2', '#eeee00', '#000000' , 'Missing'  , 'camera')) ;
-items.push(new character_object('JayCam1' , '#dddd00', '#000000' , 'Destroyed', 'camera')) ;
-items.push(new character_object('JayCam2' , '#bbbb00', '#ffffff' , 'Tim'      , 'camera')) ;
-items.push(new character_object('Chestcam', '#999900', '#ffffff' , 'Destroyed', 'camera')) ;
-items.push(new character_object('HoodyCam', '#777700', '#ffffff' , 'Hoody'    , 'camera')) ;
+items.push(new character_object('AlexCam1'             , '#ffff00', '#000000' , 'Missing'  , 'camera' )) ;
+items.push(new character_object('AlexCam2'             , '#eeee00', '#000000' , 'Missing'  , 'camera' )) ;
+items.push(new character_object('JayCam1'              , '#dddd00', '#000000' , 'Destroyed', 'camera' )) ;
+items.push(new character_object('JayCam2'              , '#bbbb00', '#ffffff' , 'Tim'      , 'camera' )) ;
+items.push(new character_object('Chestcam'             , '#999900', '#ffffff' , 'Destroyed', 'camera' )) ;
+items.push(new character_object('HoodyCam'             , '#777700', '#ffffff' , 'Hoody'    , 'camera' )) ;
 
 // Tapes
-items.push(new character_object('Alex\'s tapes'    , '#0000ff', '#ffffff' , 'Destroyed', 'tape')) ;
-items.push(new character_object('Entry #51 tape'   , '#0000dd', '#ffffff' , 'Jay'      , 'tape')) ;
-items.push(new character_object('Tim\'s tapes'     , '#0000bb', '#ffffff' , 'Jay'      , 'tape')) ;
-items.push(new character_object('Static hole tapes', '#000099', '#ffffff' , 'Jay'      , 'tape')) ;
-items.push(new character_object('Entry #26 tape'   , '#000077', '#ffffff' , 'Jay'      , 'tape')) ;
-items.push(new character_object('Entry #22 tape'   , '#000055', '#ffffff' , 'Destroyed', 'tape')) ;
-items.push(new character_object('Entry #76 tape'   , '#000055', '#ffffff' , 'Jay'      , 'tape')) ;
-items.push(new character_object('Hoody tape'       , '#000033', '#ffffff' , 'Tim'      , 'tape')) ;
+items.push(new character_object('Alex\'s tapes'        , '#0000ff', '#ffffff' , 'Destroyed', 'tape'   )) ;
+items.push(new character_object('Entry #51 tape'       , '#0000dd', '#ffffff' , 'Jay'      , 'tape'   )) ;
+items.push(new character_object('Tim\'s tapes'         , '#0000bb', '#ffffff' , 'Jay'      , 'tape'   )) ;
+items.push(new character_object('Static hole tapes'    , '#000099', '#ffffff' , 'Jay'      , 'tape'   )) ;
+items.push(new character_object('Entry #26 tape'       , '#000077', '#ffffff' , 'Jay'      , 'tape'   )) ;
+items.push(new character_object('Entry #22 tape'       , '#000055', '#ffffff' , 'Destroyed', 'tape'   )) ;
+items.push(new character_object('Entry #76 tape'       , '#000055', '#ffffff' , 'Jay'      , 'tape'   )) ;
+items.push(new character_object('Hoody tape'           , '#000033', '#ffffff' , 'Tim'      , 'tape'   )) ;
 
-// Accounts
-items.push(new character_object('marblehornets youtube', '#ffffff', '#000000' , 'Jay', 'account')) ;
-items.push(new character_object('marblehornets twitter', '#000000', '#ffffff' , 'Jay', 'account')) ;
+// Accounts and computers
+items.push(new character_object('marblehornets youtube', '#ffffff', '#000000' , 'Tim'      , 'account')) ;
+items.push(new character_object('marblehornets twitter', '#000000', '#ffffff' , 'Tim'      , 'account')) ;
+items.push(new character_object('Jay\'s laptop'        , '#ff00ff', '#ffffff' , 'Tim'      , 'account')) ;
+items.push(new character_object('Harddrive'            , '#cc00cc', '#ffffff' , 'Missing'  , 'account')) ;
 
 // Weapons
-items.push(new character_object('Bullet casing', '#ff0000', '#ffffff' , 'missing', 'weapon')) ;
-items.push(new character_object('Knife'        , '#cc0000', '#ffffff' , 'Jay'    , 'weapon')) ;
-items.push(new character_object('Gun'          , '#aa0000', '#ffffff' , 'Hoody'  , 'weapon')) ;
+items.push(new character_object('Bullet casing'        , '#ff0000', '#ffffff' , 'Missing'  , 'weapon' )) ;
+items.push(new character_object('Knife'                , '#cc0000', '#ffffff' , 'Jay'      , 'weapon' )) ;
+items.push(new character_object('Gun'                  , '#aa0000', '#ffffff' , 'Hoody'    , 'weapon' )) ;
 
 // Other
-items.push(new character_object('Alex\'s sketches'    , '#00ff00', '#000000' , 'Destroyed', 'other')) ;
-items.push(new character_object('Tim\'s medical notes', '#00cc00', '#000000' , 'Tim'      , 'other')) ;
-items.push(new character_object('Tim\'s pills'        , '#00aa00', '#ffffff' , 'Tim'      , 'other')) ;
-items.push(new character_object('Alex\'s key'         , '#009900', '#ffffff' , 'Jay'      , 'other')) ;
-items.push(new character_object('Rocky (Alex\'s dog)' , '#00aa00', '#ffffff' , 'Missing'  , 'other')) ;
-items.push(new character_object('Doll'                , '#007700', '#ffffff' , 'Jay'      , 'other')) ;
-items.push(new character_object('Amy photo'           , '#005500', '#ffffff' , 'Tim'      , 'other')) ;
+items.push(new character_object('Alex\'s sketches'     , '#00ff00', '#000000' , 'Destroyed', 'other'  )) ;
+items.push(new character_object('Tim\'s medical notes' , '#00cc00', '#000000' , 'Tim'      , 'other'  )) ;
+items.push(new character_object('Tim\'s pills'         , '#00aa00', '#ffffff' , 'Tim'      , 'other'  )) ;
+items.push(new character_object('Alex\'s key'          , '#009900', '#ffffff' , 'Jay'      , 'other'  )) ;
+items.push(new character_object('Rocky (Alex\'s dog)'  , '#00aa00', '#ffffff' , 'Missing'  , 'other'  )) ;
+items.push(new character_object('Doll'                 , '#007700', '#ffffff' , 'Jay'      , 'other'  )) ;
+items.push(new character_object('Amy photo'            , '#005500', '#ffffff' , 'Tim'      , 'other'  )) ;
+items.push(new character_object('Mask'                 , '#004400', '#ffffff' , 'Missing'  , 'other'  )) ;
 
 if(filter_categories.length>0){
   for(var i=0 ; i<filter_categories.length ; i++){

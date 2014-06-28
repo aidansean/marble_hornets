@@ -4,7 +4,7 @@
     time="12:00"
     title="Summer 2006"
     name="Summer 2006"
-    season="0"
+    season="0123"
     description="Alex starts to film Marble Hornets in CollegeTown"></epoch>
   <epoch
     date="2009/06/18"
@@ -16,11 +16,11 @@
     date="2010/04/20"
     time="12:00"
     title="Seven month gap"
-    season="2"
+    season="23"
     description="Jay's memory of this period was erased"></epoch>
   <epoch
-    date="2010/11/22"
-    time="23:00"
+    date="2010/11/23"
+    time="01:00"
     title="Season 2 begins"
     season="2"
     description="Jay starts to upload footage again"></epoch>
@@ -88,7 +88,7 @@
           <character name="operator"></character>
         </character_list>
         <item_list>
-          <item name="AlexCam1"></item>
+          <item name="AlexCam1" to="A" comment="Alex has a camera"></item>
         </item_list>
       </scene>
     </scene_list>
@@ -121,7 +121,7 @@
           <character name="Alex"></character>
         </character_list>
         <item_list>
-          <item name="Rocky (Alex's dog)"></item>
+          <item name="Rocky (Alex's dog)" to="U" comment="Alex walks his dog, Rocky"></item>
         </item_list>
       </scene>
     </scene_list>
@@ -332,7 +332,7 @@
           <character name="Alex"></character>
         </character_list>
         <item_list>
-          <item name="Alex's sketches"></item>
+          <item name="Alex's sketches" to="A" comment="Alex creates his sketches"></item>
         </item_list>
       </scene>
     </scene_list>
@@ -494,7 +494,7 @@
           <character name="operator"></character>
         </character_list>
         <item_list>
-          <item name="Alex's sketches"></item>
+          <item name="Alex's sketches" to="A" comment="Alex's sketches are above his bed"></item>
         </item_list>
       </scene>
     </scene_list>
@@ -753,7 +753,7 @@
           <character name="Tim"></character>
         </character_list>
         <item_list>
-          <item name="JayCam1"></item>
+          <item name="JayCam1" to="J" comment="Jay starts to film"></item>
         </item_list>
       </scene>
     </scene_list>
@@ -818,9 +818,9 @@
           <character name="operator"></character>
         </character_list>
         <item_list>
-          <item name="Bullet casing"></item>
-          <item name="Alex's sketches"></item>
-          <item name="Tim's pills"></item>
+          <item name="Bullet casing" to="J" comment="Jay takes the bullet casing"></item>
+          <item name="Alex's sketches" to="J" comment="Jay takes Alex's sketches"></item>
+          <item name="Tim's pills" to="J" comment="Jay takes Tim's pills"></item>
         </item_list>
       </scene>
     </scene_list>
@@ -953,7 +953,8 @@
           <character name="operator"></character>
         </character_list>
         <item_list>
-          <item name="Doll"></item>
+          <item name="Mask" to="T" comment="Masky is wearing the mask"></item>
+          <item name="Doll" to="U" comment="Jay finds the operator doll, but Masky tackles him before he can take it"></item>
         </item_list>
       </scene>
       <scene
@@ -1024,7 +1025,7 @@
         cameraperson="Jay"
         tape_tag="6"
         place="Jay's house"
-        description="Jay goes to sleep and Masky shows up by his bedside.  Jay and Maskt leave the room."
+        description="Jay goes to sleep and Masky shows up by his bedside.  Jay and Masky leave the room."
         location="C"
         video_still_id="2"
         video_title="Entry #19 (M1)"
@@ -1036,8 +1037,8 @@
           <character name="Tim"></character>
         </character_list>
         <item_list>
-          <item name="Bullet casing"></item>
-          <item name="Tim's pills"></item>
+          <item name="Bullet casing" to="U" comment="The bullet casing goes missing"></item>
+          <item name="Tim's pills" to="T" comment="Masky takes the pills back from Jay"></item>
         </item_list>
       </scene>
     </scene_list>
@@ -1137,7 +1138,7 @@
           <character name="Tim"></character>
         </character_list>
         <item_list>
-          <item name="Tim's pills"></item>
+          <item name="Tim's pills" to="T" comment="Tim is seen with his pills for the first time"></item>
         </item_list>
       </scene>
     </scene_list>
@@ -1201,7 +1202,7 @@
           <character name="Jay"></character>
         </character_list>
         <item_list>
-          <item name="Entry #22 tape"></item>
+          <item name="Entry #22 tape" to="J" comment="Jay takes the Entry #22 tape from the Red Tower"></item>
         </item_list>
       </scene>
     </scene_list>
@@ -1235,7 +1236,7 @@
           <character name="Seth"></character>
         </character_list>
         <item_list>
-          <item name="Entry #22 tape"></item>
+          <item name="Entry #22 tape" to="U" comment="Seth films Entry #22"></item>
         </item_list>
       </scene>
       <scene
@@ -1326,7 +1327,7 @@
     season="1"
     channel="marblehornets"
     wikidot="entry-23"
-    unfiction="?t=29390"
+    unfiction="?t=29017"
     player_summary="Jay goes back to the abandoned house.  The Operator teleports him to the basement of doom.  Jay decides it's time to quit."
     duration="7:54"
     youtube_id="SzdZyZgCY58"
@@ -1350,7 +1351,8 @@
           <character name="Tim"></character>
         </character_list>
         <item_list>
-          <item name="Doll"></item>
+          <item name="Doll" to="U" comment="Jay finds the operator doll in the house, follows where it points, but leaves it at the house"></item>
+          <item name="Masky" to="U" comment="Masky leaves the mask hanging from the basement door"></item>
         </item_list>
       </scene>
       <scene
@@ -1388,7 +1390,7 @@
           <character name="operator"></character>
         </character_list>
         <item_list>
-          <item name="JayCam1"></item>
+          <item name="JayCam1" to="J" comment="Jay's first camera stops functioning after a confrontation with the operator"></item>
         </item_list>
       </scene>
     </scene_list>
@@ -1453,7 +1455,7 @@
           <character name="Jay"></character>
         </character_list>
         <item_list>
-          <item name="JayCam2"></item>
+          <item name="JayCam2" to="J" comment="Jay starts to film again with a second camera"></item>
         </item_list>
       </scene>
     </scene_list>
@@ -1487,7 +1489,7 @@
           <character name="totheark"></character>
         </character_list>
         <item_list>
-          <item name="marblehornets youtube"></item>
+          <item name="marblehornets youtube" to="U" comment="Jay loses control of the Marble Hornets youtube account"></item>
         </item_list>
       </scene>
     </scene_list>
@@ -1520,7 +1522,7 @@
           <character name="Jay"></character>
         </character_list>
         <item_list>
-          <item name="marblehornets youtube"></item>
+          <item name="marblehornets youtube" to="J" comment="Jay regains control of the Marble Hornets youtube account"></item>
         </item_list>
       </scene>
     </scene_list>
@@ -1572,8 +1574,8 @@
           <character name="operator"></character>
         </character_list>
         <item_list>
-          <item name="Entry #26 tape"></item>
-          <item name="AlexCam1"></item>
+          <item name="Entry #26 tape" to="U" comment="Amy films footage of her apartment in Entry #26 using Alex's camera"></item>
+          <item name="AlexCam1" to="U" comment="Amy finds Alex's old camera in a closet"></item>
         </item_list>
       </scene>
       <scene
@@ -1609,7 +1611,7 @@
           <character name="Jay"></character>
         </character_list>
         <item_list>
-          <item name="Entry #26 tape"></item>
+          <item name="Entry #26 tape" to="J" comment="Jay receives the Entry #26 tape"></item>
         </item_list>
       </scene>
     </scene_list>
@@ -1642,7 +1644,7 @@
           <character name="Jay"></character>
         </character_list>
         <item_list>
-          <item name="Chestcam"></item>
+          <item name="Chestcam" to="J" comment="Jay wakes up wearing the chestcam"></item>
         </item_list>
       </scene>
     </scene_list>
@@ -1729,7 +1731,7 @@
       <scene
         date="2010/10/02"
         time="12:00"
-        cameraperson="Alex(?)"
+        cameraperson="Alex"
         tape_tag="3"
         place="The Tunnel"
         description="Alex goes back to the Tunnel to find evidence of the murder of Bruce."
@@ -1990,7 +1992,7 @@
           <character name="Tim"></character>
         </character_list>
         <item_list>
-          <item name="Knife"></item>
+          <item name="Knife" to="J" comment="Alex takes the knife from Masky, then Jay takes the knife"></item>
         </item_list>
       </scene>
     </scene_list>
@@ -2233,7 +2235,7 @@
           <character name="Hoody"></character>
         </character_list>
         <item_list>
-          <item name="JayCam2"></item>
+          <item name="JayCam2" to="H" comment="Hoody returns Jay's camera to his car"></item>
         </item_list>
       </scene>
     </scene_list>
@@ -2268,7 +2270,7 @@
           <character name="Jay"></character>
         </character_list>
         <item_list>
-          <item name="Chestcam"></item>
+          <item name="Chestcam" to="A" comment="Alex is seen using the chestcam for the first time"></item>
         </item_list>
       </scene>
       <scene
@@ -2289,7 +2291,7 @@
           <character name="Jay"></character>
         </character_list>
         <item_list>
-          <item name="JayCam2"></item>
+          <item name="JayCam2" to="J" comment="Jay's camera is returned to him"></item>
         </item_list>
       </scene>
     </scene_list>
@@ -2494,7 +2496,7 @@
           <character name="operator"></character>
         </character_list>
         <item_list>
-          <item name="Alex's key"></item>
+          <item name="Alex's key" to="J" comment="Jay steals Alex's spare key"></item>
         </item_list>
       </scene>
     </scene_list>
@@ -2718,8 +2720,8 @@
           <character name="Jay"></character>
         </character_list>
         <item_list>
-          <item name="Entry #51 tape"></item>
-          <item name="Alex's key"></item>
+          <item name="Entry #51 tape" to="J" comment="Jay takes the Entry #51 tape"></item>
+          <item name="Alex's key" to="J" comment="Jay uses Alex's key to break into his apartment"></item>
         </item_list>
       </scene>
     </scene_list>
@@ -2754,7 +2756,7 @@
           <character name="operator"></character>
         </character_list>
         <item_list>
-          <item name="Entry #51 tape"></item>
+          <item name="Entry #51 tape" to="A" comment="Alex films Brian in the hospital"></item>
         </item_list>
       </scene>
       <scene
@@ -2775,7 +2777,7 @@
           <character name="operator"></character>
         </character_list>
         <item_list>
-          <item name="Entry #51 tape"></item>
+          <item name="Entry #51 tape" to="B" comment="Brian films in the hospital"></item>
         </item_list>
       </scene>
       <scene
@@ -2795,7 +2797,7 @@
           <character name="Brian"></character>
         </character_list>
         <item_list>
-          <item name="Entry #51 tape"></item>
+          <item name="Entry #51 tape" to="A" comment="Alex is in the hospital and takes the camera"></item>
         </item_list>
       </scene>
     </scene_list>
@@ -2832,7 +2834,7 @@
           <character name="Tim"></character>
         </character_list>
         <item_list>
-          <item name="Knife"></item>
+          <item name="Knife" to="J" comment="Jay has the knife"></item>
         </item_list>
       </scene>
       <scene
@@ -2855,7 +2857,7 @@
           <character name="Tim"></character>
         </character_list>
         <item_list>
-          <item name="Gun"></item>
+          <item name="Gun" to="A" comment="Alex has the gun"></item>
         </item_list>
       </scene>
       <scene
@@ -2875,8 +2877,9 @@
           <character name="Jessica"></character>
         </character_list>
         <item_list>
-          <item name="Harddrive"></item>
-          <item name="Chestcam"></item>
+          <item name="Harddrive" to="J" comment="Jay takes the hard drive"></item>
+          <item name="Chestcam" to="J" comment="Jay takes the chestcam"></item>
+          <item name="Jay's laptop" to="J" comment="Jay's laptop is seen for the first time"></item>
         </item_list>
       </scene>
       <scene
@@ -3363,7 +3366,7 @@
           <character name="Tim"></character>
         </character_list>
         <item_list>
-          <item name="Tim's tapes"></item>
+          <item name="Tim's tapes" to="J" comment="Tim gives Jay his tapes from 2006"></item>
         </item_list>
       </scene>
       <scene
@@ -3387,8 +3390,8 @@
           <character name="operator"></character>
         </character_list>
         <item_list>
-          <item name="AlexCam2"></item>
-          <item name="Tim's tapes"></item>
+          <item name="AlexCam2" to="T" comment="Alex gives Tim his second camera"></item>
+          <item name="Tim's tapes" to="T" comment="Tim films behind the scenes footage"></item>
         </item_list>
       </scene>
     </scene_list>
@@ -3537,7 +3540,7 @@
           <character name="operator"></character>
         </character_list>
         <item_list>
-          <item name="AlexCam2"></item>
+          <item name="AlexCam2" to="U" comment="Tim records some footage in the hospital, it is unclear what happens to the camera afterwards"></item>
         </item_list>
       </scene>
     </scene_list>
@@ -3751,8 +3754,8 @@
           <character name="operator"></character>
         </character_list>
         <item_list>
-          <item name="Doll"></item>
-          <item name="Tim's medical notes"></item>
+          <item name="Doll" to="J" comment="Jay finds the operator doll in the maintenance tunnel"></item>
+          <item name="Tim's medical notes" to="J" comment="Jay takes Tim's medical notes"></item>
         </item_list>
       </scene>
     </scene_list>
@@ -3850,8 +3853,8 @@
           <character name="Tim"></character>
         </character_list>
         <item_list>
-          <item name="HoodyCam"></item>
-          <item name="Tim's pills"></item>
+          <item name="HoodyCam" to="H" comment="Hoody films Tim at his house"></item>
+          <item name="Tim's pills" to="H" comment="Hoody takes Tim's pills"></item>
         </item_list>
       </scene>
     </scene_list>
@@ -3903,7 +3906,7 @@
           <character name="Jay"></character>
         </character_list>
         <item_list>
-          <item name="JayCam2"></item>
+          <item name="JayCam2" to="H" comment="Hoody films Jay using Jay's camera"></item>
         </item_list>
       </scene>
       <scene
@@ -3923,7 +3926,7 @@
           <character name="Tim"></character>
         </character_list>
         <item_list>
-          <item name="JayCam2"></item>
+          <item name="JayCam2" to="J" comment="Jay takes his camera back after waking up"></item>
         </item_list>
       </scene>
     </scene_list>
@@ -4007,7 +4010,7 @@
           <character name="Tim"></character>
         </character_list>
         <item_list>
-          <item name="Tim's medical notes"></item>
+          <item name="Tim's medical notes" to="T" comment="Jay gives Tim his medical records"></item>
         </item_list>
       </scene>
     </scene_list>
@@ -4041,7 +4044,7 @@
           <character name="Tim"></character>
         </character_list>
         <item_list>
-          <item name="Chestcam"></item>
+          <item name="Chestcam" to="T" comment="Tim takes the chestcam"></item>
         </item_list>
       </scene>
       <scene
@@ -4235,7 +4238,7 @@
           <character name="Tim"></character>
         </character_list>
         <item_list>
-          <item name="Tim's pills"></item>
+          <item name="Tim's pills" to="T" comment="Tim takes a large number of pills"></item>
         </item_list>
       </scene>
       <scene
@@ -4373,7 +4376,7 @@
           <character name="operator"></character>
         </character_list>
         <item_list>
-          <item name="Gun"></item>
+          <item name="Gun" to="H" comment="Hoody takes the gun from Alex"></item>
         </item_list>
       </scene>
       <scene
@@ -4392,7 +4395,6 @@
           <character name="Hoody"></character>
         </character_list>
         <item_list>
-          <item name="Gun"></item>
         </item_list>
       </scene>
       <scene
@@ -4412,7 +4414,7 @@
           <character name="Tim"></character>
         </character_list>
         <item_list>
-          <item name="Gun"></item>
+          <item name="Mask" to="T" comment="Tim wakes up to find he has the mask"></item>
         </item_list>
       </scene>
     </scene_list>
@@ -4595,7 +4597,7 @@
           <character name="Tim"></character>
         </character_list>
         <item_list>
-          <item name="Static hole tapes"></item>
+          <item name="Static hole tapes" to="J" comment="Jay and Tim discover the tapes from the static hole"></item>
         </item_list>
       </scene>
     </scene_list>
@@ -4731,7 +4733,7 @@
           <character name="operator"></character>
         </character_list>
         <item_list>
-          <item name="Tim's pills"></item>
+          <item name="Tim's pills" to="T" comment="Tim takes some pills to cope with the presence of the operator"></item>
         </item_list>
       </scene>
     </scene_list>
@@ -4764,9 +4766,9 @@
           <character name="Hoody"></character>
         </character_list>
         <item_list>
-          <item name="marblehornets youtube"></item>
-          <item name="Gun"></item>
-          <item name="Tim's pills"></item>
+          <item name="marblehornets youtube" to="H" comment="Hoody hacks in to the Marble Hornets youtube account"></item>
+          <item name="Gun" to="H" comment="Hoody has the gun"></item>
+          <item name="Tim's pills" to="H" comment="Hoody has Tim's pills"></item>
         </item_list>
       </scene>
       <scene
@@ -4792,7 +4794,7 @@
         cameraperson="Hoody"
         tape_tag="11"
         place="Tim's house, Rosswood"
-        description="Hoody breaks into Tim's house in search of pills.  Hoody finds a tape, but leaves it in place, then leaves as someone emerges from the attic."
+        description="Hoody breaks into Tim's house in search of pills.  Hoody finds a tape, but leaves it in place, then leaves as Alex emerges from the attic."
         location="R"
         video_still_id="3"
         video_title="entry #73 (T3)"
@@ -4800,11 +4802,11 @@
         end_time="9:22">
         <character_list>
           <character name="Hoody"></character>
-          <character name="Unknown"></character>
+          <character name="Alex"></character>
         </character_list>
         <item_list>
-          <item name="Tim's pills"></item>
-          <item name="Entry #76 tape"></item>
+          <item name="Tim's pills" to="H" comment="Hoody takes some of Tim's pills"></item>
+          <item name="Entry #76 tape" to="T" comment="The Entry #76 tape is seen in the box"></item>
         </item_list>
       </scene>
     </scene_list>
@@ -4837,8 +4839,8 @@
           <character name="Tim"></character>
         </character_list>
         <item_list>
-          <item name="JayCam2"></item>
-          <item name="marblehornets youtube"></item>
+          <item name="JayCam2" to="T" comment="Tim is using Jay's camera"></item>
+          <item name="marblehornets youtube" to="T" comment="Tim uploads to the Marble Hornets youtube account"></item>
         </item_list>
       </scene>
       <scene
@@ -4857,7 +4859,7 @@
           <character name="Tim"></character>
         </character_list>
         <item_list>
-          <item name="Tim's pills"></item>
+          <item name="Tim's pills" to="T" comment="Tim has some pills"></item>
         </item_list>
       </scene>
     </scene_list>
@@ -4922,7 +4924,7 @@
           <character name="Tim"></character>
         </character_list>
         <item_list>
-          <item name="JayCam2"></item>
+          <item name="JayCam2" to="J" comment="Jay takes his camera back from Tim"></item>
         </item_list>
       </scene>
       <scene
@@ -4942,8 +4944,8 @@
           <character name="Tim"></character>
         </character_list>
         <item_list>
-          <item name="Entry #76 tape"></item>
-          <item name="Amy photo"></item>
+          <item name="Entry #76 tape" to="T" comment="Tim takes the Entry #76 tape"></item>
+          <item name="Amy photo" to="T" comment="Tim takes the Amy photo"></item>
         </item_list>
       </scene>
       <scene
@@ -4963,8 +4965,8 @@
           <character name="Tim"></character>
         </character_list>
         <item_list>
-          <item name="Entry #76 tape"></item>
-          <item name="marblehornets youtube"></item>
+          <item name="Entry #76 tape" to="J" comment="Jay takes the Entry #76 tape from Tim"></item>
+          <item name="marblehornets youtube" to="J" comment="Jay uploads an entry to the Marble Hornets youtube account"></item>
         </item_list>
       </scene>
     </scene_list>
@@ -5019,8 +5021,8 @@
           <character name="operator"></character>
         </character_list>
         <item_list>
-          <item name="Gun"></item>
-          <item name="Alex's flashlight"></item>
+          <item name="Gun" to="Je" comment="Jessica takes Alex's gun"></item>
+          <item name="Alex's flashlight" to="Je" comment="Jessica takes Alex's flashlight"></item>
         </item_list>
       </scene>
       <scene
@@ -5042,8 +5044,9 @@
           <character name="operator"></character>
         </character_list>
         <item_list>
-          <item name="Entry #76 tape"></item>
-          <item name="Gun"></item>
+          <item name="Entry #76 tape" to="A" comment="Alex takes the camera back from Jessica"></item>
+          <item name="Gun" to="A" comment="Alex takes the gun from Jessica"></item>
+          <item name="Mask" to="T" comment="Tim wakes up wearing the mask"></item>
         </item_list>
       </scene>
     </scene_list>
@@ -5108,7 +5111,7 @@
           <character name="Tim"></character>
         </character_list>
         <item_list>
-          <item name="Knife"></item>
+          <item name="Knife" to="J" comment="Jay has the knife"></item>
         </item_list>
       </scene>
       <scene
@@ -5128,8 +5131,8 @@
           <character name="Tim"></character>
         </character_list>
         <item_list>
-          <item name="Knife"></item>
-          <item name="JayCam2"></item>
+          <item name="Knife" to="Tim" comment="Tim takes Jay's knife"></item>
+          <item name="JayCam2" to="Tim" comment="Tim takes Jay's camera"></item>
         </item_list>
       </scene>
     </scene_list>
@@ -5163,7 +5166,7 @@
           <character name="Jay"></character>
         </character_list>
         <item_list>
-          <item name="JayCam2"></item>
+          <item name="JayCam2" to="J" comment="Hoody return Jay's camera"></item>
         </item_list>
       </scene>
     </scene_list>
@@ -5313,7 +5316,7 @@
           <character name="operator"></character>
         </character_list>
         <item_list>
-          <item name="Gun"></item>
+          <item name="Gun" to="A" comment="Alex has the gun"></item>
         </item_list>
       </scene>
       <scene
@@ -5333,7 +5336,7 @@
           <character name="Tim"></character>
         </character_list>
         <item_list>
-          <item name="JayCam2"></item>
+          <item name="JayCam2" to="T" comment="Tim takes Jay's camera"></item>
         </item_list>
       </scene>
     </scene_list>
@@ -5427,7 +5430,7 @@
           <character name="Tim"></character>
         </character_list>
         <item_list>
-          <item name="Tim's pills"></item>
+          <item name="Tim's pills" to="H" comment="Tim pills are missing"></item>
         </item_list>
       </scene>
     </scene_list>
@@ -5460,7 +5463,7 @@
           <character name="Tim"></character>
         </character_list>
         <item_list>
-          <item name="Jay's laptop"></item>
+          <item name="Jay's laptop" to="T" comment="Tim takes Jay's laptop"></item>
         </item_list>
       </scene>
       <scene
@@ -5586,8 +5589,8 @@
           <character name="operator"></character>
         </character_list>
         <item_list>
-          <item name="Tim's pills"></item>
-          <item name="Hoody tape"></item>
+          <item name="Tim's pills" to="T" comment="Tim takes the pills from Hoody"></item>
+          <item name="Hoody tape" to="T" comment="Tim takes the tape from Hoody"></item>
         </item_list>
       </scene>
     </scene_list>
@@ -5620,7 +5623,7 @@
           <character name="Tim"></character>
         </character_list>
         <item_list>
-          <item name="Chestcam"></item>
+          <item name="Chestcam" to="T" comment="The chestcam stops functioning"></item>
         </item_list>
       </scene>
       <scene
@@ -5639,8 +5642,8 @@
           <character name="Tim"></character>
         </character_list>
         <item_list>
-          <item name="JayCam2"></item>
-          <item name="Hoody tape"></item>
+          <item name="JayCam2" to="T" comment="Tim starts using Jay's camera"></item>
+          <item name="Hoody tape" to="T" comment="Tim watches the Hoody tape"></item>
         </item_list>
       </scene>
       <scene
@@ -5661,8 +5664,8 @@
           <character name="Tim"></character>
         </character_list>
         <item_list>
-          <item name="AlexCam1"></item>
-          <item name="Hoody tape"></item>
+          <item name="AlexCam1" to="A" comment="Alex films auditions using his first camera"></item>
+          <item name="Hoody tape" to="A" comment="Alex films Brians and Tim as they audition"></item>
         </item_list>
       </scene>
       <scene
@@ -5731,7 +5734,7 @@
           <character name="Tim"></character>
         </character_list>
         <item_list>
-          <item name="Gun"></item>
+          <item name="Gun" to="A" comment="Alex has the gun"></item>
         </item_list>
       </scene>
     </scene_list>
@@ -5766,7 +5769,7 @@
           <character name="operator"></character>
         </character_list>
         <item_list>
-          <item name="Gun"></item>
+          <item name="Gun" to="A" comment="Alex has the gun"></item>
         </item_list>
       </scene>
       <scene
@@ -5786,8 +5789,8 @@
           <character name="Alex"></character>
         </character_list>
         <item_list>
-          <item name="Gun"></item>
-          <item name="Knife"></item>
+          <item name="Gun" to="T" comment="Tim takes the gun from Alex"></item>
+          <item name="Knife" to="T" comment="Tim takes the knife from Alex"></item>
         </item_list>
       </scene>
       <scene
@@ -5828,6 +5831,76 @@
           <character name="operator"></character>
         </character_list>
         <item_list></item_list>
+      </scene>
+    </scene_list>
+  </video>
+  
+  <video
+    title="Entry #87"
+    season="3"
+    channel="marblehornets"
+    wikidot="entry-87"
+    unfiction="?t=40169"
+    player_summary="Tim throws away his mask, then drives to the doctor's office where meets Jessica.  He collapses in a coughing fit then drives away."
+    duration="13:23"
+    youtube_id="3AycCJIOl5w"
+    release_date="2014/06/15">
+    <scene_list>
+      <scene
+        date="2014/06/20"
+        time="12:00"
+        cameraperson="Tim"
+        tape_tag="7"
+        place="Tim's car"
+        description="Tim drives around.  He stops his car and throws his mask in the trash."
+        location="R"
+        video_still_id="1"
+        video_title="Entry #86 (M3)"
+        start_time="0:11"
+        end_time="1:38">
+        <character_list>
+          <character name="Tim"></character>
+        </character_list>
+        <item_list>
+          <item name="Mask" to="T" comment="Tim throws the mask away"></item>
+        </item_list>
+      </scene>
+      <scene
+        date="2014/06/20"
+        time="13:00"
+        cameraperson="Tim"
+        tape_tag="7"
+        place="Doctor's office"
+        description="Tim waits around and meets Jessica outside the doctor's office and they talk.  Tim collapses in a coughing fit."
+        location="R"
+        video_still_id="2"
+        video_title="Entry #86 (M3)"
+        start_time="1:39"
+        end_time="4:04">
+        <character_list>
+          <character name="Tim"></character>
+          <character name="Jessica"></character>
+        </character_list>
+        <item_list></item_list>
+      </scene>
+      <scene
+        date="2014/06/20"
+        time="14:00"
+        cameraperson="Tim"
+        tape_tag="7"
+        place="Tim's car"
+        description="Tim drives off.  Sirens can be heard in the background.  'Everything is fine.'"
+        location="R"
+        video_still_id="3"
+        video_title="Entry #86 (M3)"
+        start_time="4:05"
+        end_time="5:01">
+        <character_list>
+          <character name="Tim"></character>
+        </character_list>
+        <item_list>
+          <item name="Tim's pills" to="T" comment="Tim takes some pills"/>
+        </item_list>
       </scene>
     </scene_list>
   </video>
@@ -7320,20 +7393,7 @@
   
   
   <key>
-    <event
-      id="key_heading"
-      name="Key"
-      title="Key"
-      date="1900/01/01"
-      time="12:00"
-      description=""
-      season="0"
-      location="R">
-      <character_list>
-      </character_list>
-      <item_list>
-      </item_list>
-    </event>
+    
   
     <video
       title="Video title"

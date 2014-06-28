@@ -41,11 +41,21 @@ else if(type=='hotel'){
 else if(type=='2006'){
   prefix = '2006' ;
 }
+else if(type=='poster'){
+  prefix = 'poster' ;
+  main_column = columns_by_name['poster'] ;
+  override_tapetag_colors = true ;
+  epoch_fold_color = '#333333' ;
+  epoch_color      = '#111111' ;
+  if(selected_epoch_string=='S1') last_label_clear = last_label_interval ;
+}
 </script>
 <div class="center">
-  <p>(Timeline height = <span id="span_ch">-</span>px)</p>
+  <p>(Dimensions= <span id="span_dimensions">-</span>)</p>
 </div>
-<div id="canvas_wrapper" class="center"></div>
+<div id="canvas_wrapper" class="center">
+  <!--<canvas id="timeline" width="5000" height="50000"></canvas>-->
+</div>
 <div id="img_wrapper" class="center"></div>
 
 <div class="center">

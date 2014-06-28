@@ -201,6 +201,8 @@ function update_item_info(){
   update_item_details('Entry #82 scene 1', 'T', 'Tim takes Jay\'s laptop') ;
   update_item_details('Entry #83 scene 3', 'T', 'Tim takes the pills and a tape from Hoody') ;
 
+  update_item_details('Entry #87 scene 1', 'U', 'Tim throws away the mask') ;
+
   order_items_scenes() ;
 
   for(var i=0 ; i<item_scenes.length ; i++){
