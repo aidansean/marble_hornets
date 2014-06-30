@@ -96,13 +96,13 @@ location_columns.push( new column_object('location_R' , 'Rosswood'       , 'R' ,
 location_columns.push( new column_object('location_E' , 'Elsewhere'      , 'E' , 400*scale,  dark_column, '#000000')) ;
 
 var poster_columns = new Array() ;
-poster_columns.push( new column_object('poster_C' , 'CollegeTown'         , 'PC' , 400*scale, '#bbaaaa', '#000000')) ;
-poster_columns.push( new column_object('poster_H' , 'Hospital'            , 'PH' , 400*scale, '#ccbbaa', '#000000')) ;
-poster_columns.push( new column_object('poster_S' , 'Slenderverse/The Ark', 'PS' , 400*scale, '#bbbbaa', '#000000')) ;
-poster_columns.push( new column_object('poster_E' , 'Elsewhere'           , 'PE' , 400*scale, '#aabbaa', '#000000')) ;
-poster_columns.push( new column_object('poster_P' , 'Rosswood Park'       , 'PP' , 400*scale, '#aabbbb', '#000000')) ;
-poster_columns.push( new column_object('poster_T' , 'Rosswood Town'       , 'PT' , 400*scale, '#aaaabb', '#000000')) ;
-poster_columns.push( new column_object('poster_B' , 'Benedict Campus'     , 'PB' , 400*scale, '#bbaabb', '#000000')) ;
+poster_columns.push( new column_object('poster_C' , 'CollegeTown'         , 'PC' , 400*scale, 'rgb(23,33,59)', '#000000')) ;
+poster_columns.push( new column_object('poster_H' , 'Hospital'            , 'PH' , 400*scale, 'rgb(37,37,57)', '#000000')) ;
+poster_columns.push( new column_object('poster_S' , 'Slenderverse'        , 'PS' , 400*scale, 'rgb(34,51,57)', '#000000')) ;
+poster_columns.push( new column_object('poster_E' , 'Elsewhere'           , 'PE' , 400*scale, 'rgb(31,44,55)', '#000000')) ;
+poster_columns.push( new column_object('poster_P' , 'Rosswood Park'       , 'PP' , 400*scale, 'rgb(29,49,52)', '#000000')) ;
+poster_columns.push( new column_object('poster_T' , 'Rosswood Town'       , 'PT' , 400*scale, 'rgb(23,33,59)', '#000000')) ;
+poster_columns.push( new column_object('poster_B' , 'Benedict Campus'     , 'PB' , 400*scale, 'rgb(32,32,57)', '#000000')) ;
 
 // Character columns
 var character_columns = new Array() ;
@@ -140,7 +140,7 @@ if(selected_epoch_string){
     for(var j=0 ; j<poster_columns.length ; j++){
       if(poster_columns[j].abbreviation==poster_labels[i]){
         //poster_columns[j].background_color = (poster_column.sub_columns.length%2==0) ? light_column : dark_column ;
-        poster_columns[j].background_color = poster_colors[poster_column.sub_columns.length] ;
+        //poster_columns[j].background_color = poster_colors[poster_column.sub_columns.length] ;
         poster_columns[j].color = '#ffffff' ;
         poster_column.add_subcolumn(poster_columns[j]) ;
       }

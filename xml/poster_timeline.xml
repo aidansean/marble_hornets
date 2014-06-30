@@ -4365,7 +4365,7 @@
         description="totheark shows footage of the tunnel."
         location="PP"
         video_still_id="3"
-        thumbnail="Display_A.png"
+        thumbnail="Display_B.png"
         video_title="Display (T3)"
         start_time="0:00"
         end_time="0:03">
@@ -4383,7 +4383,7 @@
         description="totheark shows a figure at the Lorry parking lot."
         location="PT"
         video_still_id="1"
-        thumbnail="Display_B.png"
+        thumbnail="Display_A.png"
         video_title="Display (T3)"
         start_time="0:04"
         end_time="0:37">

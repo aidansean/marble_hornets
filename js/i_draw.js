@@ -62,7 +62,7 @@ function draw(option){
     dy += scene_spacing ;
     if(the_scenes[i].type=='epoch') dy += scene_spacing ; // A bit of extra space for the arrowheads
     y += dy ;
-    if(y>last_label_clear){
+    if(y>last_label_clear && y<28000){
       label_clears.push(y) ;
       y += clear_height ;
       last_label_clear = y + last_label_interval ;

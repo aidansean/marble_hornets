@@ -39,11 +39,6 @@ function image_box(url,width,height,scene){
         context.clip() ;
       }
       context.drawImage(img,img_x,img_y,img_w,img_h) ;
-      context.fillStyle = '#ffffff' ;
-      context.textBaseline = 'bottom' ;
-      context.textAlign = 'center' ;
-      context.font = tapetag_title_font_size + 'px ' + font_family ;
-      scene.draw_tapetag_text(0,0) ;
       context.restore() ;
     }
     if(border){
@@ -462,34 +457,7 @@ function scene_object(node, mode){
     if(add_char) this.characters_out_elbow.push(name) ;
   }
   
-  this.draw_tapetag_text = function(x,y){
-    var x1 = Math.floor(this.tapetag_text.x-0.5*this.tapetag_text.w) ;
-    var x2 = Math.ceil (this.tapetag_text.x+0.5*this.tapetag_text.w) ;
-    var y1 = this.tapetag_text.y-3 ;
-    var y2 = this.tapetag_text.y+this.tapetag_text.h-3 ;
-    context.fillStyle = 'rgba(255,255,255,0.8)' ;
-    rounded_box_path(x1, y1, x2, y2, image_corner_radius-2, context) ;
-    context.fill() ;
-    context.fillStyle = '#000000' ;
-    this.tapetag_text.draw(x,y) ;
-  }
-  this.draw_thumbnail_text = function(){
-    context.beginPath() ;
-    context.fillStyle = 'rgb(200,200,200)' ;
-    context.fillRect(this.youtube.x+0.5,this.youtube.y+0.5,this.image_width,this.image_height) ;
-    context.fill() ;
-    
-    context.fillStyle = 'rgb(0,0,0)' ;
-    var x  = this.youtube.x + 0.25*this.image_width + 0.5 ;
-    var y1 = this.youtube.y + 0.5 + 0.27*this.image_height ;
-    var y2 = this.youtube.y + 0.5 + 0.53*this.image_height ;
-    var thumbnail_text1 = new text_box('Youtube', this.image_width) ;
-    var thumbnail_text2 = new text_box('preview', this.image_width) ;
-    thumbnail_text1.x = x ; thumbnail_text1.y = y1 ;
-    thumbnail_text2.x = x ; thumbnail_text2.y = y2 ;
-    thumbnail_text1.draw() ;
-    thumbnail_text2.draw() ;
-  }
+  
   this.fields['video_title'] = '' ;
   this.arrange_items = function(){
     this.x = this.parent_column.center - 0.5*this.w ;
@@ -552,15 +520,16 @@ function scene_object(node, mode){
     this.place_text.y  = y4+4 ;
     
     this.tapetag_text.x = this.youtube.x+0.5*this.image_width  ;
-    this.tapetag_text.y = this.youtube.y+    this.image_height - 1.25*tapetag_title_font_size - 3 ;
+    this.tapetag_text.y = this.youtube.y+    this.image_height + 0.2*tapetag_title_font_size ;
 
     this.description_text.x = scene_padding ;
     this.description_text.y = this.place_text.y+this.place_text.h + line_height ;
 
     this.h = scene_padding + (this.description_text.y-this.y) + this.description_text.h ;
-    this.h = Math.max(2*scene_padding+this.image_height,this.h) ;
+    this.h = Math.max(2*scene_padding+this.image_height+tapetag_title_font_size,this.h) ;
     return this.h ;
   }
+  
   this.draw_border = function(draw){
     context.strokeStyle = 'rgb(0,0,0)'
     if(this.selected) context.strokeStyle = selected_border_color ;
@@ -574,6 +543,39 @@ function scene_object(node, mode){
     
     rounded_box_path(x1, y1, x2, y2, r, context) ;
     if(draw) context.stroke() ;
+  }
+  this.draw_tapetag_text = function(x,y){
+    var x1 = Math.floor(this.tapetag_text.x-0.5*this.tapetag_text.w) ;
+    var x2 = Math.ceil (this.tapetag_text.x+0.5*this.tapetag_text.w) ;
+    var y1 = this.tapetag_text.y-3 ;
+    var y2 = this.tapetag_text.y+this.tapetag_text.h-3 ;
+    context.fillStyle = 'rgba(255,255,255,0.8)' ;
+    rounded_box_path(x1, y1, x2, y2, image_corner_radius-2, context) ;
+    //context.fill() ;
+    context.save() ;
+    context.fillStyle = '#000000' ;
+    context.textBaseline = 'bottom' ;
+    context.textAlign = 'center' ;
+    context.font = tapetag_title_font_size + 'px ' + font_family ;
+    this.tapetag_text.draw(x,y) ;
+    context.restore() ;
+  }
+  this.draw_thumbnail_text = function(){
+    context.beginPath() ;
+    context.fillStyle = 'rgb(200,200,200)' ;
+    context.fillRect(this.youtube.x+0.5,this.youtube.y+0.5,this.image_width,this.image_height) ;
+    context.fill() ;
+    
+    context.fillStyle = 'rgb(0,0,0)' ;
+    var x  = this.youtube.x + 0.25*this.image_width + 0.5 ;
+    var y1 = this.youtube.y + 0.5 + 0.27*this.image_height ;
+    var y2 = this.youtube.y + 0.5 + 0.53*this.image_height ;
+    var thumbnail_text1 = new text_box('Youtube', this.image_width) ;
+    var thumbnail_text2 = new text_box('preview', this.image_width) ;
+    thumbnail_text1.x = x ; thumbnail_text1.y = y1 ;
+    thumbnail_text2.x = x ; thumbnail_text2.y = y2 ;
+    thumbnail_text1.draw() ;
+    thumbnail_text2.draw() ;
   }
   this.draw = function(y_in,draw){
     var dy = 0 ;
@@ -654,6 +656,7 @@ function scene_object(node, mode){
         
         this.description_text.draw(0,0) ;
         this.youtube.draw(0,0,true) ;
+        this.draw_tapetag_text(0,0) ;
         break ;
         
       case 2:
@@ -684,7 +687,7 @@ function scene_object(node, mode){
         this.youtube.draw(0,0,true) ;
         break ;
     }
-
+    
     // Border
     this.draw_border(draw) ;
     
