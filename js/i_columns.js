@@ -15,6 +15,7 @@ function column_object(name,title,abbreviation,width,background_color,color){
   this.parent_column = 0 ;
   this.draw = function(){
     context.fillStyle = this.background_color ;
+    context.strokeStyle = background_fill_color ;
     var x1 = this.x ;
     var y1 = this.y ;
     var x2 = x1 + this.width  ;
@@ -73,7 +74,7 @@ var columns_by_name = new Array() ;
 var column_names = ['chronology', 'location','character'] ;
 
 var chronology_column = new column_object('chronology', 'Date'      , 'd', 100*scale, '#000000', '#ffffff') ;
-var spacer_column_1   = new column_object('spacer_1'  , ''          , '1', 110*scale, '#ffffff', '#ffffff') ;
+var spacer_column_1   = new column_object('spacer_1'  , ''          , '1', 110*scale, background_fill_color, '#ffffff') ;
 var spacer_column_2   = new column_object('spacer_2'  , ''          , '2', 150*scale, '#ffffff', '#ffffff') ;
 var character_column  = new column_object('character' , 'Characters', 'c',   0, '#000000', '#ffffff') ;
 var location_column   = new column_object('location'  , 'Locations' , 'l',   0, '#000000', '#ffffff') ;
@@ -96,13 +97,20 @@ location_columns.push( new column_object('location_R' , 'Rosswood'       , 'R' ,
 location_columns.push( new column_object('location_E' , 'Elsewhere'      , 'E' , 400*scale,  dark_column, '#000000')) ;
 
 var poster_columns = new Array() ;
-poster_columns.push( new column_object('poster_C' , 'CollegeTown'         , 'PC' , 400*scale, 'rgb(23,33,59)', '#000000')) ;
-poster_columns.push( new column_object('poster_H' , 'Hospital'            , 'PH' , 400*scale, 'rgb(37,37,57)', '#000000')) ;
-poster_columns.push( new column_object('poster_S' , 'Slenderverse'        , 'PS' , 400*scale, 'rgb(34,51,57)', '#000000')) ;
-poster_columns.push( new column_object('poster_E' , 'Elsewhere'           , 'PE' , 400*scale, 'rgb(31,44,55)', '#000000')) ;
-poster_columns.push( new column_object('poster_P' , 'Rosswood Park'       , 'PP' , 400*scale, 'rgb(29,49,52)', '#000000')) ;
-poster_columns.push( new column_object('poster_T' , 'Rosswood Town'       , 'PT' , 400*scale, 'rgb(23,33,59)', '#000000')) ;
-poster_columns.push( new column_object('poster_B' , 'Benedict Campus'     , 'PB' , 400*scale, 'rgb(32,32,57)', '#000000')) ;
+var poster_columnC_color = '#322222' ;
+var poster_columnH_color = 'rgb(27,37,27)' ;
+var poster_columnS_color = 'rgb(33,33,33)' ;
+var poster_columnE_color = 'rgb(31,44,55)' ;
+var poster_columnP_color = 'rgb(29,49,52)' ;
+var poster_columnT_color = 'rgb(23,33,49)' ;
+var poster_columnB_color = 'rgb(32,32,57)' ;
+poster_columns.push( new column_object('poster_C' , 'CollegeTown'         , 'PC' , 400*scale, poster_columnC_color, '#000000')) ;
+poster_columns.push( new column_object('poster_H' , 'Hospital'            , 'PH' , 400*scale, poster_columnH_color, '#000000')) ;
+poster_columns.push( new column_object('poster_S' , 'Slenderverse'        , 'PS' , 400*scale, poster_columnS_color, '#000000')) ;
+poster_columns.push( new column_object('poster_E' , 'Elsewhere'           , 'PE' , 400*scale, poster_columnE_color, '#000000')) ;
+poster_columns.push( new column_object('poster_P' , 'Rosswood Park'       , 'PP' , 400*scale, poster_columnP_color, '#000000')) ;
+poster_columns.push( new column_object('poster_T' , 'Rosswood Town'       , 'PT' , 400*scale, poster_columnT_color, '#000000')) ;
+poster_columns.push( new column_object('poster_B' , 'Benedict Campus'     , 'PB' , 400*scale, poster_columnB_color, '#000000')) ;
 
 // Character columns
 var character_columns = new Array() ;
@@ -133,9 +141,11 @@ if(selected_epoch_string){
   if(selected_epoch_string=='7months'){ poster_labels = ['PE','PP','PT'] ; }
   if(selected_epoch_string=='season2'){ poster_labels = ['PE','PP','PT'] ; }
   if(selected_epoch_string=='season3'){ poster_labels = ['PC','PH','PS','PE','PP','PT','PB'] ; }
-  if(selected_epoch_string=='S1'){ poster_labels = ['PC','PH','PS','PE','PT'] ; }
-  if(selected_epoch_string=='S2'){ poster_labels = ['PE','PP','PT'] ; }
-  if(selected_epoch_string=='S3'){ poster_labels = ['PC','PH','PS','PE','PP','PT','PB'] ; }
+  if(selected_epoch_string=='S1'     ){ poster_labels = ['PC','PH','PS','PE','PT'] ; }
+  if(selected_epoch_string=='S2'     ){ poster_labels = ['PE','PP','PT'] ; }
+  if(selected_epoch_string=='S3'     ){ poster_labels = ['PC','PH','PS','PE','PP','PT','PB'] ; }
+  if(selected_epoch_string=='S3a'    ){ poster_labels = ['PC','PH','PS','PE','PP','PT'] ; }
+  if(selected_epoch_string=='S3b'    ){ poster_labels = ['PC','PH','PS','PE','PP','PT','PB'] ; }
   for(var i=0 ; i<poster_labels.length ; i++){
     for(var j=0 ; j<poster_columns.length ; j++){
       if(poster_columns[j].abbreviation==poster_labels[i]){

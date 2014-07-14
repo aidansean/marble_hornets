@@ -60,6 +60,7 @@ var selected_border_color = 'rgb(255,0,0)' ;
 var event_color = 'rgb(0,0,100)' ;
 var epoch_color = 'rgb(100,0,0)' ;
 var epoch_fold_color = 'rgb(50,0,0)' ;
+var background_fill_color = '#222222' ;
 
 var location_abbreviations = ['C','R','E'] ;
 var location_names = new Array() ;

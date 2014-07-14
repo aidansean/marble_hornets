@@ -82,7 +82,7 @@ function draw(option){
   canvas.style.height = ch ;
   
   // Clear the canvas
-  context.fillStyle = '#ffffff' ;
+  context.fillStyle = background_fill_color ;
   context.fillRect(0,0,cw,ch) ;
   // Draw columns
   for(var i=0 ; i<columns.length ; i++){

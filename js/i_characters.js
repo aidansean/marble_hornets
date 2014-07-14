@@ -515,10 +515,10 @@ characters.push( new character_object('Tim'      , '#dddd00', '#000000' , 'Extan
 // Marble Hornets crew
 characters.push( new character_object('Brian'    , '#226622', '#ffffff' , 'Dead'   , 'cast'      )) ;
 characters.push( new character_object('Seth'     , '#008800', '#ffffff' , 'Missing', 'cast'      )) ;
-characters.push( new character_object('Sarah'    , '#33bb33', '#ffffff' , 'Missing', 'cast'      )) ;
+characters.push( new character_object('Sarah'    , '#119911', '#ffffff' , 'Missing', 'cast'      )) ;
 
 // Other normal humans
-characters.push( new character_object('Amy'      , '#dd44cc', '#ffffff' , 'Dead'   , 'minor'     )) ;
+characters.push( new character_object('Amy'      , '#bb4499', '#ffffff' , 'Dead'   , 'minor'     )) ;
 characters.push( new character_object('Bruce'    , '#666699', '#ffffff' , 'Dead'   , 'minor'     )) ;
 characters.push( new character_object('Jessica'  , '#8844bb', '#ffffff' , 'Unknown', 'secondary' )) ;
 

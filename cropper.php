@@ -1,7 +1,7 @@
 <?php
 
 $inputs = array() ;
-$batch = 3 ;
+$batch = 2 ;
 if($batch==1){
 $inputs[] = "Entry10_A.png" ;
 $inputs[] = "Entry11_A.png" ;
@@ -325,12 +325,12 @@ foreach($inputs as $in){
   $dest = imagecreatetruecolor(1701, 940) ;
 
   // Copy
-  if($batch==1){ imagecopy($dest, $src, 0, 0, 291, 287, 1701, 940) ; }
-  if($batch==2){ imagecopy($dest, $src, 0, 0, 281, 287, 1701, 940) ; }
+  if($batch==1){ imagecopy($dest, $src, 0, 0, 291, 288, 1701, 940) ; }
+  if($batch==2){ imagecopy($dest, $src, 0, 0, 281, 288, 1701, 940) ; }
   if($batch==3){ imagecopy($dest, $src, 0, 0, 281, 287, 1701, 940) ; }
   
   // Output and free from memory
-  imagepng($dest, 'cropped/'.$in) ;
+  imagepng($dest, 'cropped2/'.$in) ;
 
   imagedestroy($dest) ;
   imagedestroy($src) ;

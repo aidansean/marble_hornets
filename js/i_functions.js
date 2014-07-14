@@ -102,9 +102,11 @@ if(selected_epoch_string=='7months'){ lower_date = '2010/04/19' ;  upper_date = 
 if(selected_epoch_string=='season2'){ lower_date = '2010/11/23' ;  upper_date = '2012/02/28' ; }
 if(selected_epoch_string=='season3'){ lower_date = '2012/02/28' ;  upper_date = '3001/01/01' ; }
 
-if(selected_epoch_string=='S1'){ lower_date = '1900/01/01' ;  upper_date = '2010/04/19' ; }
-if(selected_epoch_string=='S2'){ lower_date = '2010/04/19' ;  upper_date = '2012/02/28' ; }
-if(selected_epoch_string=='S3'){ lower_date = '2012/02/28' ;  upper_date = '3001/01/01' ; }
+if(selected_epoch_string=='S1' ){ lower_date = '1900/01/01' ;  upper_date = '2010/04/19' ; }
+if(selected_epoch_string=='S2' ){ lower_date = '2010/04/19' ;  upper_date = '2012/02/28' ; }
+if(selected_epoch_string=='S3' ){ lower_date = '2012/02/28' ;  upper_date = '3001/01/01' ; }
+if(selected_epoch_string=='S3a'){ lower_date = '2012/02/28' ;  upper_date = '2013/02/29' ; }
+if(selected_epoch_string=='S3b'){ lower_date = '2013/02/29' ;  upper_date = '3001/01/01' ; }
 
 function start(){
   if(type=='items'){
