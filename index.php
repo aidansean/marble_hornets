@@ -105,7 +105,6 @@ var mode   = 'player' ;
           <param name="allowScriptAccess" value="always"/>
           <param name="allowFullScreen" value="true" />
         </object>
-
       </div>
       <table class="table" id="entry_information_table">
         <tbody>

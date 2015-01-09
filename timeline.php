@@ -49,6 +49,14 @@ else if(type=='poster'){
   epoch_color      = '#111111' ;
   if(selected_epoch_string=='S1') last_label_clear = last_label_interval ;
 }
+else if(type=='posterAbridged'){
+  prefix = 'posterAbridged' ;
+  main_column = columns_by_name['poster'] ;
+  override_tapetag_colors = true ;
+  epoch_fold_color = '#333333' ;
+  epoch_color      = '#111111' ;
+  if(selected_epoch_string=='S1') last_label_clear = last_label_interval ;
+}
 </script>
 <div class="center">
   <p>(Dimensions= <span id="span_dimensions">-</span>)</p>

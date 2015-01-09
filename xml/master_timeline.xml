@@ -5905,6 +5905,35 @@
     </scene_list>
   </video>
   
+  <video
+    title="Credits"
+    season="3"
+    channel="marblehornets"
+    wikidot=""
+    unfiction=""
+    player_summary="THAC play the credits."
+    duration="1:30"
+    youtube_id="l71SL7hPrB8"
+    release_date="2014/08/08">
+    <scene_list>
+      <scene
+        date="2014/08/08"
+        time="12:00"
+        cameraperson="THAC"
+        tape_tag="0"
+        place="Youtube"
+        description="THAC play the credits."
+        location="E"
+        video_still_id="2"
+        video_title="Credits (M3)"
+        start_time="0:00"
+        end_time="1:30">
+        <character_list></character_list>
+        <item_list></item_list>
+      </scene>
+    </scene_list>
+  </video>
+  
   
 
   <event

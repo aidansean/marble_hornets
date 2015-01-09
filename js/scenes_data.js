@@ -176,6 +176,23 @@ function load_scenes_from_xml(){
           }
         }
       }
+      else if(xml_timeline.childNodes[i].nodeName=='gathering'){
+        var add_gathering = true ;
+        var gathering_node = xml_timeline.childNodes[i] ;
+        var gathering = new gathering_object(gathering_node) ;
+        if(selected_season_string!=null){
+          var season = event_node.getAttribute('season') ;
+          if(season!=selected_season_string) add_gathering = false ;
+        }
+        if(selected_epoch_string!=null){
+          var date = event_node.getAttribute('date') ;
+          if(date<lower_date) add_gathering = false ;
+          if(date>upper_date) add_gathering = false ;
+        }
+        add_gathering = true ;
+        if(add_gathering) scenes.push(gathering) ;
+        all_scenes.push(gathering) ;
+      }
     }
   }
   

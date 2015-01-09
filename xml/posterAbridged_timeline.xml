@@ -1,0 +1,125 @@
+<timeline>
+  <epoch
+    date="2006/05/01"
+    time="12:00"
+    title="Summer 2006"
+    name="Summer 2006"
+    season="0123"
+    description="Alex starts to film Marble Hornets in CollegeTown"></epoch>
+  <epoch
+    date="2009/06/18"
+    time="12:00"
+    title="Season 1 begins"
+    season="1"
+    description="Jay is reminded about the operator by a post of SomethingAwful and starts to post videos"></epoch>
+    
+  <event
+    name="Tim admitted to hospital"
+    title="Tim admitted to hospital"
+    date="1995/12/20"
+    time="12:00"
+    description="Tim runs away from home and is found at Rosswood Park.  He is admitted to the mental hospital, and is stalked by the operator."
+    season="3"
+    location="PH"
+    color="rgb(0,0,99)"
+    type="generic">
+    <character_list>
+      <character name="Tim"></character>
+    </character_list>
+    <item_list>
+      <item name="Tim's medical notes"></item>
+    </item_list>
+  </event>
+  
+  
+  <gathering
+    name="Marble Hornets student movie"
+    description="Alex starts production on the student movie Marble Hornets.  Brian comes to the audition and brings Tim with him.  They both get roles in the movie, and Tim is asked to grow some facial hair for his role.  The operator begins to appear on Alex's footage.  Jay helps Alex with location scouting, visiting the gazebo and the red tower.  The crew continue to film footage, in which the operator appears (entries #12, #17).  Tim starts to complain about ill health.  Alex gives Tim a camera to record behind the scenes footage.  Tim suggests that the hosptial in Rosswood might be a good filming location.  The operator shows up at Brian's house as Alex, Brian and Tim discuss the trailer.  During this time Alex is dating Amy, who lives in Rosswood and attends the Benedict Hall college."
+    location="PC"
+    place="CollegeTown"
+    date="2006/05/01"
+    time="12:00">
+    <scene_list>
+      <scene_name name="Entry #84 scene 1"></scene_name>
+    </scene_list>
+    <character_list>
+      <character name="Alex"></character>
+      <character name="Brian"></character>
+      <character name="Jay"></character>
+      <character name="Sarah"></character>
+      <character name="Seth"></character>
+      <character name="Tim"></character>
+      <character name="totheark"></character>
+      <character name="operator"></character>
+    </character_list>
+  </gathering>
+  
+  <gathering
+    name="Alex notices the opertor"
+    description="During filming, Alex starts to notice the presence of the operator and his behaviour begins to change.  He notices the operator as he walks his dog, Rocky (Entry #2), he chases the operator around a children's park (Entry #4), and the abandoned pool (Entry #13), he confronts the operator at the children's park (Entry #70).  At some point Alex finds Rocky's corpse in his garden.  Alex begins to obsessively film himself (Entry #3, #9) and the operator starts to stalk Alex near and in his home (Entry #8, #1, #6, #10, #11, #14).  During this time totheark notices Alex's behaviour and films Jay (Exit)."
+    location="PC"
+    place="CollegeTown"
+    date="2006/05/01"
+    time="12:00">
+    <scene_list>
+      <scene_name name="Entry #84 scene 1"></scene_name>
+    </scene_list>
+  </gathering>
+  
+  <gathering
+    name="The sacrifices"
+    description="Under the pretext of filming, Alex starts to offer the Marble Hornets crew to the operator.  Alex takes Tim to the hospital where he attacks him with rebar.  The operator shows up but does not take Tim.  Tim wakes up and flees.  He moves to the annex in an attempt to avoid Alex.  The next day Alex brings Brian to the annex, where the operator shows up.  Brian wakes up and searches for Alex, but finds Tim.  Alex is seen dragging Brian's body away.  Alex and Seth explore the basement, and Seth gets attacked.  At some point Alex also offers Sarah to the operator.  Alex makes a confessional tape where says that everyone is gone and he going to burn the tapes.  Jay convinces Alex to give him some of the tapes, then Alex attacks Jay and offers him to the operator.  Alex then burns the remaining tapes in the static hole near the red tower, before leaving town and moving to Rosswood."
+    location="PC"
+    place="CollegeTown"
+    date="2006/05/01"
+    time="12:00">
+    <scene_list>
+      <scene_name name="Entry #84 scene 1"></scene_name>
+    </scene_list>
+  </gathering>
+  
+  <gathering
+    name="Jay finds the tapes"
+    description="Jay reads about the slenderman on the something awful forums and remembers Alex's tapes.  He opens YouTube and twitter accounts to share the footage as he reviews it (Introduction).  totheark creates a YouTube account and begins to post video responses to Jay's videos."
+    location="PC"
+    place="CollegeTown"
+    date="2006/05/01"
+    time="12:00">
+    <scene_list>
+      <scene_name name="Entry #84 scene 1"></scene_name>
+    </scene_list>
+  </gathering>
+  
+  <gathering
+    name="Jay investigates in CollegeTown"
+    description="After viewing Entry #14, Jay decides he should find Alex.  He finds Tim and asks him questions about Marble Hornets (Entry #15).  Someone suggests that Jay visit Brian's old house (Entry #16), where totheark films him (Addition).  Jay returns to Brian's house a second time (Entry #18) and is attacked by Masky.  Jay wakes up in his car which is parked off the road, and his knife is missing.  Masky watches Jay as he sleeps in his room (Entry #19) and Jay and Masky leave the room.  Jay is shown with the operator (Return).  Jay reviews his findings from Brian's house and realises he no longer has the pills or bullet casing.  He decides to go to the red tower, where he finds the Entry #22 tape.  totheark tells Jay to return to Brian's house.  Jay does, and pursues Masky into the basement, where he encouters the operator.  He wakes up to find his camera is no longer working and decides to stop his investigation.  After being being prompted by totheark Jay reveals that he has been filming himself.  He shares footage of leaving his room.  totheark taunts Jay, who leaves his apartment and stays at a hotel.  While he is away his apartment is burned to the ground.  Meanwhile Amy finds Alex's old camera and the operator shows up.  Alex offers Amy to the operator, then sends a tape to Jay asking for help.  Jay is about to stop the investigation when he receives the tape from Alex."
+    location="PC"
+    place="CollegeTown"
+    date="2006/05/01"
+    time="12:00">
+    <scene_list>
+      <scene_name name="Entry #84 scene 1"></scene_name>
+    </scene_list>
+    <character_list>
+      <character name="Jay"></character>
+      <character name="Tim"></character>
+      <character name="totheark"></character>
+      <character name="operator"></character>
+    </character_list>
+  </gathering>
+  
+  <gathering
+    name="Jay investigates in Rosswood"
+    description="Jay drives for two days to the return address of the Entry #26 tape package.  He finds an abandoned burned down house and decides to return again.  On his second visit he encounters Masky, who has his knife, and Alex.  Masky attacks Alex, but Alex overpowers him, unmasks him, and breaks his leg with a block of cement.  Alex and Jay argue about what happened and Alex tells Jay to lay low until he gets in touch again.  Alex calls Jay and tells him to meet up at Rosswood Park.  That evening totheark films Jay sleeping in his car.  Jay waits for Alex in Rosswood Park and decides to explore the woods.  He encounters the operator, drops his camera and flees.  Hoody returns the camera to Jay's car.  Alex arrives and finds Jay running through the woods.  They get back to their cars and talk about the operator and the camera.  Alex calls Jay and tells him he may have a clue about where Amy is.  Alex drives Jay to Amy and Jessica's house.  Nobody is home so Alex calls Jessica to leave a message, drives Jay back to his hotel, then Alex drives to Rosswood and approaches the opeator.  Alex calls Jessica to tell her he has found Amy, then waits in his apartment, and the operator turns up and takes him."
+    location="PT"
+    place="Rosswood"
+    date="2006/05/01"
+    time="12:00">
+    <scene_list>
+      <scene_name name="Entry #84 scene 1"></scene_name>
+    </scene_list>
+  </gathering>
+  
+  
+</timeline>
+

@@ -3,7 +3,7 @@ var context = null ;
 var cw = 0 ;
 var ch = 0 ;
 
-var scale = 1.7 ;
+var scale = 1.0 ; //7 ;
 
 var filtered_scenes = false ;
 
