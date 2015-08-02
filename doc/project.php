@@ -1,0 +1,6 @@
+<?php
+include_once($_SERVER['FILE_PREFIX']."/project_list/project_object.php") ;
+$github_uri   = "https://github.com/aidansean/marble_hornets" ;
+$blogpost_uri = "http://aidansean.com/projects/?tag=marble_hornets" ;
+$project = new project_object("marble_hornets", "Marble Hornets", "https://github.com/aidansean/marble_hornets", "http://aidansean.com/projects/?tag=marble_hornets", "marble_hornets/images/project.jpg", "marble_hornets/images/project_bw.jpg", "Marble Hornets was a webseries that spans the course of about five years.  The premise of the series is that a student film maker started filming an amateur movie in 2006, but abandoned the film due to \"unworkable conditions on set\".  It quickly turns into a horror series that brings with some novel techniques.  However what really inspired me to make this project was the asynchronous storytelling narrative, which requires the viewer to piece together the true chronology based on the context of the videos.  I'm an active participant on one of the busiest discussion boards for this series and regularly update this project as each new video is released.", "Fiction,Poster", "canvas,CSS,HTML,JavaScript,MySQL,PHP,XML,YouTube") ;
+?>
